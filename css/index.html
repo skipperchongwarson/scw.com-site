@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Access denied, nope</title>
+    <style>
+        body {
+            background-color: #0a0a0a;
+            color: #00ff00;
+            font-family: 'Courier New', Courier, monospace;
+            padding: 30px;
+            margin: 0;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+        .terminal-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .prompt {
+            color: #55ff55;
+        }
+        .system-msg {
+            color: #ff3333;
+            font-weight: bold;
+        }
+        a {
+            color: #00ff00;
+            text-decoration: none;
+            border-bottom: 1px dashed #00ff00;
+        }
+        a:hover {
+            background-color: #00ff00;
+            color: #0a0a0a;
+        }
+        .cursor {
+            display: inline-block;
+            width: 10px;
+            height: 18px;
+            background-color: #00ff00;
+            animation: blink 1s step-end infinite;
+            vertical-align: middle;
+            margin-left: 5px;
+        }
+        @keyframes blink {
+            50% { opacity: 0; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="terminal-container">
+	<!-- Dynamic Last Login banner -->
+	    <p>Last login: <span id="current-time"></span> on ttys001</p>
+
+	    <p><span class="prompt">guest@skipperchongwarson.com:~$</span> ls -la</p>
+	    <p>
+	        total 2<br>
+	        drwxr-xr-x  2 admin  staff  64 <span class="dir-date">Jul 16 15:50</span> .<br>
+	        drwxr-xr-x  2 admin  staff  64 <span class="dir-date">Jul 16 15:50</span> ..
+	    </p>
+
+    <p><span class="prompt">guest@skipperchongwarson.com:~$</span> cat top_secret_plans.txt</p>
+    <p class="system-msg">ERR: Permission denied. Let's not snoop in the directories.</p>
+
+    <p><span class="prompt">guest@skipperchongwarson.com:~$</span> safe-exit --redirect</p>
+    <p>Let's get back to our regularly scheduled events... <a href="https://skipperchongwarson.com">skipperchongwarson.com</a><span class="cursor"></span></p>
+</div>
+
+<script>
+    // Get user's current date and time
+    const now = new Date();
+
+    // 1. Populate the "Last login" string (e.g., "Thu Jul 16 2026 15:55:33")
+    document.getElementById('current-time').textContent = now.toString().split(' GMT')[0];
+
+    // 2. Populate the "ls -la" folder timestamps dynamically
+    const monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+    const month = monthNames[now.getMonth()];
+    const day = String(now.getDate()).padStart(2, ' ');
+    const hours = String(now.getHours()).padStart(2, '0');
+    const minutes = String(now.getMinutes()).padStart(2, '0');
+    const formattedDateShort = `${month} ${day} ${hours}:${minutes}`;
+
+    // This targets both elements using the "dir-date" class and swaps the static date for the current time
+    const dateElements = document.querySelectorAll('.dir-date');
+    dateElements.forEach(el => el.textContent = formattedDateShort);
+</script>
+
+</body>
+</html>
