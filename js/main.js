@@ -836,7 +836,25 @@ $(document).on('ready', function () {
 				    submit: true,
 				    mouseWheel: true,
 				},
-					afterRender: function () {
+				afterRender: function () {
+
+					// Honor a section hash when the page is loaded directly,
+					// e.g. /#select-projects, /#about, /#contact
+					var initialAnchor = window.location.hash.replace('#', '');
+
+					if (
+						initialAnchor &&
+						pageAnchors.indexOf(initialAnchor) !== -1
+					) {
+						window.setTimeout(function () {
+							if (typeof $.fn.fullpage.silentMoveTo === 'function') {
+								$.fn.fullpage.silentMoveTo(initialAnchor);
+							} else {
+								$.fn.fullpage.moveTo(initialAnchor);
+							}
+						}, 0);
+					}
+
 					// init parallax 
 					var parallaxCover = document.getElementById('parallax-cover')
 					if (parallaxCover) {
@@ -844,7 +862,6 @@ $(document).on('ready', function () {
 							var parallaxInstance = new Parallax(parallaxCover);
 						}
 					}
-
 					// init sliders
 					
 					// carousel-alpha : team about us
