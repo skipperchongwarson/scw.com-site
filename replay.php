@@ -388,7 +388,7 @@
                   <h2 class="display-4 display-title mb-4 anim-1">Decisions changed</h2>
 				  <p class="anim-2">Across our work together, I could see the Bullseye Customer work inform four types of decisions — </p>
                   <ul class="content-list anim-2">
-                    <li><strong>Customer:</strong> Operations managers dropped out of focus after the first interviews showed real pain with little pressure to c'hange</li>
+                    <li><strong>Customer:</strong> Operations managers dropped out of focus after the first interviews showed real pain with little pressure to change</li>
 					<li><strong>Recruiting:</strong> We rewrote the criteria after each cycle as the customer definition got narrower, mostly using <a href="https://www.userinterviews.com" aria-label="User Interviews participant recruitment and screening platform">userinterviews.com</a> for screening and qualification</li>
 					<li><strong>Audience:</strong> Replay moved from a broad app-builder audience toward non-technical creators who had already shipped something real</li>
 					<li><strong>Positioning:</strong> The problem moved toward continuation: helping someone understand and fix what broke after they had already built and shipped</li>
