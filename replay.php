@@ -102,7 +102,7 @@
               <div class="title-desc">
                 <h6 class="display-4 display-title home-title anim-1">Customer discovery & product strategy · Developer tools · 2025–present</h6>
                 <h1>Replay</h1>
-                <p class="anim-2 home-desc">Replay had built a vibe coding AI tool that was working. The unresolved question was who needed it most and which problem mattered enough to build around.</p>
+                <p class="anim-2 home-desc">Replay had built a vibe coding AI tool that was working. The unresolved question was who needed it most and what need/problem to point it at.</p>
                 <p class="anim-2 home-desc">Over the first six months, I conducted 34 structured Bullseye Customer Sprint interviews while the broader team kept talking with customers too, bringing the total research effort to nearly 50 conversations. Each round narrowed the customer hypothesis while the team kept shipping.</p>
 				<p class="case-meta anim-2 home-desc">By <a href="/#home">Skipper Chong Warson</a> · Published 20 Jul 2026 · Updated 7 Sep 2026</p>
               </div>
