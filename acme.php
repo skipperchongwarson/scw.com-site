@@ -19,14 +19,14 @@
   <meta name="twitter:creator" content="@skippercwarson">
   <meta name="twitter:title" content="Healthcare financing: the problem happened before the price • Skipper Chong Warson">
   <meta name="twitter:description" content="Ten customer interviews reframed a Fortune 500 healthcare-financing company's CX strategy by showing that uncertainty often appeared before affordability.">
-  <meta name="twitter:image" content="https://skipperchongwarson.com/img/items/acme-og.jpg">
+  <meta name="twitter:image" content="https://skipperchongwarson.com/img/items/Acme-og.jpg">
   <meta name="twitter:image:alt" content="Customer experience territories spanning Engage, Apply, Use, and Service for a healthcare-financing journey">
 
   <meta property="og:url" content="https://skipperchongwarson.com/acme/">
   <meta property="og:type" content="article">
   <meta property="og:title" content="Healthcare financing: the problem happened before the price • Skipper Chong Warson">
   <meta property="og:description" content="Ten customer interviews reframed a Fortune 500 healthcare-financing company's CX strategy by showing that uncertainty often appeared before affordability.">
-  <meta property="og:image" content="https://skipperchongwarson.com/img/items/acme-og.jpg">
+  <meta property="og:image" content="https://skipperchongwarson.com/img/items/Acme-og.jpg">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="Customer experience territories spanning Engage, Apply, Use, and Service for a healthcare-financing journey">
@@ -57,7 +57,7 @@
   </header>
 
   <div class="page-cover" id="static-cover">
-    <div class="cover-bg bg-img" data-image-src="/img/items/acme-background.jpg"></div>
+    <div class="cover-bg bg-img" data-image-src="/img/items/Acme-background.jpg"></div>
     <div class="cover-bg-mask bg-color" data-bgcolor="rgba(2, 3, 10, 0.72)"></div>
   </div>
 
@@ -89,7 +89,7 @@
             <div class="col-12 col-md-5">
               <div class="section-content center-vh anim">
                 <div class="images text-center">
-                  <div class="case-study-intro-image"><img class="img" src="/img/items/acme-thumb.jpg" alt="Two children looking through a cardboard tube while building a blanket fort"></div>
+                  <div class="case-study-intro-image"><img class="img" src="/img/items/Acme-thumb.jpg" alt="Two children looking through a cardboard tube while building a blanket fort"></div>
                 </div>
                 <script type="application/ld+json">
                 {
@@ -99,7 +99,7 @@
                   "mainEntityOfPage": "https://skipperchongwarson.com/acme/",
                   "headline": "Healthcare financing: the problem happened before the price",
                   "description": "Ten customer interviews reframed a Fortune 500 healthcare-financing company's CX strategy by showing that uncertainty around credit, approval, timing, and next steps often appeared before affordability.",
-                  "image": "https://skipperchongwarson.com/img/items/acme-og.jpg",
+                  "image": "https://skipperchongwarson.com/img/items/Acme-og.jpg",
                   "datePublished": "2026-10-03",
                   "dateModified": "2026-10-03",
                   "inLanguage": "en-US",
@@ -137,7 +137,7 @@
                       <figure class="slide-item swiper-slide">
                         <div class="item-wrapper">
                           <div class="illustr">
-                            <img class="img" src="/img/items/acme-ask.png" alt="Fjord engagement brief describing a future customer-experience vision, concepts, business cases, and roadmap">
+                            <img class="img" src="/img/items/Acme-ask.png" alt="Fjord engagement brief describing a future customer-experience vision, concepts, business cases, and roadmap">
                           </div>
                           <figcaption class="legend case-study-gallery__caption">The original brief was broader than one application flow: use customer evidence to shape cross-platform recommendations, future-state concepts, business cases, and a three-year roadmap.</figcaption>
                         </div>
@@ -146,7 +146,7 @@
                       <figure class="slide-item swiper-slide">
                         <div class="item-wrapper">
                           <div class="illustr">
-                            <img class="img" src="/img/items/acme-customer-focus-touchpoints-cards.jpg" alt="Customer-focus slide showing eight touchpoints and three retail card types">
+                            <img class="img" src="/img/items/Acme-customer-focus-touchpoints-cards.jpg" alt="Customer-focus slide showing eight touchpoints and three retail card types">
                           </div>
                           <figcaption class="legend case-study-gallery__caption">We looked for common customer moments and pain points across eight touchpoints and three card types rather than treating one channel in isolation.</figcaption>
                         </div>
@@ -181,7 +181,7 @@
                 </div>
 
                 <figure class="case-study-figure">
-                  <img src="/img/items/acme-cx-territories-redacted.png" alt="CX Territories view mapping customer moments, emotional states, and pain points across Engage, Apply, Use, and Service">
+                  <img src="/img/items/Acme-cx-territories-redacted.png" alt="CX Territories view mapping customer moments, emotional states, and pain points across Engage, Apply, Use, and Service">
                   <figcaption>The CX Territories view organized customer moments, emotional states, and pain points across the full Engage, Apply, Use, and Service lifecycle.</figcaption>
                 </figure>
               </div>
@@ -211,7 +211,7 @@
                         <figure class="slide-item swiper-slide">
                           <div class="item-wrapper">
                             <div class="illustr">
-                              <img class="img" src="/img/items/acme-moments-painpoints-opportunities.jpeg" alt="Workshop exercise framework moving from customer moments to pain points, opportunities, and share out">
+                              <img class="img" src="/img/items/Acme-moments-painpoints-opportunities.jpeg" alt="Workshop exercise framework moving from customer moments to pain points, opportunities, and share out">
                             </div>
                             <figcaption class="legend case-study-gallery__caption">The workshop structure moved from customer moments to pain points, then opportunities and share-out, keeping recommendations tied to evidence from the journey.</figcaption>
                           </div>
@@ -220,7 +220,7 @@
                         <figure class="slide-item swiper-slide">
                           <div class="item-wrapper">
                             <div class="illustr">
-                              <img class="img" src="/img/items/acme-posters.jpeg" alt="Poster framework for capturing customer moments, pain points, and opportunities across eight journey territories">
+                              <img class="img" src="/img/items/Acme-posters.jpeg" alt="Poster framework for capturing customer moments, pain points, and opportunities across eight journey territories">
                             </div>
                             <figcaption class="legend case-study-gallery__caption">Eight territory posters gave the team a common format for validating, editing, and adding customer moments and pain points before defining opportunities.</figcaption>
                           </div>
@@ -245,7 +245,7 @@
         <div class="cover-container">
           <div class="row gx-0">
             <div class="col-auto col-lg-8 bg-part"></div>
-            <div class="col-12 col-lg-4 bg-part bg-img" data-image-src="/img/items/acme-project.jpg"></div>
+            <div class="col-12 col-lg-4 bg-part bg-img" data-image-src="/img/items/Acme-project.jpg"></div>
           </div>
         </div>
       </div>
