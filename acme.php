@@ -174,8 +174,9 @@
                 <div class="title-desc">
                   <h2 class="display-4 display-title mb-4 anim-1">The problem happened before the price</h2>
                   <p class="anim-2">We recruited ten people through Fjord sources using dscout. Participants were familiar with or had used the client’s service. I conducted eight of the ten interviews over roughly two weeks and supported the remaining sessions through note-taking and research assistance.</p>
-                  <p class="anim-2">Seven of the ten participants described variations of a problem that appeared before a clear affordability decision: uncertainty about the process.</p>
-                  <p class="anim-2">Customers were trying to understand whether applying would affect their credit, when they would receive an answer, what was happening during approval, what came next, and whether payment dates could align with when they were paid. Some moments also created unnecessary exposure or embarrassment at the provider.</p>
+                  <p class="anim-2">One conversation made the problem particularly clear. “Valerie” (not her real name) was sitting in her car waiting for a check-cashing store to open. She had used healthcare financing before and qualified easily. Affording the service was not her only concern.</p>
+                  <p class="anim-2">She needed her payment date to land after her paycheck cleared. She was working to improve her credit and did not know whether applying would trigger a hard or soft pull. She could not tell how long approval would take or what would happen next. And she did not want to explain her financial situation to someone at the provider’s desk.</p>
+                  <p class="anim-2">Seven of the ten participants described variations of the same uncertainty before a clear affordability decision.</p>
                   <p class="anim-2"><strong>Affordability mattered. It was not always the first barrier.</strong></p>
                 </div>
 
@@ -200,7 +201,8 @@
                 <div class="title-desc">
                   <h2 class="display-4 display-title mb-4 anim-1">Design around uncertainty, not just affordability</h2>
                   <p class="anim-2">The interviews changed the order of the problems. The team was preparing to address monthly affordability while some qualified customers were becoming uncertain earlier in the journey.</p>
-                  <p class="anim-2">The findings informed recommendations to simplify the application experience, make approval and response expectations clearer, show customers what would happen and when, make next steps easier to understand, and better accommodate customers’ payment-date needs.</p>
+                  <p class="anim-2">Valerie’s experience made the recommendations concrete. Her payment-timing problem pointed toward greater due-date flexibility. Uncertainty about approval pointed toward clearer expectations about when customers would hear back and what would happen next. The discomfort of explaining financial status reinforced the need to make the process more self-directed and preserve customer dignity.</p>
+                  <p class="anim-2">Across the ten conversations, the findings informed recommendations to simplify the application experience, make approval and response expectations clearer, show customers what would happen and when, make next steps easier to understand, and better accommodate customers’ payment-date needs.</p>
                   <p class="anim-2">I also contributed to stakeholder interviews, synthesis, a service blueprint, the journey-wide CX Territories view, recommendations, and business-case work. My primary responsibility remained research and preparation within a roughly five-person Fjord team led by a service design lead.</p>
 
                   <div id="acme-solution-gallery" class="case-study-gallery slider-wrapper carousel-swiper-beta" aria-label="Healthcare-financing synthesis and workshop gallery">
