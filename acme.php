@@ -19,7 +19,7 @@
   <meta name="twitter:creator" content="@skippercwarson">
   <meta name="twitter:title" content="SoftServe: building and running an Americas design team • Skipper Chong Warson">
   <meta name="twitter:description" content="I built and ran SoftServe’s 12-person Americas design team across five countries. Over my final two years, it staffed 15 projects and generated $2.1M in billable work.">
-  <meta name="twitter:image" content="https://skipperchongwarson.com/img/items/screenshots/softserve-og.jpg">
+  <meta name="twitter:image" content="https://skipperchongwarson.com/img/items/screenshots/acme-og.jpg">
   <meta name="twitter:image:alt" content="Map of SoftServe’s design organization expanding across the Americas">
 
   <meta property="og:url" content="https://skipperchongwarson.com/softserve/">
