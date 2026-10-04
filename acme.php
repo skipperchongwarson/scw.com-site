@@ -35,23 +35,6 @@
   <?php $currentProjectId = 'acme'; ?>
   <?php include 'css.php'; ?>
 
-  <style>
-    .case-study-figure {
-      margin: 1.5rem 0 2.5rem;
-    }
-    .case-study-figure img {
-      width: 100%;
-      height: auto;
-      display: block;
-    }
-    .case-study-figure figcaption {
-      margin-top: .7rem;
-      font-size: .9rem;
-      line-height: 1.45;
-      opacity: .8;
-    }
-  </style>
-
   <script src="/js/vendor/modernizr-2.7.1.min.js"></script>
 </head>
 
