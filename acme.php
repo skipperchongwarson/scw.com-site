@@ -11,7 +11,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta property="article:author" content="https://skipperchongwarson.com/">
   <meta property="article:section" content="Case study">
-  <meta property="article:published_time" content="2026-10-03">
+  <meta property="article:published_time" content="2025-10-03">
   <meta property="article:modified_time" content="2026-10-03">
 
   <meta name="twitter:card" content="summary_large_image">
@@ -99,7 +99,7 @@
                 <p class="anim-2 home-desc">A confidential Fortune 500 healthcare-financing company brought Fjord in to help define a future customer experience across its retail-card business. The work combined customer, company, and market evidence into cross-platform recommendations, future-state concepts, high-level business cases, and a three-year roadmap.</p>
                 <p class="anim-2 home-desc">The company already had extensive customer research and a plausible explanation for one of its biggest barriers: healthcare was expensive, so customers needed more affordable monthly payments. Longer financing terms were one direction already taking shape.</p>
                 <p class="anim-2 home-desc">On a roughly five-person Fjord team, I helped facilitate two stakeholder workshops and conducted eight of ten customer interviews. Those conversations showed that affordability mattered, but uncertainty about credit, approval, timing, and next steps often stopped customers earlier.</p>
-                <p class="case-meta anim-2 home-desc">By <a href="/#home">Skipper Chong Warson</a> · Published 3 Oct 2026</p>
+                <p class="case-meta anim-2 home-desc">By <a href="/#home">Skipper Chong Warson</a> · Published 3 Oct 2025</p>
               </div>
             </div>
             <div class="col-12 col-md-5">
@@ -116,7 +116,7 @@
                   "headline": "Healthcare financing: the problem happened before the price",
                   "description": "Ten customer interviews reframed a Fortune 500 healthcare-financing company's CX strategy by showing that uncertainty around credit, approval, timing, and next steps often appeared before affordability.",
                   "image": "https://skipperchongwarson.com/img/items/acme-og.jpg",
-                  "datePublished": "2026-10-03",
+                  "datePublished": "2025-10-03",
                   "dateModified": "2026-10-03",
                   "inLanguage": "en-US",
                   "articleSection": "Case study",
