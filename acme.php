@@ -11,7 +11,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta property="article:author" content="https://skipperchongwarson.com/">
   <meta property="article:section" content="Case study">
-  <meta property="article:published_time" content="2025-09-01">
+  <meta property="article:published_time" content="2025-08-01">
   <meta property="article:modified_time" content="2026-09-07">
 
   <meta name="twitter:card" content="summary_large_image">
