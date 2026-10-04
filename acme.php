@@ -26,7 +26,7 @@
   <meta property="og:type" content="article">
   <meta property="og:title" content="Acme: the problem happened before the price • Skipper Chong Warson">
   <meta property="og:description" content="Ten customer interviews challenged an already-set affordability hypothesis and reframed a Fortune 500 consumer-financial-services company's retail-card CX strategy around earlier customer uncertainty.">
-  <meta property="og:image" content="https://skipperchongwarson.com/img/items/acme-og.jpg">
+  <meta property="og:image" content="https://skipperchongwarson.com/img/items/acme.jpg">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="Customer experience territories spanning Engage, Apply, Use, and Service for a retail-card journey">
