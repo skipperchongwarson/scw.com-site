@@ -562,24 +562,15 @@
                 <!-- title and description -->
                 <div class="title-desc">
 				  <h2 class="display-4 display-title mb-4 anim-1">When I'm most useful</h2>
-				  <p class="anim-2">Evidence, bias, aspiration, and sunk cost start to blur together, and the next decision gets harder to make from inside the team. And it's not for a lack of customer info. There's surveys and analytics, customer calls, sales feedback, founder instinct, and the product you've already spent time and money building.</p>
+				  <p class="anim-2">I’m most useful when a team has plenty of customer information but no clean way to decide what it means for the next product, positioning, or service decision.</p>
 
-				  <p class="anim-2">So you end up with several plausible versions of the beachhead customer and no clean way to choose. Or the team is heads-down on velocity and needs to know whether the customer hypothesis is still holding up.</p>
+				  <p class="anim-2">That might mean several plausible versions of the customer, conflicting interpretations of the same evidence, or a product team moving quickly without knowing whether the customer hypothesis still holds.</p>
 
-				  <p class="anim-2">Three ways in:</p>
+				  <p class="anim-2">The work can take the shape of a <a href="https://howthisworks.co/work/listening-cycle" title="Listening Cycle — ongoing customer interviews to keep product decisions grounded">Listening Cycle</a>, a fuller featured <a href="https://howthisworks.co/work/bullseye-customer-sprint" title="Bullseye Customer Sprint — five live customer interviews to clarify product direction">Bullseye Customer Sprint</a>, or a fractional engagement. The format changes; the job is the same: get closer to the evidence, make sense of it together, and turn it into a decision the team can act on.</p>
 
-				  <ul class="content-list anim-2">
-				    <li>A <a href="https://howthisworks.co/work/listening-cycle" title="Listening Cycle — ongoing customer interviews to keep product decisions grounded">Listening Cycle</a> keeps the evidence train rolling for six weeks while the team builds, with 1-2 interviews and an immediate debrief each week to see whether the working hypothesis still holds.</li>
+				  <p class="anim-2">I came into this through UX and service design, and that still shapes how I work. Sometimes the answer is an interface or flow. Sometimes it’s a customer definition, workflow, service model, or a better way for the team to make the call.</p>
 
-					<li>A <a href="https://howthisworks.co/work/bullseye-customer-sprint" title="Bullseye Customer Sprint — five live customer interviews to clarify product direction">Bullseye Customer Sprint</a> brings the people making the decision into five live customer interviews over about four weeks. The team leaves with a documented customer direction, the evidence behind it, and a short list of what to do next.</li>
-
-
-				    <li>Fractional work keeps me closer to the team for a defined period, carrying what we learn into the decisions and changes that follow. More freeform than the others.</li>
-				  </ul>
-
-				  <p class="anim-2">I came into this through UX design, then service design, and that 100% shapes how I operate. Sometimes what needs to change is an interface or a flow. Or sometimes an ecosystem or stakeholder map is needed to zoom out and inventory. But sometimes it's the customer definition, the workflow, or getting into the logic of how the team decides.</p>
-
-				  <p class="anim-2">The new crop of artificial intelligence (AI) tools helps boost my work across larger evidence sets and speed up synthesis, but direct customer evidence and human judgment stay at the center.</p>
+				  <p class="anim-2">Right now, AI helps me work across larger evidence sets and move faster through synthesis, but direct customer evidence and human judgment stay at the center.</p>
                 </div>
 
               </div>
