@@ -101,7 +101,7 @@
               <!-- title and description -->
               <div class="title-desc">
                 <h1 class="display-4 display-title home-title anim-1"><span class="text-lighter">When the customer signal is messy, or the team reads it differently, I help turn it into</span> a product decision that moves you forward</h1>
-				<p class="anim-2 home-desc">I’m a product and service design leader with 15+ years across startups, consultancies, product organizations, and Fortune 500 companies. I’ve led teams and client engagements, shaped products and services from early discovery through delivery, and worked across research, facilitation, service design, and strategy — hands-on when needed, prioritizing outcomes over outputs.</p>
+				<p class="anim-2 home-desc">I’m a product and service design leader with 15+ years across startups and product organizations, plus Fortune 500 work through consultancies. I’ve worked across customer research, facilitation, experience strategy, and implementation — hands-on where it helps, prioritizing outcomes over outputs.</p>
                 <p class="anim-2 home-desc">Today, through <a href="https://howthisworks.co" title="How This Works co — customer evidence for consequential product and go-to-market decisions">How This Works co</a>, I bring the team making the decision closer to the evidence so they can hear the same customers, compare interpretations, and make the next call together.</p>
                 <!-- Action button -->
                 <div class="btns-action anim-3">
