@@ -4,7 +4,7 @@
 <head>
   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
   <title>Acme: the problem happened before the price • Skipper Chong Warson</title>
-  <meta name="description" content="Ten customer interviews challenged an already-set affordability hypothesis and reframed a Fortune 500 consumer-financial-services company's retail-card CX strategy around the uncertainty customers encountered earlier.">
+  <meta name="description" content="10 customer interviews challenged an already-set affordability hypothesis and reframed a Fortune 500 consumer-financial-services company's retail-card CX strategy around the uncertainty customers encountered earlier.">
   <meta name="author" content="Skipper Chong Warson">
   <meta property="og:site_name" content="Skipper Chong Warson">
   <meta property="og:locale" content="en_US">
@@ -18,14 +18,14 @@
   <meta name="twitter:site" content="@skippercwarson">
   <meta name="twitter:creator" content="@skippercwarson">
   <meta name="twitter:title" content="Acme: the problem happened before the price • Skipper Chong Warson">
-  <meta name="twitter:description" content="Ten customer interviews challenged an already-set affordability hypothesis and reframed a Fortune 500 consumer-financial-services company's retail-card CX strategy around earlier customer uncertainty.">
+  <meta name="twitter:description" content="10 customer interviews challenged an already-set affordability hypothesis and reframed a Fortune 500 consumer-financial-services company's retail-card CX strategy around earlier customer uncertainty.">
   <meta name="twitter:image" content="https://skipperchongwarson.com/img/items/Acme-og.jpg">
   <meta name="twitter:image:alt" content="Customer experience territories spanning Engage, Apply, Use, and Service for a retail-card journey">
 
   <meta property="og:url" content="https://skipperchongwarson.com/acme/">
   <meta property="og:type" content="article">
   <meta property="og:title" content="Acme: the problem happened before the price • Skipper Chong Warson">
-  <meta property="og:description" content="Ten customer interviews challenged an already-set affordability hypothesis and reframed a Fortune 500 consumer-financial-services company's retail-card CX strategy around earlier customer uncertainty.">
+  <meta property="og:description" content="10 customer interviews challenged an already-set affordability hypothesis and reframed a Fortune 500 consumer-financial-services company's retail-card CX strategy around earlier customer uncertainty.">
   <meta property="og:image" content="https://skipperchongwarson.com/img/items/Acme-og.jpg">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
@@ -82,7 +82,7 @@
                 <h1>Acme</h1>
                 <p class="anim-2 home-desc">A Fortune 500 consumer-financial-services company brought Fjord in to define the customer experience across its retail-card business. We translated customer, company, and market evidence into recommendations, future-state concepts, business cases, and a three-year roadmap.</p>
                 <p class="anim-2 home-desc">Acme, not its real name, came in convinced it already knew the main problem: affordability. A solution was already in rough draft form.</p>
-                <p class="anim-2 home-desc">On a five-person Fjord team, I conducted eight of ten guerilla customer interviews, over half of the stakeholder interviews, helped facilitate two stakeholder workshops, and led the creation of the service blueprint. The research showed that uncertainty about credit, approval, timing, and next steps could stop customers before affordability did.</p>
+                <p class="anim-2 home-desc">On a five-person Fjord team, I conducted eight of 10 guerilla customer interviews, over half of the stakeholder interviews, helped facilitate two stakeholder workshops, and led the creation of the service blueprint. The research showed that uncertainty about credit, approval, timing, and next steps could stop customers before affordability did.</p>
                 <p class="case-meta anim-2 home-desc">By <a href="/#home">Skipper Chong Warson</a> · Published 3 Oct 2026</p>
               </div>
             </div>
@@ -98,7 +98,7 @@
                   "@id": "https://skipperchongwarson.com/acme/#article",
                   "mainEntityOfPage": "https://skipperchongwarson.com/acme/",
                   "headline": "Acme: the problem happened before the price",
-                  "description": "Ten customer interviews challenged an already-set affordability hypothesis and reframed a Fortune 500 consumer-financial-services company's retail-card CX strategy around the uncertainty customers encountered earlier.",
+                  "description": "10 customer interviews challenged an already-set affordability hypothesis and reframed a Fortune 500 consumer-financial-services company's retail-card CX strategy around the uncertainty customers encountered earlier.",
                   "image": "https://skipperchongwarson.com/img/items/Acme-og.jpg",
                   "datePublished": "2026-10-03",
                   "dateModified": "2026-10-03",
@@ -184,11 +184,11 @@
               <div class="wrapper">
                 <div class="title-desc">
                   <h2 class="display-4 display-title mb-4 anim-1">The problem happened before the price</h2>
-                  <p class="anim-2">We recruited ten people through Fjord sources using dscout. Participants were familiar with or had used Acme’s products. I conducted eight interviews over roughly two weeks and supported the other two through note-taking and research assistance.</p>
-                  <p class="anim-2">One conversation made the problem especially clear. “Valerie” (not her real name) was sitting in her car waiting for a check-cashing store to open. She knew this kind of financing and had qualified before, but she was already calculating risk.</p>
+                  <p class="anim-2">We recruited 10 people through peers at Fjord and dscout. Participants needed to have had used Acme’s products. I conducted eight interviews over roughly two weeks and supported the other two through note-taking and research assistance.</p>
+                  <p class="anim-2">One conversation made the problem especially clear. “Valerie” (not her real name) was sitting in her car waiting for a check-cashing store to open. She knew this kind of financing and had qualified before, but she was concerned with risk.</p>
                   <p class="anim-2">She needed her payment date to fall after her paycheck cleared. She was improving her credit and did not know whether applying would trigger a hard or soft pull. She also could not tell how long approval would take, what would happen next, or whether she would have to explain her financial situation in person.</p>
-                  <p class="anim-2">Seven of ten participants described variations of that uncertainty before a clear affordability decision.</p>
-                  <p class="anim-2"><strong>Affordability mattered. It was not always the first barrier.</strong></p>
+                  <p class="anim-2">Another seven of the 10 participants described variations of that uncertainty before a clear affordability decision.</p>
+                  <p class="anim-2"><strong>Affordability mattered, but it was not always the first barrier.</strong></p>
                 </div>
 
                 <figure class="case-study-figure">
@@ -211,8 +211,8 @@
               <div class="wrapper">
                 <div class="title-desc">
                   <h2 class="display-4 display-title mb-4 anim-1">Design around uncertainty, not just affordability</h2>
-                  <p class="anim-2">Valerie made the recommendations concrete: more due-date flexibility, clearer approval timing and next steps, and a more self-directed experience that reduced the need to explain a sensitive financial situation in person. Across the ten conversations, those patterns also pointed toward a simpler application experience and clearer expectations throughout the process.</p>
-                  <p class="anim-2">The interviews were one input into a larger service-design effort. We combined what cardholders told us with stakeholder research and the existing journey, then used the service blueprint and CX Territories to connect customer moments, emotional states, pain points, and touchpoints across Engage, Apply, Use, and Service.</p>
+                  <p class="anim-2">Valerie made the recommendations concrete: more due-date flexibility, clearer approval timing and next steps, and a more self-directed experience that reduced the need to explain a sensitive financial situation in person. Across the 10 conversations, those patterns also pointed toward a simpler application experience and clearer expectations throughout the process.</p>
+                  <p class="anim-2">The interviews were one input into a larger service design effort. We combined what cardholders told us with stakeholder research and the existing journey, then used the service blueprint and CX Territories to connect customer moments, emotional states, pain points, and touchpoints across Engage, Apply, Use, and Service.</p>
                   <p class="anim-2">Co-creation was deliberate. In workshops, teams could validate, edit, or add customer moments and pain points before defining opportunities against what remained. The goal was to move from a collection of observations to a shared view of what should change.</p>
                   <p class="anim-2">From those opportunity areas, the team developed future-state concepts spanning digital and physical interactions and connected them to business cases and the three-year roadmap. The final materials also included a short film explaining the customer-centered approach, co-creation process, and future-state vision for internal audiences.</p>
 
@@ -224,7 +224,7 @@
                             <div class="illustr">
                               <img class="img" src="/img/items/Acme-journey-map.jpg" alt="Customer journey map being developed from research and stakeholder evidence">
                             </div>
-                            <figcaption class="legend case-study-gallery__caption">The service-design work connected customer and stakeholder evidence across the journey before we collapsed individual observations into shared opportunities.</figcaption>
+                            <figcaption class="legend case-study-gallery__caption">The service design work connected customer and stakeholder evidence across the journey before we collapsed individual observations into shared opportunities.</figcaption>
                           </div>
                         </figure>
 

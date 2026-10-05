@@ -49,6 +49,14 @@ $carouselProjects = [
     'title' => 'Cigna smart toothbrush',
   ],
   [
+    'id' => 'acme',
+    'href' => '/acme/',
+    'img' => '/img/items/Acme-project.jpg',
+    'alt' => 'Acme consumer financial services case study',
+    'meta' => 'Senior service designer, Fjord · Consumer financial services · 2017',
+    'title' => 'Acme',
+  ],
+  [
     'id' => 'bank-of-america-bankers',
     'href' => '/bank-of-america-bankers/',
     'img' => '/img/items/BOA-bankers-project.png',
