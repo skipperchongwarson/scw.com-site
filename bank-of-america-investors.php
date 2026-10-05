@@ -122,8 +122,8 @@
               <div class="wrapper">
                 <div class="title-desc">
                   <h2 class="display-4 display-title mb-4 anim-1">Three products had to feel like one</h2>
-                  <p class="anim-2">Research Library, Capital Markets, and GEMS Kiosk did not map neatly onto one another. Clients moved among reports, market commentary, events, deals, and other information, often alongside tools they already used. The brief was consolidation; the design question was what belonged together.</p>
-                  <p class="anim-2">We interviewed 21 stakeholders and 15 clients. The interviews gave us four useful constraints: work with the tools people already had, surface what mattered, keep it simple, and always give them somewhere useful to go next.</p>
+                  <p class="anim-2">Research Library, Capital Markets, and GEMS Kiosk did not map neatly onto one another. Clients moved among reports, market commentary, events, deals, and other information, often alongside tools they already used. The three products were separate entry points into a broader research service, so the brief was consolidation but the design question was larger: what belonged together, what should stay distinct, and how should the experience fit into the work clients were already doing?</p>
+                  <p class="anim-2">We interviewed 21 stakeholders and 15 clients. The interviews gave us four useful constraints: work with the tools people already had, surface what mattered, keep it simple, and always give them somewhere useful to go next. Those constraints became a way to connect decisions about content, navigation, interaction, and the surrounding workflow rather than treating each screen in isolation.</p>
                   <p class="anim-2">The research did not end when design began. Each week, one or two of the original participants saw the evolving prototype and told us what was working and what was not.</p>
 
                   <figure class="case-study-figure">
@@ -206,7 +206,7 @@
               <div class="wrapper">
                 <div class="title-desc">
                   <h2 class="display-4 display-title mb-4 anim-1">Start with what matters now</h2>
-                  <p class="anim-2">The Feed became the center of the experience. Rather than asking someone to choose a legacy product first, it brought a small number of relevant items together: research reports, market commentary, upcoming events, new issues, and rating changes. From there, people could decide what deserved more attention.</p>
+                  <p class="anim-2">The Feed became the front door to the experience. Rather than asking someone to choose a legacy product first, it brought a small number of relevant items together from across the underlying research products: research reports, market commentary, upcoming events, new issues, and rating changes. From there, people could decide what deserved more attention and move into the source material or another part of their workflow.</p>
 
                   <figure class="case-study-figure">
                     <img src="/img/items/BOA-investors-feed.png" loading="lazy" decoding="async" alt="Bank of America research app Feed and detailed report-card anatomy">
@@ -326,8 +326,8 @@
             <div class="col-12 col-md-6 col-lg-5 text-left center-v pr-md-5 pr-lg-0">
               <div class="wrapper"><div class="title-desc">
                 <h2 class="display-4 display-title mb-4 anim-1">A phase 1 product ready for handoff</h2>
-                <p class="anim-2">The final delivery included the product designs, detailed interaction flows, an interactive InVision prototype, animation documentation, and the shared Sketch design system. The technical team had vetted the intended experience as feasible for phase 1.</p>
-                <p class="anim-2">The team defined that first release as a minimum lovable product and separated additional research-driven ideas into a backlog for later iterations. I left at handoff, so that is where my direct knowledge of the product’s launch and adoption ends.</p>
+                <p class="anim-2">The research moved all the way into implementation thinking. The final delivery included the product designs, detailed interaction flows, an interactive InVision prototype, animation documentation, and the shared Sketch design system. The technical team had vetted the intended experience as feasible for phase 1.</p>
+                <p class="anim-2">The team defined that first release as a minimum lovable product and separated additional research-driven ideas into a backlog for later iterations. Research had become principles, product structure, phase-one scope, and a path for what could follow instead of stopping at a set of research findings. I left at handoff, so that is where my direct knowledge of the product’s launch and adoption ends.</p>
               </div></div>
             </div>
             <div class="col-12 col-md-6 col-lg-5"></div>

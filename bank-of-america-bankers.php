@@ -122,12 +122,12 @@
                 <div class="title-desc">
                   <h2 class="display-4 display-title mb-4 anim-1">One client, more than 10 versions of the relationship</h2>
                   <p class="anim-2">Relationship managers and bankers used different methods and systems. A deal in one line of business could be invisible to another group serving the same client.</p>
-                  <p class="anim-2">The brief was to develop high-level concepts for a client 360° experience. But that phrase was still an abstraction. Before anyone could design the platform, the bank needed a shared understanding of what bankers were actually trying to do across those organizational boundaries.</p>
+                  <p class="anim-2">The brief was to develop high-level concepts for a client 360° experience. But that phrase was still an abstraction. The service crossed business lines, roles, systems, and handoffs; the interface was only where some of those relationships would become visible. Before anyone could design the platform, the bank needed a shared understanding of what bankers were actually trying to do across those organizational boundaries.</p>
                 </div>
 
                 <div class="title-desc">
                   <h2 class="display-4 display-title mt-5 mb-4 anim-1">The organization was hiding a single client relationship</h2>
-                  <p class="anim-2">We conducted more than 20 interviews across users and stakeholders. For the first time, leaders from the different lines of business were brought into the same body of research.</p>
+                  <p class="anim-2">We conducted more than 20 interviews across users and stakeholders. For the first time, leaders from the different lines of business were brought into the same body of research. That let us compare how different groups understood the same client relationship, where information broke down between them, and what a shared model would need to support.</p>
 
                   <div id="bankers-day-life-gallery" class="case-study-gallery slider-wrapper carousel-swiper-beta" aria-label="Bank of America day-in-the-life gallery">
                     <div class="slider-container swiper-container">
@@ -144,7 +144,7 @@
                     <div class="items-button bottom fit items-button-next"><button type="button" class="btn btn-transp-arrow btn-primary" aria-label="Next image"><span class="icon arrow-right" aria-hidden="true"></span></button></div>
                   </div>
 
-                  <p class="anim-2">The research generated four scenarios:</p>
+                  <p class="anim-2">We turned the research into four scenarios that modeled how work moved across people, systems, and moments in the client relationship:</p>
                   <ul class="content-list anim-2">
                     <li>Review a client’s business and relationship with the bank</li>
                     <li>Capture and retrieve call notes</li>
@@ -182,7 +182,7 @@
                 <div class="title-desc">
                   <h2 class="display-4 display-title mb-4 anim-1">Build the product with bankers in the room</h2>
                   <p class="anim-2">Across more than 12 validation sessions, we used whiteboards, digital mockups, and paper prototypes made from transparent overlays. We could assemble, move, and revise parts of the experience live as a banker explained the work.</p>
-                  <p class="anim-2">That made the prototype a working model of the relationship, not a fixed interface shown after the important decisions had already been made. What survived those sessions moved directly into annotated wireframes, visual designs for Microsoft Surface Pro, and a starting design library.</p>
+                  <p class="anim-2">That made the prototype a working model of the service relationship, not a fixed interface shown after the important decisions had already been made. The sessions let bankers and stakeholders work through how information, responsibilities, and decisions should move across the relationship while we changed the model in front of them. What survived those sessions moved directly into annotated wireframes, visual designs for Microsoft Surface Pro, and a starting design library.</p>
 
                   <div id="bankers-product-gallery" class="case-study-gallery slider-wrapper carousel-swiper-beta" aria-label="Bank of America unified banker experience gallery">
                     <div class="slider-container swiper-container">
@@ -221,7 +221,7 @@
             <div class="col-12 col-md-6 col-lg-5 text-left center-v pr-md-5 pr-lg-0">
               <div class="wrapper"><div class="title-desc">
                 <h2 class="display-4 display-title mb-4 anim-1">A shared model became a product</h2>
-                <p class="anim-2">The scenarios gave leadership, relationship managers, and the product team one model for how a client relationship could work across business lines.</p>
+                <p class="anim-2">The scenarios gave leadership, relationship managers, and the product team one shared service model for how a client relationship could work across business lines, then translated that model into something the product could represent.</p>
                 <p class="anim-2">The work moved beyond concept. About six months after our engagement, a Fjord colleague interviewing at Bank of America saw the product we had designed in active development.</p>
               </div></div>
             </div>
