@@ -153,6 +153,15 @@
                           <figcaption class="legend case-study-gallery__caption">We looked across eight touchpoints and three card types for shared customer moments and pain points.</figcaption>
                         </div>
                       </figure>
+
+                      <figure class="slide-item swiper-slide">
+                        <div class="item-wrapper">
+                          <div class="illustr">
+                            <img class="img" src="/img/items/Acme-workshop01.jpg" alt="Fjord and client team members working together during a customer-experience workshop">
+                          </div>
+                          <figcaption class="legend case-study-gallery__caption">Two stakeholder workshops helped us surface the organization’s assumptions, active initiatives, and perspectives before taking those hypotheses into customer research.</figcaption>
+                        </div>
+                      </figure>
                     </div>
                   </div>
                   <div class="items-pagination bar"></div>
@@ -216,6 +225,15 @@
                         <figure class="slide-item swiper-slide">
                           <div class="item-wrapper">
                             <div class="illustr">
+                              <img class="img" src="/img/items/Acme-journey-map.jpg" alt="Customer journey map being developed from research and stakeholder evidence">
+                            </div>
+                            <figcaption class="legend case-study-gallery__caption">The service-design work connected customer and stakeholder evidence across the journey before we collapsed individual observations into shared opportunities.</figcaption>
+                          </div>
+                        </figure>
+
+                        <figure class="slide-item swiper-slide">
+                          <div class="item-wrapper">
+                            <div class="illustr">
                               <img class="img" src="/img/items/Acme.moments-painpoints-opportunities.jpeg" alt="Workshop exercise framework moving from customer moments to pain points, opportunities, and share out">
                             </div>
                             <figcaption class="legend case-study-gallery__caption">The workshop moved from customer moments to pain points, opportunities, and evidence-backed recommendations.</figcaption>
@@ -228,6 +246,15 @@
                               <img class="img" src="/img/items/Acme.posters.jpeg" alt="Poster framework for capturing customer moments, pain points, and opportunities across eight journey territories">
                             </div>
                             <figcaption class="legend case-study-gallery__caption">Eight territory posters helped the team validate customer moments and pain points before defining opportunities.</figcaption>
+                          </div>
+                        </figure>
+
+                        <figure class="slide-item swiper-slide">
+                          <div class="item-wrapper">
+                            <div class="illustr">
+                              <img class="img" src="/img/items/Acme-workshop02.jpg" alt="Workshop participants reviewing customer-experience artifacts and opportunity areas together">
+                            </div>
+                            <figcaption class="legend case-study-gallery__caption">Co-creation kept the synthesis in the room: cross-functional participants reviewed the evidence together and helped turn customer moments and pain points into opportunity areas.</figcaption>
                           </div>
                         </figure>
                       </div>
