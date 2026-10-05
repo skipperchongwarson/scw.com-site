@@ -11,8 +11,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta property="article:author" content="https://skipperchongwarson.com/">
   <meta property="article:section" content="Case study">
-  <meta property="article:published_time" content="2026-10-03">
-  <meta property="article:modified_time" content="2026-10-03">
+  <meta property="article:published_time" content="2025-09-01">
+  <meta property="article:modified_time" content="2026-10-01">
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@skippercwarson">
@@ -83,7 +83,7 @@
                 <p class="anim-2 home-desc">A Fortune 500 consumer-financial-services company brought Fjord in to define the customer experience across its retail-card business. We translated customer, company, and market evidence into recommendations, future-state concepts, business cases, and a three-year roadmap.</p>
                 <p class="anim-2 home-desc">Acme, not its real name, came in convinced it already knew the main problem: affordability. A solution was already in rough draft form.</p>
                 <p class="anim-2 home-desc">On a five-person Fjord team, I conducted eight of 10 guerilla customer interviews, over half of the stakeholder interviews, helped facilitate two stakeholder workshops, and led the creation of the service blueprint. The research showed that uncertainty about credit, approval, timing, and next steps could stop customers before affordability did.</p>
-                <p class="case-meta anim-2 home-desc">By <a href="/#home">Skipper Chong Warson</a> · Published 3 Oct 2026</p>
+                <p class="case-meta anim-2 home-desc">By <a href="/#home">Skipper Chong Warson</a> · Published 1 Sep 2025 · Updated 1 Oct 2026</p>
               </div>
             </div>
             <div class="col-12 col-md-5">
@@ -100,8 +100,8 @@
                   "headline": "Acme: the problem happened before the price",
                   "description": "10 customer interviews challenged an already-set affordability hypothesis and reframed a Fortune 500 consumer-financial-services company's retail-card CX strategy around the uncertainty customers encountered earlier.",
                   "image": "https://skipperchongwarson.com/img/items/Acme-og.jpg",
-                  "datePublished": "2026-10-03",
-                  "dateModified": "2026-10-03",
+                  "datePublished": "2025-09-01",
+                  "dateModified": "2026-10-01",
                   "inLanguage": "en-US",
                   "articleSection": "Case study",
                   "author": {"@type": "Person", "name": "Skipper Chong Warson", "url": "https://skipperchongwarson.com/"},
