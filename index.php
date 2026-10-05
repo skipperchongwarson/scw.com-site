@@ -4,9 +4,9 @@
 <head>
   <meta charset="utf-8">
   <!-- Page title here -->
-  <title>Skipper Chong Warson | Product strategy, service design & facilitation</title>
+  <title>Skipper Chong Warson | Product strategy, service design & design leadership</title>
 
-  <meta name="description" content="Product and service design leader helping teams turn customer and stakeholder evidence into clearer product, service, and strategic decisions.">
+  <meta name="description" content="Product and service design leader working across product strategy, service design, customer discovery, design leadership, and facilitation to turn evidence into clearer decisions.">
   <meta name="author" content="Skipper Chong Warson">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 
@@ -15,19 +15,19 @@
   <meta property="og:url" content="https://skipperchongwarson.com/">
   <meta property="og:type" content="profile">
   <meta property="og:site_name" content="Skipper Chong Warson">
-  <meta property="og:title" content="Skipper Chong Warson | Product strategy, service design & facilitation">
-  <meta property="og:description" content="I help teams make sense of messy customer and stakeholder evidence and turn it into clearer product, service, and strategic decisions.">
+  <meta property="og:title" content="Skipper Chong Warson | Product strategy, service design & design leadership">
+  <meta property="og:description" content="Product and service design leadership across product strategy, service design, customer discovery, and the decisions that follow.">
   <meta property="og:image" content="https://skipperchongwarson.com/img/items/home-og.jpg">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="Skipper Chong Warson — product strategy, service design & facilitation">
+  <meta property="og:image:alt" content="Skipper Chong Warson — product strategy, service design & design leadership">
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@skippercwarson">
   <meta name="twitter:creator" content="@skippercwarson">
-  <meta name="twitter:title" content="Skipper Chong Warson | Product strategy, service design & facilitation">
-  <meta name="twitter:description" content="I help teams make sense of messy customer and stakeholder evidence and turn it into clearer product, service, and strategic decisions.">
-  <meta name="twitter:image:alt" content="Skipper Chong Warson — product strategy, service design & facilitation">
+  <meta name="twitter:title" content="Skipper Chong Warson | Product strategy, service design & design leadership">
+  <meta name="twitter:description" content="Product and service design leadership across product strategy, service design, customer discovery, and the decisions that follow.">
+  <meta name="twitter:image:alt" content="Skipper Chong Warson — product strategy, service design & design leadership">
   <meta name="twitter:image" content="https://skipperchongwarson.com/img/items/home-og.jpg">
 
   <?php include 'css.php'; ?>
@@ -101,7 +101,7 @@
               <!-- title and description -->
               <div class="title-desc">
                 <h1 class="display-4 display-title home-title anim-1"><span class="text-lighter">When the customer signal is messy, or the team reads it differently, I help turn it into</span> a product decision that moves you forward</h1>
-				<p class="anim-2 home-desc">I’m a product and service design leader with 15+ years across startups, product studios, and complex organizations. I’ve built and led design teams, shaped products and services from early discovery through delivery, and worked across product design, service design, customer research, facilitation, and strategy — getting into the details when that’s where the outcome can change.</p>
+				<p class="anim-2 home-desc">I’m a product and service design leader with 15+ years across startups, product studios, and complex organizations. I’ve built and led design teams, shaped products and services from early discovery through delivery, and worked across product strategy, service design, customer discovery and research, facilitation, and hands-on product design — getting into the details when that’s where the outcome can change.</p>
                 <p class="anim-2 home-desc">Today, through <a href="https://howthisworks.co" title="How This Works co — customer evidence for consequential product and go-to-market decisions">How This Works co</a>, I bring the team making the decision closer to the evidence so they can hear the same customers, compare interpretations, and make the next call together.</p>
                 <!-- Action button -->
                 <div class="btns-action anim-3">
@@ -130,7 +130,7 @@
 				      "email": "iam@skipperchongwarson.com",
 				      "image": "https://skipperchongwarson.com/img/items/headshot.jpg",
 					  "jobTitle": ["Product and service design leader", "Principal advisor, founder"],
-					  "description": "Product and service design leader helping teams turn customer and stakeholder evidence into clearer product, service, and strategic decisions.",
+					  "description": "Product and service design leader working across product strategy, service design, customer discovery, design leadership, and facilitation to turn evidence into clearer decisions.",
 				      "workLocation": {
 				        "@type": "Place",
 				        "name": "San Francisco Bay Area, California, United States"
@@ -380,6 +380,38 @@
 			                 </div>
 			               </div>
 			 <!-- an item -->
+			               <div class="col" data-category="customer-discovery service-design">
+			                 <div class="item media media-project">
+
+			                   <a
+			                     class="media-project-link"
+			                     href="/acme/"
+			                     aria-label="Read the Acme case study"
+			                   >
+			                     <div class="media-img">
+
+			                       <img src="img/items/Acme-thumb.jpg" alt="Two children looking through a cardboard tube while building a blanket fort" loading="lazy" width="1200" height="1200">
+
+			                       <div class="media-body">
+			                         <h3>Acme</h3>
+			                       </div>
+
+			                       <div class="media-footer">
+			                         <span class="btn btn-underline btn-primary">
+			                           <span class="text">Read more</span>
+			                         </span>
+			                       </div>
+
+			                     </div>
+			                   </a>
+
+			                   <p class="media-meta">
+			                     Service design &amp; customer research, Fjord · Consumer financial services · 2017
+			                   </p>
+
+			                 </div>
+			               </div>
+			               <!-- an item -->
 			               <div class="col" data-category="leadership product-design">
 			                 <div class="item media media-project">
 

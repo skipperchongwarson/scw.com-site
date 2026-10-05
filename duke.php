@@ -208,7 +208,7 @@
                     <h2 class="display-4 display-title mb-4 anim-1">It all started with four monitors</h2>
                     <p class="anim-2">When we arrived, the monitors had just been installed and ETO was already using them opportunistically—to explain technical systems and projects and to support tours. At the same time, project information lived across Asana, presentations, reporting systems, files, and the people doing the work.</p>
                     <p class="anim-2">So the question quickly became larger: <strong>What information should always be visible to make the work easier?</strong></p>
-                    <p class="anim-2">We used interviews, observation, surveys, and three rounds of workshops to understand how information moved between technical staff, leadership, visitors, and other Duke teams.</p>
+                    <p class="anim-2">We used interviews, observation, surveys, and three rounds of workshops to understand how information moved between technical staff, leadership, visitors, and other Duke teams. That meant looking beyond what belonged on a screen to the people, processes, systems, and handoffs surrounding the work, then framing where a shared experience or service model could make that work easier.</p>
 </div>
 
                   <div class="images text-center mt-5">
@@ -287,7 +287,7 @@
 </div>
                   <p class="small anim-2 mt-3"><em>Prototype values are illustrative and do not represent actual programs or measured outcomes.</em></p>
 
-                  <p class="anim-2 mt-5">The work extended beyond Asana. We created an improved tour blueprint, proposed a visual timeline showing the progression of ETO’s work, repurposed that story for a brochure, and explored display concepts for goals, projects, lab systems, news, and other information.</p>
+                  <p class="anim-2 mt-5">The work extended beyond Asana because the same story had to work across different people and channels. We mapped an improved tour experience, including a service blueprint, then explored how the facility itself, a visual timeline, printed material, and digital displays could carry different parts of that story. The point wasn’t to make a collection of communication artifacts; it was to reduce how much the organization had to reconstruct manually every time someone needed to understand the work.</p>
 
                   <div id="duke-storytelling-gallery" class="case-study-gallery slider-wrapper carousel-swiper-beta" aria-label="ETO timeline and brochure concepts">
                     <div class="slider-container swiper-container">
@@ -472,8 +472,8 @@
                   <div class="title-desc">
                     <h2 class="display-4 display-title mb-4 anim-1">The control-center idea but wider</h2>
                     <p class="anim-2">As the storytelling work wrapped, the findings pointed beyond communication artifacts. The next phase turned the control-center idea back toward ETO itself, asking how project information, test results, technical systems, and business context could connect through a common experience.</p>
-                    <p class="anim-2">Research with ETO and adjacent Duke teams surfaced fragmented information, manual reporting, data-access challenges, and sometimes drastically different workflows. The work now required product, design, and technical architecture to move together.</p>
-                    <p class="anim-2">I helped shape what the engagement became next, proposing directions and bringing design, business analysis, technology, and the client team into the same decisions about what to prioritize and validate.</p>
+                    <p class="anim-2">Research with ETO and adjacent Duke teams surfaced fragmented information, manual reporting, data-access challenges, and sometimes drastically different workflows. At that point, we weren’t designing a single interface so much as working out how people, project information, technical systems, and decision-making could fit together in a more coherent operating model.</p>
+                    <p class="anim-2">I helped turn that research into framing and priorities, facilitated decisions across design, business analysis, technology, and the client team, and then carried those decisions into use cases, flows, an experience prototype, architecture direction, backlog, and a proposed implementation path.</p>
                   </div>
 
                   <div aria-label="ETO Control Center program approach and prioritization" class="case-study-gallery slider-wrapper carousel-swiper-beta" id="duke-etocc-gallery">
