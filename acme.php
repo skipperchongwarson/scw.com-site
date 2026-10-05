@@ -19,14 +19,14 @@
   <meta name="twitter:creator" content="@skippercwarson">
   <meta name="twitter:title" content="Acme: the problem happened before the price • Skipper Chong Warson">
   <meta name="twitter:description" content="Ten customer interviews challenged an already-set affordability hypothesis and reframed a Fortune 500 consumer-financial-services company's retail-card CX strategy around earlier customer uncertainty.">
-  <meta name="twitter:image" content="https://skipperchongwarson.com/img/items/acme-og.jpg">
+  <meta name="twitter:image" content="https://skipperchongwarson.com/img/items/Acme-og.jpg">
   <meta name="twitter:image:alt" content="Customer experience territories spanning Engage, Apply, Use, and Service for a retail-card journey">
 
   <meta property="og:url" content="https://skipperchongwarson.com/acme/">
   <meta property="og:type" content="article">
   <meta property="og:title" content="Acme: the problem happened before the price • Skipper Chong Warson">
   <meta property="og:description" content="Ten customer interviews challenged an already-set affordability hypothesis and reframed a Fortune 500 consumer-financial-services company's retail-card CX strategy around earlier customer uncertainty.">
-  <meta property="og:image" content="https://skipperchongwarson.com/img/items/acme-og.jpg">
+  <meta property="og:image" content="https://skipperchongwarson.com/img/items/Acme-og.jpg">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="Customer experience territories spanning Engage, Apply, Use, and Service for a retail-card journey">
@@ -57,7 +57,7 @@
   </header>
 
   <div class="page-cover" id="static-cover">
-    <div class="cover-bg bg-img" data-image-src="/img/items/acme-background.jpg"></div>
+    <div class="cover-bg bg-img" data-image-src="/img/items/Acme-background.jpg"></div>
     <div class="cover-bg-mask bg-color" data-bgcolor="rgba(2, 3, 10, 0.72)"></div>
   </div>
 
@@ -78,18 +78,18 @@
           <div class="row">
             <div class="col-12 col-lg-7 text-left">
               <div class="title-desc">
-                <h6 class="display-4 display-title home-title anim-1">Senior Service Designer · Consumer financial services · Fjord · 2017</h6>
+                <h6 class="display-4 display-title home-title anim-1">Senior service designer · Consumer financial services · Fjord · 2017</h6>
                 <h1>Acme</h1>
-                <p class="anim-2 home-desc">A Fortune 500 consumer-financial-services company brought Fjord in to define a future customer experience across its retail-card business: eight touchpoints, three card types, and the full customer journey. We translated customer, company, and market evidence into recommendations, future-state concepts, business cases, and a three-year roadmap.</p>
-                <p class="anim-2 home-desc">Acme came in convinced it already knew the main problem: affordability. Its leading response—extending financing from 12 months to 24 or 36 months—was nearly set.</p>
-                <p class="anim-2 home-desc">On a five-person Fjord team, I conducted eight of ten customer interviews, helped facilitate two stakeholder workshops, and led the service blueprint. The research showed that uncertainty about credit, approval, timing, and next steps could stop customers before affordability did.</p>
+                <p class="anim-2 home-desc">A Fortune 500 consumer-financial-services company brought Fjord in to define the customer experience across its retail-card business: eight touchpoints, three card types, and the full customer journey. We translated customer, company, and market evidence into recommendations, future-state concepts, business cases, and a roadmap over the next three years.</p>
+                <p class="anim-2 home-desc">Acme, not its real name, came in convinced it already knew the main problem: affordability. Its leading response (extending financing from 12 months to 24 or 36 months) was all but set.</p>
+                <p class="anim-2 home-desc">On a five-person Fjord team, I conducted eight of ten customer interviews, about half of the stakeholder interviews, helped facilitate two stakeholder workshops, and led the service blueprint. The research showed that uncertainty about credit, approval, timing, and next steps could stop customers before affordability did.</p>
                 <p class="case-meta anim-2 home-desc">By <a href="/#home">Skipper Chong Warson</a> · Published 3 Oct 2026</p>
               </div>
             </div>
             <div class="col-12 col-md-5">
               <div class="section-content center-vh anim">
                 <div class="images text-center">
-                  <div class="case-study-intro-image"><img class="img" src="/img/items/acme-thumb.jpg" alt="Two children looking through a cardboard tube while building a blanket fort"></div>
+                  <div class="case-study-intro-image"><img class="img" src="/img/items/Acme-thumb.jpg" alt="Two children looking through a cardboard tube while building a blanket fort"></div>
                 </div>
                 <script type="application/ld+json">
                 {
@@ -99,7 +99,7 @@
                   "mainEntityOfPage": "https://skipperchongwarson.com/acme/",
                   "headline": "Acme: the problem happened before the price",
                   "description": "Ten customer interviews challenged an already-set affordability hypothesis and reframed a Fortune 500 consumer-financial-services company's retail-card CX strategy around the uncertainty customers encountered earlier.",
-                  "image": "https://skipperchongwarson.com/img/items/acme-og.jpg",
+                  "image": "https://skipperchongwarson.com/img/items/Acme-og.jpg",
                   "datePublished": "2026-10-03",
                   "dateModified": "2026-10-03",
                   "inLanguage": "en-US",
@@ -138,7 +138,7 @@
                       <figure class="slide-item swiper-slide">
                         <div class="item-wrapper">
                           <div class="illustr">
-                            <img class="img" src="/img/items/acme-ask.png" alt="Fjord engagement brief describing a future customer-experience vision, concepts, business cases, and roadmap">
+                            <img class="img" src="/img/items/Acme.posters.jpeg" alt="Fjord engagement brief describing a future customer-experience vision, concepts, business cases, and roadmap">
                           </div>
                           <figcaption class="legend case-study-gallery__caption">The brief covered the broader experience: recommendations, future-state concepts, business cases, and a three-year roadmap.</figcaption>
                         </div>
@@ -147,7 +147,7 @@
                       <figure class="slide-item swiper-slide">
                         <div class="item-wrapper">
                           <div class="illustr">
-                            <img class="img" src="/img/items/acme-customer-focus-touchpoints-cards.jpg" alt="Customer-focus slide showing eight touchpoints and three retail card types">
+                            <img class="img" src="/img/items/Acme-customer-focus-touchpoints-cards.jpg" alt="Customer-focus slide showing eight touchpoints and three retail card types">
                           </div>
                           <figcaption class="legend case-study-gallery__caption">We looked across eight touchpoints and three card types for shared customer moments and pain points.</figcaption>
                         </div>
@@ -182,7 +182,7 @@
                 </div>
 
                 <figure class="case-study-figure">
-                  <img src="/img/items/acme-cx-territories-redacted.png" alt="CX Territories view mapping customer moments, emotional states, and pain points across Engage, Apply, Use, and Service">
+                  <img src="/img/items/Acme-CX-redacted.png" alt="CX Territories view mapping customer moments, emotional states, and pain points across Engage, Apply, Use, and Service">
                   <figcaption>CX Territories organized moments, emotions, and pain points across Engage, Apply, Use, and Service.</figcaption>
                 </figure>
               </div>
@@ -212,7 +212,7 @@
                         <figure class="slide-item swiper-slide">
                           <div class="item-wrapper">
                             <div class="illustr">
-                              <img class="img" src="/img/items/acme-moments-painpoints-opportunities.jpeg" alt="Workshop exercise framework moving from customer moments to pain points, opportunities, and share out">
+                              <img class="img" src="/img/items/Acme.moments-painpoints-opportunities.jpeg" alt="Workshop exercise framework moving from customer moments to pain points, opportunities, and share out">
                             </div>
                             <figcaption class="legend case-study-gallery__caption">The workshop moved from customer moments to pain points, opportunities, and evidence-backed recommendations.</figcaption>
                           </div>
@@ -221,7 +221,7 @@
                         <figure class="slide-item swiper-slide">
                           <div class="item-wrapper">
                             <div class="illustr">
-                              <img class="img" src="/img/items/acme-posters.jpeg" alt="Poster framework for capturing customer moments, pain points, and opportunities across eight journey territories">
+                              <img class="img" src="/img/items/Acme.posters.jpeg" alt="Poster framework for capturing customer moments, pain points, and opportunities across eight journey territories">
                             </div>
                             <figcaption class="legend case-study-gallery__caption">Eight territory posters helped the team validate customer moments and pain points before defining opportunities.</figcaption>
                           </div>
@@ -246,7 +246,7 @@
         <div class="cover-container">
           <div class="row gx-0">
             <div class="col-auto col-lg-8 bg-part"></div>
-            <div class="col-12 col-lg-4 bg-part bg-img" data-image-src="/img/items/acme-project.jpg"></div>
+            <div class="col-12 col-lg-4 bg-part bg-img" data-image-src="/img/items/Acme-project.jpg"></div>
           </div>
         </div>
       </div>
