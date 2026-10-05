@@ -577,7 +577,7 @@
 				    <li>Fractional work keeps me closer to the team for a defined period, carrying what we learn into the decisions and changes that follow. More freeform than the others.</li>
 				  </ul>
 
-				  <p class="anim-2">I came into this through UX design, then service design, and that 100% shapes what I look at. Sometimes what needs to change is an interface or a flow. Or sometimes it needs an ecosystem or stakeholder map to see the zoomed out view. But sometimes it's the customer definition, the workflow, or how the team decides.</p>
+				  <p class="anim-2">I came into this through UX design, then service design, and that 100% shapes how I operate. Sometimes what needs to change is an interface or a flow. Or sometimes an ecosystem or stakeholder map is needed to zoom out and inventory. But sometimes it's the customer definition, the workflow, or getting into the logic of how the team decides.</p>
 
 				  <p class="anim-2">The new crop of artificial intelligence (AI) tools helps boost my work across larger evidence sets and speed up synthesis, but direct customer evidence and human judgment stay at the center.</p>
                 </div>
