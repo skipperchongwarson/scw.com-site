@@ -129,6 +129,7 @@
                   <p class="anim-2">Acme claimed to know its customers well: databases of survey results, years of focus-group findings, detailed marketing personas, journey documentation, and an active customer-success team.</p>
                   <p class="anim-2">Its belief was straightforward: affordability was the problem. The next feature was all but set—extend financing from 12 months to 24 or 36 months and lower the monthly payment.</p>
                   <p class="anim-2">Our scope covered eight touchpoints and three card types across the journey. We mapped customer moments, pain points, and opportunities across the system, not one channel in isolation.</p>
+                  <p class="anim-2">Before the customer interviews, we used two stakeholder workshops and interviews across the business to understand the existing experience, active initiatives, and where teams already saw friction. That gave us a system to test rather than treating the customer journey as a blank sheet.</p>
                   <p class="anim-2">But Acme was not really hunting for insight. It was looking for confirmation—a box to check before moving ahead. <strong>Data-rich did not automatically mean insight-rich:</strong> the existing research had not exposed where uncertainty entered the journey or why some customers stopped.</p>
                 </div>
 
@@ -204,6 +205,9 @@
                   <p class="anim-2">The interviews changed the order of the problem. We reframed the journey around uncertainty before and during application and approval, rather than treating monthly payment size as the first obstacle.</p>
                   <p class="anim-2">Valerie made the recommendations concrete: more due-date flexibility, clearer approval timing and next steps, and a more self-directed experience that reduced the need to explain a sensitive financial situation in person.</p>
                   <p class="anim-2">Across the ten conversations, the findings informed recommendations to simplify application, clarify expectations, make next steps easier to understand, and better accommodate payment-date needs.</p>
+                  <p class="anim-2">The interviews were one input into a larger service-design effort. We combined what cardholders told us with stakeholder research and the existing journey, then used the service blueprint and CX Territories to connect customer moments, emotional states, pain points, and touchpoints across Engage, Apply, Use, and Service.</p>
+                  <p class="anim-2">Co-creation was deliberate. In workshops, teams could validate, edit, or add customer moments and pain points before defining opportunities against what remained. The goal was to move from a collection of observations to a shared view of what should change.</p>
+                  <p class="anim-2">From those opportunity areas, the team developed future-state concepts spanning digital and physical interactions and connected them to business cases and the three-year roadmap. The final materials also included a short film explaining the customer-centered approach, co-creation process, and future-state vision for internal audiences.</p>
                   <p class="anim-2">As the senior service designer, I led the service blueprint and contributed to stakeholder interviews, synthesis, CX Territories, recommendations, and business-case development within the five-person Fjord team.</p>
 
                   <div id="acme-solution-gallery" class="case-study-gallery slider-wrapper carousel-swiper-beta" aria-label="Consumer-financial-services synthesis and workshop gallery">
@@ -259,7 +263,7 @@
                   <h2 class="display-4 display-title mb-4 anim-1">A different problem, with a ~$2M modeled opportunity</h2>
                   <p class="anim-2">Using Acme’s business-case assumptions, reducing approval-stage abandonment was modeled as a potential 10% increase in service signups.</p>
                   <p class="anim-2">For the relevant customer segment, that represented approximately <strong>$2M in projected annual retained revenue</strong>.</p>
-                  <p class="anim-2">We did not track implementation or realized revenue. The supported outcome is the strategic reframe, the CX recommendations, and the modeled opportunity—not a claim that the engagement generated $2M.</p>
+                  <p class="anim-2">Our engagement took the work through recommendations, future-state concepts, business-case development, and roadmap planning. We did not track implementation or realized revenue. The supported outcome is the strategic reframe, the CX recommendations, and the modeled opportunity—not a claim that the engagement generated $2M.</p>
                 </div>
               </div>
             </div>
@@ -278,7 +282,7 @@
             <div class="col-12 col-lg-6">
               <div class="title-desc">
                 <div class="anim-2">
-                  <h2 class="display-4 display-title">The senior-design work was changing the frame</h2>
+                  <h2 class="display-4 display-title">The work changed which problem came first</h2>
                   <p class="anim-2">Acme already had research, personas, a settled hypothesis, and a solution taking shape. The value was connecting customer evidence, journey context, stakeholder knowledge, and business modeling well enough to challenge the order of priorities.</p>
                   <p class="anim-2">For me, that is senior service design: make the system visible, test what the organization believes it knows, and turn messy customer signals into decisions a team can act on.</p>
                 </div>
