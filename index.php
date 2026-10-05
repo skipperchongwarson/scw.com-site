@@ -569,9 +569,10 @@
 				  <p class="anim-2">Three ways in:</p>
 
 				  <ul class="content-list anim-2">
-				    <li>A <a href="https://howthisworks.co/work/bullseye-customer-sprint" title="Bullseye Customer Sprint — five live customer interviews to clarify product direction">Bullseye Customer Sprint</a> brings the people making the decision into five live customer interviews over about four weeks. The team leaves with a documented customer direction, the evidence behind it, and a short list of what to do next.</li>
-
 				    <li>A <a href="https://howthisworks.co/work/listening-cycle" title="Listening Cycle — ongoing customer interviews to keep product decisions grounded">Listening Cycle</a> keeps the evidence train rolling for six weeks while the team builds, with 1-2 interviews and an immediate debrief each week to see whether the working hypothesis still holds.</li>
+
+					<li>A <a href="https://howthisworks.co/work/bullseye-customer-sprint" title="Bullseye Customer Sprint — five live customer interviews to clarify product direction">Bullseye Customer Sprint</a> brings the people making the decision into five live customer interviews over about four weeks. The team leaves with a documented customer direction, the evidence behind it, and a short list of what to do next.</li>
+
 
 				    <li>Fractional work keeps me closer to the team for a defined period, carrying what we learn into the decisions and changes that follow. More freeform than the others.</li>
 				  </ul>
