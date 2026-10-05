@@ -564,13 +564,13 @@
 				  <h2 class="display-4 display-title mb-4 anim-1">When I'm most useful</h2>
 				  <p class="anim-2">I’m most useful when a team has plenty of customer information but no clean way to decide what it means for the next product, positioning, or service decision.</p>
 
-				  <p class="anim-2">That might mean several plausible versions of the customer, conflicting interpretations of the same evidence, or a product team moving quickly without knowing whether the customer hypothesis still holds.</p>
+				  <p class="anim-2">That might mean working through several plausible versions of the customer, conflicting interpretations of the same evidence, or a product team moving quickly without knowing whether the customer hypothesis still holds.</p>
 
-				  <p class="anim-2">The work can take the shape of a <a href="https://howthisworks.co/work/listening-cycle" title="Listening Cycle — ongoing customer interviews to keep product decisions grounded">Listening Cycle</a>, a fuller featured <a href="https://howthisworks.co/work/bullseye-customer-sprint" title="Bullseye Customer Sprint — five live customer interviews to clarify product direction">Bullseye Customer Sprint</a>, or a fractional engagement. The format changes; the job is the same: get closer to the evidence, make sense of it together, and turn it into a decision the team can act on.</p>
+				  <p class="anim-2">The work can take the shape of a <a href="https://howthisworks.co/work/listening-cycle" title="Listening Cycle — ongoing customer interviews to keep product decisions grounded">Listening Cycle</a>, a fuller featured <a href="https://howthisworks.co/work/bullseye-customer-sprint" title="Bullseye Customer Sprint — five live customer interviews to clarify product direction">Bullseye Customer Sprint</a>, or a fractional engagement. The format and mode change but the job is the same: get closer to the evidence, make sense of it together, and turn it into a decision the team can act on.</p>
 
-				  <p class="anim-2">I came into this through UX and service design, and that still shapes how I work. Sometimes the answer is an interface or flow. Sometimes it’s a customer definition, workflow, service model, or a better way for the team to make the call.</p>
+				  <p class="anim-2">I came into this through UX and service design, and that 100% shapes how I operate. I lean into the messy, complicated bits where several actors, channels, or teams are involved and the right response isn’t obvious. That can mean research and framing, journeys or service models, facilitated decisions, concepts and prototypes, and enough implementation thinking that the work doesn’t stop at the feel good vibes of a workshop.</p>
 
-				  <p class="anim-2">Right now, AI helps me work across larger evidence sets and move faster through synthesis, but direct customer evidence and human judgment stay at the center.</p>
+				  <p class="anim-2">AI helps me work across larger evidence sets and move faster through synthesis, but direct customer evidence and human judgment stay at the center.</p>
                 </div>
 
               </div>
