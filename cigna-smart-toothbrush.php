@@ -100,7 +100,7 @@
                         "@id": "https://skipperchongwarson.com/cigna-smart-toothbrush/"
                       },
                       "headline": "Cigna: preventive dental coaching between visits",
-                      "description": "At SoftServe, I led an eight-week Cigna Dental proof of concept, combining research, workshop facilitation, and product direction to test whether smart-toothbrush data could support at-home coaching and rewards, and whether a next phase made sense.",
+                      "description": "At SoftServe, I led a 10-person team through an eight-week Cigna Dental proof of concept, combining research, workshop facilitation, and product direction to test whether smart-toothbrush data could support at-home coaching and rewards, and whether a next phase made sense.",
                       "image": "https://skipperchongwarson.com/img/items/cigna-app-title.jpg",
                       "url": "https://skipperchongwarson.com/cigna-smart-toothbrush/",
                       "datePublished": "2025-04-10",
@@ -134,11 +134,11 @@
                       ],
                       "keywords": [
                         "product strategy",
+                        "design leadership",
                         "experience design",
-                        "customer research",
                         "workshop facilitation",
                         "proof of concept",
-                        "connected devices"
+                        "healthcare"
                       ]
                     },
                     {

@@ -172,11 +172,11 @@
             "about": [
               {
                 "@type": "Thing",
-                "name": "Customer research"
+                "name": "Product design"
               },
               {
                 "@type": "Thing",
-                "name": "Product design"
+                "name": "Customer research"
               },
               {
                 "@type": "Thing",

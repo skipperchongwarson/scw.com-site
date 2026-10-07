@@ -130,9 +130,9 @@
                       "keywords": [
                         "design leadership",
                         "organizational design",
+                        "design operations",
                         "practice building",
-                        "distributed teams",
-                        "hiring and staffing"
+                        "distributed teams"
                       ]
                     },
                     {

@@ -133,7 +133,7 @@
 				        "Product and service design leader",
 				        "Principal advisor, founder"
 				      ],
-				      "description": "Product and service design leader with 15+ years across startups and product organizations, working across product strategy, service design, customer research, and facilitation to help teams turn messy customer evidence into product decisions they can act on.",
+				      "description": "Product and service design leader with 15+ years across startups, product organizations, and Fortune 500 work through consultancies, spanning product strategy, service design, customer research, facilitation, and implementation. The throughline is helping teams turn messy or contested customer evidence into clearer customer, product, positioning, and service decisions they can make together.",
 				      "workLocation": {
 				        "@type": "Place",
 				        "name": "San Francisco Bay Area, California, United States"
@@ -149,7 +149,8 @@
 				        "Product design",
 				        "Facilitation",
 				        "Experience strategy",
-				        "Design leadership"
+				        "Design leadership",
+				        "Cross-functional alignment"
 				      ],
 				      "sameAs": [
 				        "https://www.linkedin.com/in/skipperchongwarson/",
@@ -163,7 +164,7 @@
 				      "@id": "https://howthisworks.co/#organization",
 				      "name": "How This Works co",
 				      "url": "https://howthisworks.co/",
-				      "description": "Skipper Chong Warson's advisory practice, which brings the team making a consequential product or go-to-market decision closer to direct customer evidence so they can hear the same customers, compare interpretations, and make the next call together.",
+				      "description": "Skipper Chong Warson's advisory practice for teams facing consequential product and go-to-market decisions. The people making the call hear the same customers directly, compare interpretations, and make the next decision together.",
 				      "founder": {
 				        "@id": "https://skipperchongwarson.com/#person"
 				      },
@@ -176,7 +177,7 @@
 				      "@id": "https://howthisworks.co/work/listening-cycle#service",
 				      "name": "Listening Cycle",
 				      "url": "https://howthisworks.co/work/listening-cycle",
-				      "description": "Ongoing customer interviews that keep product decisions grounded, so the team stays close to the evidence and can turn it into decisions it can act on.",
+				      "description": "Keeps product decisions grounded while the team moves quickly, using ongoing customer interviews to check whether the customer hypothesis still holds.",
 				      "provider": {
 				        "@id": "https://howthisworks.co/#organization"
 				      }
@@ -186,7 +187,7 @@
 				      "@id": "https://howthisworks.co/work/bullseye-customer-sprint#service",
 				      "name": "Bullseye Customer Sprint",
 				      "url": "https://howthisworks.co/work/bullseye-customer-sprint",
-				      "description": "A fuller-featured engagement built around live customer interviews to clarify product direction, so the team can make sense of the evidence together and turn it into a decision it can act on.",
+				      "description": "A fuller-featured engagement for clarifying product direction: the team hears live customer interviews, makes sense of the evidence together, and turns it into a decision it can act on.",
 				      "provider": {
 				        "@id": "https://howthisworks.co/#organization"
 				      }

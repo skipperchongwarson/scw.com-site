@@ -131,7 +131,7 @@
                         "service design",
                         "product design",
                         "design leadership",
-                        "stakeholder research",
+                        "user research",
                         "paper prototyping",
                         "commercial banking"
                       ]

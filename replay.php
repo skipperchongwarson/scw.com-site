@@ -209,7 +209,7 @@
             "@id": "https://howthisworks.co/work/bullseye-customer-sprint#service",
             "name": "Bullseye Customer Sprint",
             "url": "https://howthisworks.co/work/bullseye-customer-sprint",
-            "description": "Structured customer interviews that narrow the customer hypothesis cycle by cycle, with the team joining the research directly so they can decide what to keep or change.",
+            "description": "Helps a team decide which customer to focus on, recruit for, and position toward, narrowing the customer hypothesis through structured interview cycles the team joins directly.",
             "provider": {
               "@id": "https://howthisworks.co/#organization"
             }

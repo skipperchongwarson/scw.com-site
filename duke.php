@@ -149,6 +149,10 @@
               },
               {
                 "@type": "Thing",
+                "name": "Decision support"
+              },
+              {
+                "@type": "Thing",
                 "name": "Energy technology"
               }
             ],
