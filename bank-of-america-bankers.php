@@ -90,19 +90,68 @@
                 <script type="application/ld+json">
                 {
                   "@context": "https://schema.org",
-                  "@type": "Article",
-                  "@id": "https://skipperchongwarson.com/bank-of-america-bankers/#article",
-                  "mainEntityOfPage": "https://skipperchongwarson.com/bank-of-america-bankers/",
-                  "headline": "Bank of America: one client across more than 10 business lines",
-                  "description": "At Fjord, I led research and product design that brought more than 10 Bank of America business lines into one shared client model for a new banker experience.",
-                  "image": "https://skipperchongwarson.com/img/items/screenshots/bank-of-america-bankers-og.jpg",
-                  "datePublished": "2024-04-02",
-                  "dateModified": "2026-09-07",
-                  "inLanguage": "en-US",
-                  "articleSection": "Case study",
-                  "author": {"@type": "Person", "name": "Skipper Chong Warson", "url": "https://skipperchongwarson.com/"},
-                  "publisher": {"@type": "Person", "name": "Skipper Chong Warson", "url": "https://skipperchongwarson.com/"},
-                  "keywords": ["product design", "service design", "financial services", "enterprise design", "user research"]
+                  "@graph": [
+                    {
+                      "@type": "Article",
+                      "@id": "https://skipperchongwarson.com/bank-of-america-bankers/#article",
+                      "mainEntityOfPage": {
+                        "@type": "WebPage",
+                        "@id": "https://skipperchongwarson.com/bank-of-america-bankers/"
+                      },
+                      "headline": "Bank of America: one client across more than 10 business lines",
+                      "description": "At Fjord, I led research, service design, and product design that brought more than 10 Bank of America business lines into one shared client model for a new banker experience.",
+                      "image": "https://skipperchongwarson.com/img/items/screenshots/bank-of-america-bankers-og.jpg",
+                      "url": "https://skipperchongwarson.com/bank-of-america-bankers/",
+                      "datePublished": "2024-04-02",
+                      "dateModified": "2026-09-07",
+                      "inLanguage": "en-US",
+                      "articleSection": "Case study",
+                      "genre": "Case study",
+                      "author": {
+                        "@id": "https://skipperchongwarson.com/#person"
+                      },
+                      "publisher": {
+                        "@id": "https://skipperchongwarson.com/#person"
+                      },
+                      "about": [
+                        {
+                          "@type": "Thing",
+                          "name": "Service design"
+                        },
+                        {
+                          "@type": "Thing",
+                          "name": "Product design"
+                        },
+                        {
+                          "@type": "Thing",
+                          "name": "Commercial banking"
+                        }
+                      ],
+                      "keywords": [
+                        "service design",
+                        "product design",
+                        "design leadership",
+                        "stakeholder research",
+                        "paper prototyping",
+                        "commercial banking"
+                      ]
+                    },
+                    {
+                      "@type": "Person",
+                      "@id": "https://skipperchongwarson.com/#person",
+                      "name": "Skipper Chong Warson",
+                      "url": "https://skipperchongwarson.com/",
+                      "worksFor": {
+                        "@id": "https://howthisworks.co/#organization"
+                      },
+                      "sameAs": [
+                        "https://www.linkedin.com/in/skipperchongwarson/",
+                        "https://skipperchongwarson.medium.com/",
+                        "https://speakerdeck.com/skipperchong",
+                        "https://www.instagram.com/skipperchong/"
+                      ]
+                    }
+                  ]
                 }
                 </script>
               </div>

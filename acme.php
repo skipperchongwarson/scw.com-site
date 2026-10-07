@@ -94,19 +94,72 @@
                 <script type="application/ld+json">
                 {
                   "@context": "https://schema.org",
-                  "@type": "Article",
-                  "@id": "https://skipperchongwarson.com/acme/#article",
-                  "mainEntityOfPage": "https://skipperchongwarson.com/acme/",
-                  "headline": "Acme: the problem happened before the price",
-                  "description": "10 customer interviews challenged an already-set affordability hypothesis and reframed a Fortune 500 consumer-financial-services company's retail-card CX strategy around the uncertainty customers encountered earlier.",
-                  "image": "https://skipperchongwarson.com/img/items/Acme-og.jpg",
-                  "datePublished": "2025-09-01",
-                  "dateModified": "2026-10-01",
-                  "inLanguage": "en-US",
-                  "articleSection": "Case study",
-                  "author": {"@type": "Person", "name": "Skipper Chong Warson", "url": "https://skipperchongwarson.com/"},
-                  "publisher": {"@type": "Person", "name": "Skipper Chong Warson", "url": "https://skipperchongwarson.com/"},
-                  "keywords": ["service design", "customer research", "consumer finance", "retail cards", "customer experience", "journey mapping", "business case"]
+                  "@graph": [
+                    {
+                      "@type": "Article",
+                      "@id": "https://skipperchongwarson.com/acme/#article",
+                      "mainEntityOfPage": {
+                        "@type": "WebPage",
+                        "@id": "https://skipperchongwarson.com/acme/"
+                      },
+                      "headline": "Acme: the problem happened before the price",
+                      "description": "10 customer interviews challenged an already-set affordability hypothesis and reframed a Fortune 500 consumer-financial-services company's retail-card CX strategy around the uncertainty customers encountered earlier.",
+                      "image": "https://skipperchongwarson.com/img/items/Acme-og.jpg",
+                      "url": "https://skipperchongwarson.com/acme/",
+                      "datePublished": "2025-09-01",
+                      "dateModified": "2026-10-01",
+                      "inLanguage": "en-US",
+                      "articleSection": "Case study",
+                      "genre": "Case study",
+                      "author": {
+                        "@id": "https://skipperchongwarson.com/#person"
+                      },
+                      "publisher": {
+                        "@id": "https://skipperchongwarson.com/#person"
+                      },
+                      "about": [
+                        {
+                          "@type": "Thing",
+                          "name": "Service design"
+                        },
+                        {
+                          "@type": "Thing",
+                          "name": "Customer research"
+                        },
+                        {
+                          "@type": "Thing",
+                          "name": "Customer experience strategy"
+                        },
+                        {
+                          "@type": "Thing",
+                          "name": "Consumer financial services"
+                        }
+                      ],
+                      "keywords": [
+                        "service design",
+                        "customer research",
+                        "service blueprint",
+                        "journey mapping",
+                        "workshop facilitation",
+                        "business case"
+                      ]
+                    },
+                    {
+                      "@type": "Person",
+                      "@id": "https://skipperchongwarson.com/#person",
+                      "name": "Skipper Chong Warson",
+                      "url": "https://skipperchongwarson.com/",
+                      "worksFor": {
+                        "@id": "https://howthisworks.co/#organization"
+                      },
+                      "sameAs": [
+                        "https://www.linkedin.com/in/skipperchongwarson/",
+                        "https://skipperchongwarson.medium.com/",
+                        "https://speakerdeck.com/skipperchong",
+                        "https://www.instagram.com/skipperchong/"
+                      ]
+                    }
+                  ]
                 }
                 </script>
               </div>

@@ -90,19 +90,67 @@
                 <script type="application/ld+json">
                 {
                   "@context": "https://schema.org",
-                  "@type": "Article",
-                  "@id": "https://skipperchongwarson.com/softserve/#article",
-                  "mainEntityOfPage": "https://skipperchongwarson.com/softserve/",
-                  "headline": "SoftServe: building and running an Americas design team",
-                  "description": "I built and ran SoftServe’s 12-person Americas design team across five countries. Over my final two years, it staffed 15 projects and generated $2.1M in billable work.",
-                  "image": "https://skipperchongwarson.com/img/items/screenshots/softserve-og.jpg",
-                  "datePublished": "2025-09-01",
-                  "dateModified": "2026-09-07",
-                  "inLanguage": "en-US",
-                  "articleSection": "Case study",
-                  "author": {"@type": "Person", "name": "Skipper Chong Warson", "url": "https://skipperchongwarson.com/"},
-                  "publisher": {"@type": "Person", "name": "Skipper Chong Warson", "url": "https://skipperchongwarson.com/"},
-                  "keywords": ["design leadership", "organizational design", "design operations", "distributed teams", "management"]
+                  "@graph": [
+                    {
+                      "@type": "Article",
+                      "@id": "https://skipperchongwarson.com/softserve/#article",
+                      "mainEntityOfPage": {
+                        "@type": "WebPage",
+                        "@id": "https://skipperchongwarson.com/softserve/"
+                      },
+                      "headline": "SoftServe: building and running an Americas design team",
+                      "description": "I built and ran SoftServe’s 12-person Americas design team across five countries. Over my final two years, it staffed 15 projects and generated $2.1M in billable work.",
+                      "image": "https://skipperchongwarson.com/img/items/screenshots/softserve-og.jpg",
+                      "url": "https://skipperchongwarson.com/softserve/",
+                      "datePublished": "2025-09-01",
+                      "dateModified": "2026-09-07",
+                      "inLanguage": "en-US",
+                      "articleSection": "Case study",
+                      "genre": "Case study",
+                      "author": {
+                        "@id": "https://skipperchongwarson.com/#person"
+                      },
+                      "publisher": {
+                        "@id": "https://skipperchongwarson.com/#person"
+                      },
+                      "about": [
+                        {
+                          "@type": "Thing",
+                          "name": "Design leadership"
+                        },
+                        {
+                          "@type": "Thing",
+                          "name": "Organizational design"
+                        },
+                        {
+                          "@type": "Thing",
+                          "name": "Distributed teams"
+                        }
+                      ],
+                      "keywords": [
+                        "design leadership",
+                        "organizational design",
+                        "practice building",
+                        "distributed teams",
+                        "hiring and staffing"
+                      ]
+                    },
+                    {
+                      "@type": "Person",
+                      "@id": "https://skipperchongwarson.com/#person",
+                      "name": "Skipper Chong Warson",
+                      "url": "https://skipperchongwarson.com/",
+                      "worksFor": {
+                        "@id": "https://howthisworks.co/#organization"
+                      },
+                      "sameAs": [
+                        "https://www.linkedin.com/in/skipperchongwarson/",
+                        "https://skipperchongwarson.medium.com/",
+                        "https://speakerdeck.com/skipperchong",
+                        "https://www.instagram.com/skipperchong/"
+                      ]
+                    }
+                  ]
                 }
                 </script>
               </div>

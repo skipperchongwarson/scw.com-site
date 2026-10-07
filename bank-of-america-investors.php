@@ -91,19 +91,68 @@
                 <script type="application/ld+json">
                 {
                   "@context": "https://schema.org",
-                  "@type": "Article",
-                  "@id": "https://skipperchongwarson.com/bank-of-america-investors/#article",
-                  "mainEntityOfPage": "https://skipperchongwarson.com/bank-of-america-investors/",
-                  "headline": "Bank of America: three research products, one iOS experience",
-                  "description": "I worked hands-on from research and synthesis through interaction design, UI, prototyping, and a design system for Bank of America’s consolidated research app.",
-                  "image": "https://skipperchongwarson.com/img/items/screenshots/bank-of-america-investors-og.jpg",
-                  "datePublished": "2025-01-02",
-                  "dateModified": "2026-09-07",
-                  "inLanguage": "en-US",
-                  "articleSection": "Case study",
-                  "author": {"@type": "Person", "name": "Skipper Chong Warson", "url": "https://skipperchongwarson.com/"},
-                  "publisher": {"@type": "Person", "name": "Skipper Chong Warson", "url": "https://skipperchongwarson.com/"},
-                  "keywords": ["product design", "interaction design", "financial services", "enterprise design", "user research", "design systems"]
+                  "@graph": [
+                    {
+                      "@type": "Article",
+                      "@id": "https://skipperchongwarson.com/bank-of-america-investors/#article",
+                      "mainEntityOfPage": {
+                        "@type": "WebPage",
+                        "@id": "https://skipperchongwarson.com/bank-of-america-investors/"
+                      },
+                      "headline": "Bank of America: three research products, one iOS experience",
+                      "description": "I worked hands-on from research and synthesis through interaction design, UI, prototyping, and a design system for Bank of America’s consolidated research app.",
+                      "image": "https://skipperchongwarson.com/img/items/screenshots/bank-of-america-investors-og.jpg",
+                      "url": "https://skipperchongwarson.com/bank-of-america-investors/",
+                      "datePublished": "2025-01-02",
+                      "dateModified": "2026-09-07",
+                      "inLanguage": "en-US",
+                      "articleSection": "Case study",
+                      "genre": "Case study",
+                      "author": {
+                        "@id": "https://skipperchongwarson.com/#person"
+                      },
+                      "publisher": {
+                        "@id": "https://skipperchongwarson.com/#person"
+                      },
+                      "about": [
+                        {
+                          "@type": "Thing",
+                          "name": "Product design"
+                        },
+                        {
+                          "@type": "Thing",
+                          "name": "Customer research"
+                        },
+                        {
+                          "@type": "Thing",
+                          "name": "Investment research"
+                        }
+                      ],
+                      "keywords": [
+                        "product design",
+                        "customer research",
+                        "interaction design",
+                        "prototyping",
+                        "design systems",
+                        "financial services"
+                      ]
+                    },
+                    {
+                      "@type": "Person",
+                      "@id": "https://skipperchongwarson.com/#person",
+                      "name": "Skipper Chong Warson",
+                      "url": "https://skipperchongwarson.com/",
+                      "worksFor": {
+                        "@id": "https://howthisworks.co/#organization"
+                      },
+                      "sameAs": [
+                        "https://www.linkedin.com/in/skipperchongwarson/",
+                        "https://skipperchongwarson.medium.com/",
+                        "https://speakerdeck.com/skipperchong",
+                        "https://www.instagram.com/skipperchong/"
+                      ]
+                    }
+                  ]
                 }
                 </script>
               </div>

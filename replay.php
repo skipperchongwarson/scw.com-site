@@ -147,24 +147,35 @@
             "about": [
               {
                 "@type": "Thing",
+                "name": "Customer discovery"
+              },
+              {
+                "@type": "Thing",
+                "name": "Product strategy"
+              },
+              {
+                "@type": "Thing",
                 "name": "Customer definition"
               },
               {
                 "@type": "Thing",
-                "name": "Developer tools"
+                "name": "Product positioning"
               },
               {
                 "@type": "Thing",
-                "name": "Product positioning"
+                "name": "Developer tools"
               }
             ],
             "keywords": [
               "customer discovery",
               "customer interviews",
-              "developer tools",
-              "customer definition",
-              "product positioning"
-            ]
+              "product strategy",
+              "product positioning",
+              "developer tools"
+            ],
+            "mentions": {
+              "@id": "https://howthisworks.co/work/bullseye-customer-sprint#service"
+            }
           },
           {
             "@type": "Person",
@@ -178,8 +189,7 @@
               "https://www.linkedin.com/in/skipperchongwarson/",
               "https://skipperchongwarson.medium.com/",
               "https://speakerdeck.com/skipperchong",
-              "https://www.instagram.com/skipperchong/",
-              "https://www.youtube.com/@HowThisWorksco"
+              "https://www.instagram.com/skipperchong/"
             ]
           },
           {
@@ -189,6 +199,19 @@
             "url": "https://howthisworks.co/",
             "founder": {
               "@id": "https://skipperchongwarson.com/#person"
+            },
+            "sameAs": [
+              "https://www.youtube.com/@HowThisWorksco"
+            ]
+          },
+          {
+            "@type": "Service",
+            "@id": "https://howthisworks.co/work/bullseye-customer-sprint#service",
+            "name": "Bullseye Customer Sprint",
+            "url": "https://howthisworks.co/work/bullseye-customer-sprint",
+            "description": "Structured customer interviews that narrow the customer hypothesis cycle by cycle, with the team joining the research directly so they can decide what to keep or change.",
+            "provider": {
+              "@id": "https://howthisworks.co/#organization"
             }
           }
         ]

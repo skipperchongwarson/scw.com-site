@@ -111,7 +111,7 @@
               "@id": "https://skipperchongwarson.com/duke/"
             },
             "headline": "Duke Energy: from four monitors to an ETO Control Center",
-            "description": "Duke Energy case study: I led product and design strategy from four lab monitors to portfolio visibility, reporting workflows, and the ETO Control Center.",
+            "description": "Over roughly 18 months at SoftServe, I led product and design strategy for Duke Energy's Emerging Technology Office, using research, facilitated workshops, and service design to move from four lab monitors to portfolio visibility, reporting workflows, and the ETO Control Center.",
             "image": {
               "@type": "ImageObject",
               "url": "https://skipperchongwarson.com/img/items/screenshots/duke-og.jpg",
@@ -133,11 +133,15 @@
             "about": [
               {
                 "@type": "Thing",
-                "name": "Leadership and product strategy"
+                "name": "Product strategy"
               },
               {
                 "@type": "Thing",
-                "name": "Enterprise product strategy"
+                "name": "Service design"
+              },
+              {
+                "@type": "Thing",
+                "name": "Design leadership"
               },
               {
                 "@type": "Thing",
@@ -145,19 +149,15 @@
               },
               {
                 "@type": "Thing",
-                "name": "Decision support"
-              },
-              {
-                "@type": "Thing",
                 "name": "Energy technology"
               }
             ],
             "keywords": [
-              "leadership",
               "product strategy",
-              "design strategy",
+              "service design",
+              "design leadership",
+              "facilitation",
               "portfolio visibility",
-              "decision support",
               "energy technology"
             ]
           },
@@ -173,8 +173,7 @@
               "https://www.linkedin.com/in/skipperchongwarson/",
               "https://skipperchongwarson.medium.com/",
               "https://speakerdeck.com/skipperchong",
-              "https://www.instagram.com/skipperchong/",
-              "https://www.youtube.com/@HowThisWorksco"
+              "https://www.instagram.com/skipperchong/"
             ]
           },
           {
@@ -184,7 +183,10 @@
             "url": "https://howthisworks.co/",
             "founder": {
               "@id": "https://skipperchongwarson.com/#person"
-            }
+            },
+            "sameAs": [
+              "https://www.youtube.com/@HowThisWorksco"
+            ]
           }
         ]
       }

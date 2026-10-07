@@ -91,19 +91,72 @@
                 <script type="application/ld+json">
                 {
                   "@context": "https://schema.org",
-                  "@type": "Article",
-                  "@id": "https://skipperchongwarson.com/cigna-smart-toothbrush/#article",
-                  "mainEntityOfPage": "https://skipperchongwarson.com/cigna-smart-toothbrush/",
-                  "headline": "Cigna: preventive dental coaching between visits",
-                  "description": "At SoftServe, I led an eight-week Cigna Dental proof of concept exploring how smart-toothbrush data could support at-home coaching, rewards, and a product direction.",
-                  "image": "https://skipperchongwarson.com/img/items/cigna-app-title.jpg",
-                  "datePublished": "2025-04-10",
-                  "dateModified": "2026-09-08",
-                  "inLanguage": "en-US",
-                  "articleSection": "Case study",
-                  "author": {"@type": "Person", "name": "Skipper Chong Warson", "url": "https://skipperchongwarson.com/"},
-                  "publisher": {"@type": "Person", "name": "Skipper Chong Warson", "url": "https://skipperchongwarson.com/"},
-                  "keywords": ["design leadership", "healthcare", "connected devices", "product strategy", "experience design", "proof of concept"]
+                  "@graph": [
+                    {
+                      "@type": "Article",
+                      "@id": "https://skipperchongwarson.com/cigna-smart-toothbrush/#article",
+                      "mainEntityOfPage": {
+                        "@type": "WebPage",
+                        "@id": "https://skipperchongwarson.com/cigna-smart-toothbrush/"
+                      },
+                      "headline": "Cigna: preventive dental coaching between visits",
+                      "description": "At SoftServe, I led an eight-week Cigna Dental proof of concept, combining research, workshop facilitation, and product direction to test whether smart-toothbrush data could support at-home coaching and rewards, and whether a next phase made sense.",
+                      "image": "https://skipperchongwarson.com/img/items/cigna-app-title.jpg",
+                      "url": "https://skipperchongwarson.com/cigna-smart-toothbrush/",
+                      "datePublished": "2025-04-10",
+                      "dateModified": "2026-09-08",
+                      "inLanguage": "en-US",
+                      "articleSection": "Case study",
+                      "genre": "Case study",
+                      "author": {
+                        "@id": "https://skipperchongwarson.com/#person"
+                      },
+                      "publisher": {
+                        "@id": "https://skipperchongwarson.com/#person"
+                      },
+                      "about": [
+                        {
+                          "@type": "Thing",
+                          "name": "Product strategy"
+                        },
+                        {
+                          "@type": "Thing",
+                          "name": "Experience design"
+                        },
+                        {
+                          "@type": "Thing",
+                          "name": "Connected devices"
+                        },
+                        {
+                          "@type": "Thing",
+                          "name": "Preventive dental care"
+                        }
+                      ],
+                      "keywords": [
+                        "product strategy",
+                        "experience design",
+                        "customer research",
+                        "workshop facilitation",
+                        "proof of concept",
+                        "connected devices"
+                      ]
+                    },
+                    {
+                      "@type": "Person",
+                      "@id": "https://skipperchongwarson.com/#person",
+                      "name": "Skipper Chong Warson",
+                      "url": "https://skipperchongwarson.com/",
+                      "worksFor": {
+                        "@id": "https://howthisworks.co/#organization"
+                      },
+                      "sameAs": [
+                        "https://www.linkedin.com/in/skipperchongwarson/",
+                        "https://skipperchongwarson.medium.com/",
+                        "https://speakerdeck.com/skipperchong",
+                        "https://www.instagram.com/skipperchong/"
+                      ]
+                    }
+                  ]
                 }
                 </script>
               </div>

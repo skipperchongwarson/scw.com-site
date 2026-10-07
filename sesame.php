@@ -172,26 +172,27 @@
             "about": [
               {
                 "@type": "Thing",
-                "name": "Product design"
-              },
-              {
-                "@type": "Thing",
-                "name": "Healthcare marketplace"
-              },
-              {
-                "@type": "Thing",
                 "name": "Customer research"
               },
               {
                 "@type": "Thing",
+                "name": "Product design"
+              },
+              {
+                "@type": "Thing",
                 "name": "Design systems"
+              },
+              {
+                "@type": "Thing",
+                "name": "Healthcare marketplace"
               }
             ],
             "keywords": [
-              "product design",
               "customer research",
-              "healthcare marketplace",
-              "design systems"
+              "product design",
+              "prototyping",
+              "design systems",
+              "healthcare marketplace"
             ]
           },
           {
@@ -206,8 +207,7 @@
               "https://www.linkedin.com/in/skipperchongwarson/",
               "https://skipperchongwarson.medium.com/",
               "https://speakerdeck.com/skipperchong",
-              "https://www.instagram.com/skipperchong/",
-              "https://www.youtube.com/@HowThisWorksco"
+              "https://www.instagram.com/skipperchong/"
             ]
           },
           {
@@ -217,7 +217,10 @@
             "url": "https://howthisworks.co/",
             "founder": {
               "@id": "https://skipperchongwarson.com/#person"
-            }
+            },
+            "sameAs": [
+              "https://www.youtube.com/@HowThisWorksco"
+            ]
           }
         ]
       }

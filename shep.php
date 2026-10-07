@@ -124,7 +124,7 @@
               "@id": "https://skipperchongwarson.com/shep/"
             },
             "headline": "Shep: an enterprise pivot, a pandemic, and an acquisition",
-            "description": "Shep turned off-channel consumer bookings into visible, guided trips for enterprise travel teams. I led the product and design rebuild before Flight Centre acquired the company.",
+            "description": "Shep turned off-channel consumer bookings into visible, guided trips for enterprise travel teams. As a fractional founding product and design leader, I led the product and design rebuild before Flight Centre acquired the company.",
             "image": {
               "@type": "ImageObject",
               "url": "https://skipperchongwarson.com/img/items/screenshots/shep-og.jpg",
@@ -146,11 +146,19 @@
             "about": [
               {
                 "@type": "Thing",
+                "name": "Product leadership"
+              },
+              {
+                "@type": "Thing",
                 "name": "Product strategy"
               },
               {
                 "@type": "Thing",
-                "name": "Travel technology"
+                "name": "Product design"
+              },
+              {
+                "@type": "Thing",
+                "name": "Enterprise travel"
               },
               {
                 "@type": "Thing",
@@ -158,11 +166,12 @@
               }
             ],
             "keywords": [
+              "fractional product leadership",
               "product strategy",
-              "travel technology",
-              "duty of care",
+              "product design",
               "browser extension",
-              "enterprise travel"
+              "enterprise travel",
+              "duty of care"
             ]
           },
           {
@@ -177,8 +186,7 @@
               "https://www.linkedin.com/in/skipperchongwarson/",
               "https://skipperchongwarson.medium.com/",
               "https://speakerdeck.com/skipperchong",
-              "https://www.instagram.com/skipperchong/",
-              "https://www.youtube.com/@HowThisWorksco"
+              "https://www.instagram.com/skipperchong/"
             ]
           },
           {
@@ -188,7 +196,10 @@
             "url": "https://howthisworks.co/",
             "founder": {
               "@id": "https://skipperchongwarson.com/#person"
-            }
+            },
+            "sameAs": [
+              "https://www.youtube.com/@HowThisWorksco"
+            ]
           }
         ]
       }
