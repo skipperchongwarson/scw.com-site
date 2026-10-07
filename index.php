@@ -4,9 +4,9 @@
 <head>
   <meta charset="utf-8">
   <!-- Page title here -->
-  <title>Skipper Chong Warson | Product strategy, service design & design leadership</title>
+  <title>Product strategy & service design | Skipper Chong Warson</title>
 
-  <meta name="description" content="Product and service design leader working across product strategy, service design, customer discovery, design leadership, and facilitation to turn evidence into clearer decisions.">
+  <meta name="description" content="Product strategy, service design, and customer evidence to help teams make clearer decisions about what to build, who it’s for, and how it should work.">
   <meta name="author" content="Skipper Chong Warson">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 
@@ -15,19 +15,19 @@
   <meta property="og:url" content="https://skipperchongwarson.com/">
   <meta property="og:type" content="profile">
   <meta property="og:site_name" content="Skipper Chong Warson">
-  <meta property="og:title" content="Skipper Chong Warson | Product strategy, service design & design leadership">
-  <meta property="og:description" content="Product and service design leadership across product strategy, service design, customer discovery, and the decisions that follow.">
-  <meta property="og:image" content="https://skipperchongwarson.com/img/items/home-og.jpg">
+  <meta property="og:title" content="Product strategy & service design | Skipper Chong Warson">
+  <meta property="og:description" content="Product strategy, service design, and customer evidence to help teams make clearer decisions about what to build, who it’s for, and how it should work.">
+  <meta property="og:image" content="https://skipperchongwarson.com/img/items/screenshots/home-og.jpg">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="Skipper Chong Warson — product strategy, service design & design leadership">
+  <meta property="og:image:alt" content="Skipper Chong Warson — product strategy & service design">
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@skippercwarson">
   <meta name="twitter:creator" content="@skippercwarson">
-  <meta name="twitter:title" content="Skipper Chong Warson | Product strategy, service design & design leadership">
-  <meta name="twitter:description" content="Product and service design leadership across product strategy, service design, customer discovery, and the decisions that follow.">
-  <meta name="twitter:image:alt" content="Skipper Chong Warson — product strategy, service design & design leadership">
+  <meta name="twitter:title" content="Product strategy & service design | Skipper Chong Warson">
+  <meta name="twitter:description" content="Product strategy, service design, and customer evidence to help teams make clearer decisions about what to build, who it’s for, and how it should work.">
+  <meta name="twitter:image:alt" content="Skipper Chong Warson — product strategy & service design">
   <meta name="twitter:image" content="https://skipperchongwarson.com/img/items/home-og.jpg">
 
   <?php include 'css.php'; ?>
@@ -129,10 +129,7 @@
 				      "url": "https://skipperchongwarson.com/",
 				      "email": "iam@skipperchongwarson.com",
 				      "image": "https://skipperchongwarson.com/img/items/headshot.jpg",
-				      "jobTitle": [
-				        "Product and service design leader",
-				        "Principal advisor, founder"
-				      ],
+				      "jobTitle": "Principal advisor, founder",
 				      "description": "Skipper Chong Warson uses product strategy, service design, and customer evidence to help teams make clearer decisions about what to build, who it’s for, and how it should work.",
 				      "workLocation": {
 				        "@type": "Place",
