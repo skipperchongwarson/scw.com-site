@@ -209,7 +209,7 @@
             "@id": "https://howthisworks.co/work/bullseye-customer-sprint#service",
             "name": "Bullseye Customer Sprint",
             "url": "https://howthisworks.co/work/bullseye-customer-sprint",
-            "description": "Helps a team decide which customer to focus on, recruit for, and position toward, narrowing the customer hypothesis through structured interview cycles the team joins directly.",
+            "description": "An engagement for clarifying product direction in which the team hears live customer interviews, makes sense of the evidence together, and turns it into a decision it can act on.",
             "provider": {
               "@id": "https://howthisworks.co/#organization"
             }

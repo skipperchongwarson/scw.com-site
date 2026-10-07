@@ -101,7 +101,7 @@
               <!-- title and description -->
               <div class="title-desc">
                 <h1 class="display-4 display-title home-title anim-1"><span class="text-lighter">When the customer signal is messy, or the team reads it differently, I help turn it into</span> a product decision that moves you forward</h1>
-				<p class="anim-2 home-desc">I’m a product and service design leader with 15+ years across startups and product organizations, plus Fortune 500 work through consultancies. I’ve worked across customer research, facilitation, experience strategy, and implementation — hands-on where it helps, prioritizing outcomes over outputs.</p>
+				<p class="anim-2 home-desc">I use product strategy, service design, and customer evidence to help teams make clearer decisions about what to build, who it’s for, and how it should work. I’ve worked across customer research, facilitation, experience strategy, and implementation — hands-on where it helps, prioritizing outcomes over outputs.</p>
                 <p class="anim-2 home-desc">Today, through <a href="https://howthisworks.co" title="How This Works co — customer evidence for consequential product and go-to-market decisions">How This Works co</a>, I bring the team making the decision closer to the evidence so they can hear the same customers, compare interpretations, and make the next call together.</p>
                 <!-- Action button -->
                 <div class="btns-action anim-3">
@@ -133,7 +133,7 @@
 				        "Product and service design leader",
 				        "Principal advisor, founder"
 				      ],
-				      "description": "Product and service design leader with 15+ years across startups, product organizations, and Fortune 500 work through consultancies, spanning product strategy, service design, customer research, facilitation, and implementation. The throughline is helping teams turn messy or contested customer evidence into clearer customer, product, positioning, and service decisions they can make together.",
+				      "description": "Skipper Chong Warson uses product strategy, service design, and customer evidence to help teams make clearer decisions about what to build, who it’s for, and how it should work.",
 				      "workLocation": {
 				        "@type": "Place",
 				        "name": "San Francisco Bay Area, California, United States"
@@ -187,7 +187,7 @@
 				      "@id": "https://howthisworks.co/work/bullseye-customer-sprint#service",
 				      "name": "Bullseye Customer Sprint",
 				      "url": "https://howthisworks.co/work/bullseye-customer-sprint",
-				      "description": "A fuller-featured engagement for clarifying product direction: the team hears live customer interviews, makes sense of the evidence together, and turns it into a decision it can act on.",
+				      "description": "An engagement for clarifying product direction in which the team hears live customer interviews, makes sense of the evidence together, and turns it into a decision it can act on.",
 				      "provider": {
 				        "@id": "https://howthisworks.co/#organization"
 				      }
