@@ -6002,11 +6002,13 @@ body.fp-responsive .page-footer .footer-right
 		0 1px 4px rgba(0, 0, 0, 0.75);
 }
 
-/* main.js adds menu-visible while the hamburger menu is open. The rail
-   (z-index 1000) would otherwise sit above the menu overlay. */
-body.fp-responsive .responsive-dot-rail.menu-visible
+/* main.js adds menu-visible while the hamburger menu is open.
+   Hide whichever section-navigation control is active so it does not
+   appear above the menu overlay. */
+body.fp-responsive .responsive-dot-rail.menu-visible,
+#fp-nav.menu-visible
 {
-	visibility: hidden;
+  visibility: hidden;
 }
 
 @media (min-width: 577px) and (max-width: 991px) and (orientation: portrait)

@@ -82,6 +82,8 @@ $(document).on('ready', function () {
 		menuBlock.toggleClass('menu-visible');
 		menuItems.toggleClass('menu-visible');
 		reactToMenu.toggleClass('menu-visible');
+		// fullPage creates #fp-nav after this runs, so look it up here.
+		$('#fp-nav').toggleClass('menu-visible', isOpen);
 
 		menuToggler.attr('aria-expanded', isOpen ? 'true' : 'false');
 		menuToggler.attr('aria-label', isOpen ? 'Close menu' : 'Open menu');
@@ -95,6 +97,7 @@ $(document).on('ready', function () {
 		menuBlock.removeClass('menu-visible');
 		menuItems.removeClass('menu-visible');
 		reactToMenu.removeClass('menu-visible');
+		$('#fp-nav').removeClass('menu-visible');
 
 		menuToggler.attr('aria-expanded', 'false');
 		menuToggler.attr('aria-label', 'Open menu');
