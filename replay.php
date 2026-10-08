@@ -104,7 +104,7 @@
                 <h1>Replay</h1>
                 <p class="anim-2 home-desc">Replay had built a vibe coding AI tool that was working. The unresolved question was who needed it most and what need/problem to point it at.</p>
                 <p class="anim-2 home-desc">Over the first six months, I conducted 34 structured Bullseye Customer Sprint interviews while the broader team kept talking with customers too, bringing the total research effort to nearly 50 conversations. Each round narrowed the customer hypothesis while the team kept shipping.</p>
-				<p class="case-meta anim-2 home-desc">By <a href="/#home">Skipper Chong Warson</a> · Published 20 Jul 2026 · Updated 7 Sep 2026</p>
+				<p class="case-meta anim-2 home-desc">By <a href="/#home">Skipper Chong Warson</a> · Published 20 May 2026 · Updated 7 Sep 2026</p>
               </div>
             </div>
             <div class="col-12 col-md-5"> <!-- content -->
@@ -133,7 +133,7 @@
               "height": 630
             },
             "url": "https://skipperchongwarson.com/replay/",
-            "datePublished": "2026-07-20",
+            "datePublished": "2026-05-20",
             "dateModified": "2026-09-07",
             "inLanguage": "en-US",
             "articleSection": "Case study",
