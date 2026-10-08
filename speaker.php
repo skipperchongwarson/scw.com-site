@@ -15,7 +15,9 @@
   <meta property="og:title" content="Speaker bios and headshot • Skipper Chong Warson" />
   <meta property="og:description" content="Short, medium, and long bios for product and design leader Skipper Chong Warson, plus a downloadable headshot." />
   <meta property="og:image" content="https://skipperchongwarson.com/img/items/screenshots/speaker-og.jpg" />
-  <meta property="og:image:alt" content="Speaker headshot of Skipper Chong Warson" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Speaker bio introduction beside a headshot of Skipper Chong Warson, over a photo of a conference audience" />
 
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:site" content="@skippercwarson" />
@@ -23,7 +25,7 @@
   <meta name="twitter:title" content="Speaker bios and headshot • Skipper Chong Warson" />
   <meta name="twitter:description" content="Short, medium, and long bios for product and design leader Skipper Chong Warson, plus a downloadable headshot." />
   <meta name="twitter:image" content="https://skipperchongwarson.com/img/items/screenshots/speaker-og.jpg" />
-  <meta name="twitter:image:alt" content="Speaker headshot of Skipper Chong Warson" />
+  <meta name="twitter:image:alt" content="Speaker bio introduction beside a headshot of Skipper Chong Warson, over a photo of a conference audience" />
 
 	<?php include 'css.php'; ?>
 

@@ -21,7 +21,7 @@
     <meta name="twitter:title" content="Sesame: research at launch speed • Skipper Chong Warson" />
     <meta name="twitter:description" content="As Sesame’s first in-house design hire, I used 21 customer interviews, rapid iteration, and a lightweight design system to take a direct-pay healthcare marketplace from prototype to beta." />
     <meta name="twitter:image" content="https://skipperchongwarson.com/img/items/screenshots/sesame-og.jpg" />
-    <meta name="twitter:image:alt" content="Sesame healthcare marketplace product screens">
+    <meta name="twitter:image:alt" content="Sesame case study introduction beside the marketplace shown on a laptop and phone">
 
     <meta property="og:url" content="https://skipperchongwarson.com/sesame/" />
     <meta property="og:type" content="article" />
@@ -30,7 +30,7 @@
     <meta property="og:image" content="https://skipperchongwarson.com/img/items/screenshots/sesame-og.jpg" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
-    <meta property="og:image:alt" content="Sesame healthcare marketplace product screens" />
+    <meta property="og:image:alt" content="Sesame case study introduction beside the marketplace shown on a laptop and phone" />
 
     <link rel="canonical" href="https://skipperchongwarson.com/sesame/" />
 

@@ -20,7 +20,7 @@
   <meta name="twitter:title" content="Cigna: preventive dental coaching between visits • Skipper Chong Warson">
   <meta name="twitter:description" content="An eight-week proof of concept exploring how smart-toothbrush data could support at-home coaching, rewards, and a product direction for Cigna Dental.">
   <meta name="twitter:image" content="https://skipperchongwarson.com/img/items/screenshots/cigna-og.jpg">
-  <meta name="twitter:image:alt" content="Cigna smart toothbrush mobile application concept">
+  <meta name="twitter:image:alt" content="Smart toothbrush case study introduction beside mobile app screens from the concept">
 
   <meta property="og:url" content="https://skipperchongwarson.com/cigna-smart-toothbrush/">
   <meta property="og:type" content="article">
@@ -29,7 +29,7 @@
   <meta property="og:image" content="https://skipperchongwarson.com/img/items/screenshots/cigna-og.jpg">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="Cigna smart toothbrush mobile application concept">
+  <meta property="og:image:alt" content="Smart toothbrush case study introduction beside mobile app screens from the concept">
   <link rel="canonical" href="https://skipperchongwarson.com/cigna-smart-toothbrush/">
 
   <?php $currentProjectId = 'cigna-smart-toothbrush'; ?>

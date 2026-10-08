@@ -20,7 +20,7 @@
   <meta name="twitter:title" content="Bank of America: three research products, one iOS experience • Skipper Chong Warson">
   <meta name="twitter:description" content="I worked hands-on from research and synthesis through interaction design, UI, prototyping, and a design system for Bank of America’s consolidated research app.">
   <meta name="twitter:image" content="https://skipperchongwarson.com/img/items/screenshots/bank-of-america-investors-og.jpg">
-  <meta name="twitter:image:alt" content="Bank of America research app overview showing the Feed and related product areas">
+  <meta name="twitter:image:alt" content="Bank investor research case study introduction beside connected phone screens from the research app">
 
   <meta property="og:url" content="https://skipperchongwarson.com/bank-of-america-investors/">
   <meta property="og:type" content="article">
@@ -29,7 +29,7 @@
   <meta property="og:image" content="https://skipperchongwarson.com/img/items/screenshots/bank-of-america-investors-og.jpg">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="Bank of America research app overview showing the Feed and related product areas">
+  <meta property="og:image:alt" content="Bank investor research case study introduction beside connected phone screens from the research app">
   <link rel="canonical" href="https://skipperchongwarson.com/bank-of-america-investors/">
 
   <?php $currentProjectId = 'bank-of-america-investors'; ?>

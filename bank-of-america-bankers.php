@@ -20,7 +20,7 @@
   <meta name="twitter:title" content="Bank of America: one client across more than 10 business lines • Skipper Chong Warson">
   <meta name="twitter:description" content="At Fjord, I led research and product design that brought more than 10 Bank of America business lines into one shared client model for a new banker experience.">
   <meta name="twitter:image" content="https://skipperchongwarson.com/img/items/screenshots/bank-of-america-bankers-og.jpg">
-  <meta name="twitter:image:alt" content="Bank of America unified banker experience shown on Microsoft Surface Pro screens">
+  <meta name="twitter:image:alt" content="Commercial bank CRM case study introduction beside a tablet on a desk showing a client dashboard">
 
   <meta property="og:url" content="https://skipperchongwarson.com/bank-of-america-bankers/">
   <meta property="og:type" content="article">
@@ -29,7 +29,7 @@
   <meta property="og:image" content="https://skipperchongwarson.com/img/items/screenshots/bank-of-america-bankers-og.jpg">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="Bank of America unified banker experience shown on Microsoft Surface Pro screens">
+  <meta property="og:image:alt" content="Commercial bank CRM case study introduction beside a tablet on a desk showing a client dashboard">
   <link rel="canonical" href="https://skipperchongwarson.com/bank-of-america-bankers/">
 
   <?php $currentProjectId = 'bank-of-america-bankers'; ?>

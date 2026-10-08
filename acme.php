@@ -19,17 +19,17 @@
   <meta name="twitter:creator" content="@skippercwarson">
   <meta name="twitter:title" content="Acme: the problem happened before the price • Skipper Chong Warson">
   <meta name="twitter:description" content="10 customer interviews challenged an already-set affordability hypothesis and reframed a Fortune 500 consumer-financial-services company's retail-card CX strategy around earlier customer uncertainty.">
-  <meta name="twitter:image" content="https://skipperchongwarson.com/img/items/Acme-og.jpg">
-  <meta name="twitter:image:alt" content="Customer experience territories spanning Engage, Apply, Use, and Service for a retail-card journey">
+  <meta name="twitter:image" content="https://skipperchongwarson.com/img/items/screenshots/acme-og.jpg">
+  <meta name="twitter:image:alt" content="Acme case study introduction beside a photo of two children looking through a cardboard tube">
 
   <meta property="og:url" content="https://skipperchongwarson.com/acme/">
   <meta property="og:type" content="article">
   <meta property="og:title" content="Acme: the problem happened before the price • Skipper Chong Warson">
   <meta property="og:description" content="10 customer interviews challenged an already-set affordability hypothesis and reframed a Fortune 500 consumer-financial-services company's retail-card CX strategy around earlier customer uncertainty.">
-  <meta property="og:image" content="https://skipperchongwarson.com/img/items/Acme-og.jpg">
+  <meta property="og:image" content="https://skipperchongwarson.com/img/items/screenshots/acme-og.jpg">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="Customer experience territories spanning Engage, Apply, Use, and Service for a retail-card journey">
+  <meta property="og:image:alt" content="Acme case study introduction beside a photo of two children looking through a cardboard tube">
   <link rel="canonical" href="https://skipperchongwarson.com/acme/">
 
   <?php $currentProjectId = 'acme'; ?>
@@ -104,7 +104,7 @@
                       },
                       "headline": "Acme: the problem happened before the price",
                       "description": "10 customer interviews challenged an already-set affordability hypothesis and reframed a Fortune 500 consumer-financial-services company's retail-card CX strategy around the uncertainty customers encountered earlier.",
-                      "image": "https://skipperchongwarson.com/img/items/Acme-og.jpg",
+                      "image": "https://skipperchongwarson.com/img/items/screenshots/acme-og.jpg",
                       "url": "https://skipperchongwarson.com/acme/",
                       "datePublished": "2025-09-01",
                       "dateModified": "2026-10-01",
