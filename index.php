@@ -128,7 +128,7 @@
 				      "name": "Skipper Chong Warson",
 				      "url": "https://skipperchongwarson.com/",
 				      "email": "iam@skipperchongwarson.com",
-				      "image": "https://skipperchongwarson.com/img/items/headshot.jpg",
+				      "image": "https://skipperchongwarson.com/img/Skipper-headshot.jpg",
 				      "jobTitle": "Principal advisor, founder",
 				      "description": "Skipper Chong Warson uses product strategy, service design, and customer evidence to help teams make clearer decisions about what to build, who it’s for, and how it should work.",
 				      "workLocation": {
