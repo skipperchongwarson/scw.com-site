@@ -20,7 +20,7 @@
   <meta name="twitter:title" content="SoftServe: building and running an Americas design team • Skipper Chong Warson">
   <meta name="twitter:description" content="I built and ran SoftServe’s 12-person Americas design team across five countries. Over my final two years, it staffed 15 projects and generated $2.1M in billable work.">
   <meta name="twitter:image" content="https://skipperchongwarson.com/img/items/screenshots/softserve-og.jpg">
-  <meta name="twitter:image:alt" content="Map of SoftServe’s design organization expanding across the Americas">
+  <meta name="twitter:image:alt" content="SoftServe case study introduction beside a photo of three people standing in an office, over a large team gathering">
 
   <meta property="og:url" content="https://skipperchongwarson.com/softserve/">
   <meta property="og:type" content="article">
@@ -29,7 +29,7 @@
   <meta property="og:image" content="https://skipperchongwarson.com/img/items/screenshots/softserve-og.jpg">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="Map of SoftServe’s design organization expanding across the Americas">
+  <meta property="og:image:alt" content="SoftServe case study introduction beside a photo of three people standing in an office, over a large team gathering">
   <link rel="canonical" href="https://skipperchongwarson.com/softserve/">
 
   <?php $currentProjectId = 'softserve'; ?>

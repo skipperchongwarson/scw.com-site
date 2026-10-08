@@ -20,15 +20,15 @@
   <meta property="og:image" content="https://skipperchongwarson.com/img/items/screenshots/home-og.jpg">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="Skipper Chong Warson — product strategy & service design">
+  <meta property="og:image:alt" content="Screenshot of the Skipper Chong Warson homepage introduction over a misty black-and-white photo of a radio tower">
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@skippercwarson">
   <meta name="twitter:creator" content="@skippercwarson">
   <meta name="twitter:title" content="Product strategy & service design | Skipper Chong Warson">
   <meta name="twitter:description" content="Product strategy, service design, and customer evidence to help teams make clearer decisions about what to build, who it’s for, and how it should work.">
-  <meta name="twitter:image:alt" content="Skipper Chong Warson — product strategy & service design">
-  <meta name="twitter:image" content="https://skipperchongwarson.com/img/items/home-og.jpg">
+  <meta name="twitter:image:alt" content="Screenshot of the Skipper Chong Warson homepage introduction over a misty black-and-white photo of a radio tower">
+  <meta name="twitter:image" content="https://skipperchongwarson.com/img/items/screenshots/home-og.jpg">
 
   <?php include 'css.php'; ?>
 

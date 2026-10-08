@@ -22,7 +22,7 @@
     <meta name="twitter:title" content="Duke Energy: from four monitors to an ETO Control Center • Skipper Chong Warson">
     <meta name="twitter:description" content="Duke Energy case study: I led product and design strategy from four lab monitors to portfolio visibility, reporting workflows, and the ETO Control Center.">
     <meta name="twitter:image" content="https://skipperchongwarson.com/img/items/screenshots/duke-og.jpg">
-    <meta name="twitter:image:alt" content="Duke Energy ETO dashboard and Control Center concepts"/>
+    <meta name="twitter:image:alt" content="Duke Energy case study introduction beside a photo of large monitors mounted above a lab floor"/>
     <meta property="og:url" content="https://skipperchongwarson.com/duke/">
     <meta property="og:type" content="article">
     <meta property="og:title" content="Duke Energy: from four monitors to an ETO Control Center • Skipper Chong Warson">
@@ -30,7 +30,7 @@
     <meta property="og:image" content="https://skipperchongwarson.com/img/items/screenshots/duke-og.jpg"/>
     <meta property="og:image:width" content="1200"/>
     <meta property="og:image:height" content="630"/>
-    <meta property="og:image:alt" content="Duke Energy ETO dashboard and Control Center concepts"/>
+    <meta property="og:image:alt" content="Duke Energy case study introduction beside a photo of large monitors mounted above a lab floor"/>
     <link rel="canonical" href="https://skipperchongwarson.com/duke/"/>
 
     <?php $currentProjectId = 'duke'; ?>

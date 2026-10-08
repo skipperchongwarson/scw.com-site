@@ -24,7 +24,7 @@
   <meta name="twitter:title" content="Replay: five customer hypotheses over six months • Skipper Chong Warson" />
   <meta name="twitter:description" content="Across five customer hypotheses and nearly 50 conversations, Replay narrowed its customer definition, changed recruiting criteria, and moved its positioning toward the continuation problem." />
   <meta name="twitter:image" content="https://skipperchongwarson.com/img/items/screenshots/replay-og.jpg" />
-  <meta name="twitter:image:alt" content="Replay customer hypotheses from cycles one through five">
+  <meta name="twitter:image:alt" content="Replay case study introduction beside a bullseye diagram of sticky notes grouped into core identity, critical qualifiers, secondary characteristics, and exclusions">
 
   <meta property="og:url" content="https://skipperchongwarson.com/replay/" />
   <meta property="og:type" content="article" />
@@ -33,7 +33,7 @@
   <meta property="og:image" content="https://skipperchongwarson.com/img/items/screenshots/replay-og.jpg" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
-  <meta property="og:image:alt" content="Replay customer hypotheses from cycles one through five" />
+  <meta property="og:image:alt" content="Replay case study introduction beside a bullseye diagram of sticky notes grouped into core identity, critical qualifiers, secondary characteristics, and exclusions" />
 
   <link rel="canonical" href="https://skipperchongwarson.com/replay/" />
 

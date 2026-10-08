@@ -23,7 +23,7 @@
   <meta name="twitter:title" content="Shep: an enterprise pivot, a pandemic, and an acquisition • Skipper Chong Warson" />
   <meta name="twitter:description" content="Shep turned off-channel consumer bookings into visible, guided trips for enterprise travel teams. I led the product and design rebuild before Flight Centre acquired the company." />
   <meta name="twitter:image" content="https://skipperchongwarson.com/img/items/screenshots/shep-og.jpg" />
-  <meta name="twitter:image:alt" content="Shep browser extension overlay on a consumer travel booking site">
+  <meta name="twitter:image:alt" content="Shep case study introduction beside the Shep website shown on a desktop monitor">
 
   <meta property="og:url" content="https://skipperchongwarson.com/shep/" />
   <meta property="og:type" content="article" />
@@ -32,7 +32,7 @@
   <meta property="og:image" content="https://skipperchongwarson.com/img/items/screenshots/shep-og.jpg" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
-  <meta property="og:image:alt" content="Shep browser extension overlay on a consumer travel booking site" />
+  <meta property="og:image:alt" content="Shep case study introduction beside the Shep website shown on a desktop monitor" />
 
   <link rel="canonical" href="https://skipperchongwarson.com/shep/" />
 
