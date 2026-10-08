@@ -3535,6 +3535,50 @@ textarea {
   background-position: left top !important;
 }
 
+/* Replay and Cigna Impact graphics only: both are light images, and the
+   fixed header (case-study title, menu label, hamburger) and the fullPage
+   dots sit directly on them. The graphic scrolls inside fullPage's
+   overflow wrapper while the header stays put, so the scrim is a fixed
+   layer behind the header rather than part of the graphic. It covers
+   only the graphic's column (the right third), only while that Impact
+   section is active, and only where the graphic is displayed. A band
+   along the top and a narrow one down the right edge keep the controls
+   legible without darkening the graphic itself. Other case studies'
+   side images are dark photos and keep the shared .bg-part treatment. */
+@media (min-width: 992px), (max-height: 500px) and (orientation: landscape) {
+  .case-study-page .navbar-top-alpha::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    width: 33.333333%;
+    height: 100vh;
+    background:
+      linear-gradient(
+        to bottom,
+        rgba(29, 29, 29, 0.88) 0,
+        rgba(29, 29, 29, 0.8) 6rem,
+        rgba(29, 29, 29, 0) 11rem
+      ),
+      linear-gradient(
+        to left,
+        rgba(29, 29, 29, 0.6) 0,
+        rgba(29, 29, 29, 0) 4.5rem
+      );
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+  }
+
+  .case-study-page:has(
+    #mainpage > .section.active .replay-impact-graphic,
+    #mainpage > .section.active .cigna-impact-graphic
+  ) .navbar-top-alpha::before {
+    opacity: 1;
+  }
+}
+
 .scrolldown {
   position: absolute;
   bottom: 0;
@@ -5958,6 +6002,13 @@ body.fp-responsive .page-footer .footer-right
 		0 1px 4px rgba(0, 0, 0, 0.75);
 }
 
+/* main.js adds menu-visible while the hamburger menu is open. The rail
+   (z-index 1000) would otherwise sit above the menu overlay. */
+body.fp-responsive .responsive-dot-rail.menu-visible
+{
+	visibility: hidden;
+}
+
 @media (min-width: 577px) and (max-width: 991px) and (orientation: portrait)
 {
 	body.fp-responsive .responsive-dot-rail
@@ -6326,8 +6377,9 @@ body.fp-responsive .page-footer .footer-right
 	(orientation: landscape)
 {
 	/* Keep the established 128px desktop gutter and matching logo edge.
-	   Only adjust Home vertically in this viewport band. */
-	.section-home .section-content
+	   Only adjust Home vertically in this viewport band; case-study and
+	   Speaker intros also use .section-home and keep their spacing. */
+	.home-page .section-home .section-content
 	{
 		transform: translateY(-2rem);
 	}
@@ -7498,10 +7550,14 @@ body.fp-responsive.home-page > .page-footer {
    (.site-colophon padding-top: 2.5rem, main.css:7227-7229).
 ---------------------------------- */
 
-@media (max-width: 576px) {
-  .case-study-page
-  .section-contact
-  .section-wrapper.fullwidth.fullheight.with-margin.mobile-section-spacing {
+/* The selector repeats #mainpage so it outranks the 6rem section-edge
+   rules for phone portrait and phone landscape ("iPhone portrait
+   case-study sections" and "Consistent section-edge spacing" above),
+   which otherwise also pad the bottom of the final section. */
+@media (max-width: 576px), (max-height: 500px) and (orientation: landscape) {
+  .case-study-page.fp-responsive
+  #mainpage > .section.section-contact
+  > .section-wrapper.with-margin.mobile-section-spacing {
     padding-bottom: env(safe-area-inset-bottom);
   }
 
@@ -8212,6 +8268,23 @@ body.case-study-lightbox-open {
   text-decoration: underline;
   text-decoration-thickness: 1px;
   text-underline-offset: 0.2em;
+}
+
+/* Keyboard focus for controls whose focus ring the theme removes
+   (.btn-menu, .btn:focus, .btn-transp-arrow). Same 2px #f2f2f2 outline
+   used by the project cards and the lightbox; :focus-visible keeps it
+   off for mouse and touch. */
+.navbar-top-alpha .navbar-toggler:focus-visible,
+.btns-action .btn:focus-visible
+{
+	outline: 2px solid #f2f2f2;
+	outline-offset: 6px;
+}
+
+.related-projects .items-button .btn:focus-visible
+{
+	outline: 2px solid #f2f2f2;
+	outline-offset: 2px;
 }
 
 /* Speaker intro should be complete when the page appears */

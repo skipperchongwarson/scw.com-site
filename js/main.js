@@ -73,7 +73,7 @@ $(document).on('ready', function () {
 	var menuItems = $('.all-menu-wrapper .nav-link');
 	var menuToggler = $('.navbar-toggler');
 	var menuBlock = $('.all-menu-wrapper');
-	var reactToMenu = $ ('.page-main, .navbar-sidebar, .page-cover')
+	var reactToMenu = $ ('.page-main, .navbar-sidebar, .page-cover, .responsive-dot-rail')
 	var menuLinks = $(".navbar-mainmenu a, .navbar-sidebar a");
 	// Menu icon clicked
 	menuToggler.on('click', function () {
@@ -344,9 +344,36 @@ $(document).on('ready', function () {
 					'.swiper-slide [role="img"][data-image-src]'
 				),
 				function (element) {
-					return imageSource(element) && !element.closest('.related-projects');
+					return (
+					imageSource(element) &&
+					!element.closest('.related-projects') &&
+					!element.closest('.swiper-slide-duplicate')
+				);
 				}
 			);
+		}
+
+		// Swiper's loop mode clones the first and last slides. A clone can be
+		// the visible slide, so a click on it opens the original slide it
+		// copies (matched by Swiper's data-swiper-slide-index).
+		function originalImageFor(trigger, gallery) {
+			var duplicate = trigger.closest('.swiper-slide-duplicate');
+
+			if (!duplicate) {
+				return trigger;
+			}
+
+			var original = gallery.querySelector(
+				'.swiper-slide:not(.swiper-slide-duplicate)' +
+				'[data-swiper-slide-index="' +
+				duplicate.getAttribute('data-swiper-slide-index') +
+				'"]'
+			);
+			var originalImage = original
+				? original.querySelector('img, [role="img"][data-image-src]')
+				: null;
+
+			return originalImage || trigger;
 		}
 
 		function lightboxItemsFor(trigger) {
@@ -357,7 +384,9 @@ $(document).on('ready', function () {
 			var items = elements.map(imageData).filter(function (item) {
 				return item.src;
 			});
-			var triggerIndex = elements.indexOf(trigger);
+			var triggerIndex = elements.indexOf(
+				gallery ? originalImageFor(trigger, gallery) : trigger
+			);
 
 			return {
 				items: items,
@@ -529,7 +558,12 @@ $(document).on('ready', function () {
 			if (enabled) {
 				label = originalImageLabel(element);
 				element.classList.add('case-study-lightbox-trigger');
-				element.setAttribute('tabindex', '0');
+				// Loop clones stay clickable but out of the tab order, so
+				// keyboard users meet each gallery image once.
+				element.setAttribute(
+					'tabindex',
+					element.closest('.swiper-slide-duplicate') ? '-1' : '0'
+				);
 				element.setAttribute('role', 'button');
 				element.setAttribute('aria-haspopup', 'dialog');
 				element.setAttribute(
@@ -769,7 +803,9 @@ $(document).on('ready', function () {
 			var isCaseStudyPage = $('body').hasClass('case-study-page');
 			var explicitSectionNavigation = false;
 			var sectionEntryWasExplicit = false;
-			
+			// Element whose keyboard focus caused the current section change.
+			var focusEntryTarget = null;
+
 			if (isCaseStudyPage) {
 				document.addEventListener(
 					'click',
@@ -816,6 +852,80 @@ $(document).on('ready', function () {
 					},
 					true
 				);
+			}
+
+			// Keep fullPage in step with keyboard focus. fullPage moves
+			// sections with a transform, so when focus lands outside the
+			// visible area the browser scrolls body, the section's overflow
+			// wrapper or a gallery natively to show it. fullPage, iScroll and
+			// Swiper never learn about that offset, and the next wheel or
+			// arrow move lands on a blank screen. Undo the native scroll and
+			// let those plugins do the moving instead.
+			function clearNativeFocusScroll(element) {
+				for (
+					var node = element.parentNode;
+					node && node.nodeType === 1;
+					node = node.parentNode
+				) {
+					if (node.scrollTop) {
+						node.scrollTop = 0;
+					}
+
+					if (node.scrollLeft) {
+						node.scrollLeft = 0;
+					}
+				}
+			}
+
+			function focusIsFromKeyboard(element) {
+				// An iframe never matches :focus-visible in this document.
+				if (element.tagName === 'IFRAME') {
+					return true;
+				}
+
+				try {
+					return element.matches(':focus-visible');
+				} catch (error) {
+					return true;
+				}
+			}
+
+			function revealFocusedElement(element) {
+				clearNativeFocusScroll(element);
+
+				if (!focusIsFromKeyboard(element)) {
+					return;
+				}
+
+				var slide = element.closest('.swiper-slide');
+				var swiperContainer = slide
+					? slide.closest('.swiper-container')
+					: null;
+				var swiper = swiperContainer ? swiperContainer.swiper : null;
+
+				if (swiper && !slide.classList.contains('swiper-slide-active')) {
+					swiper.slideTo($(slide).index(), 0);
+				}
+
+				var $scrollable = $(element).closest('.fp-scrollable');
+				var scroller = $scrollable.data('iscrollInstance');
+
+				if (!scroller || typeof scroller.scrollToElement !== 'function') {
+					return;
+				}
+
+				var area = $scrollable[0].getBoundingClientRect();
+				var rect = element.getBoundingClientRect();
+
+				if (rect.top >= area.top && rect.bottom <= area.bottom) {
+					return;
+				}
+
+				// Centre elements that fit; start taller ones below the
+				// fixed header instead of centring their top out of view.
+				var fits = element.offsetHeight < area.height - 192;
+
+				scroller.scrollToElement(element, 0, 0, fits ? true : -96);
 			}
 
 			// config fullpage.js
@@ -971,7 +1081,12 @@ $(document).on('ready', function () {
 					 * On case studies, let fullPage and scrollOverflow control
 					 * the internal section position without interference.
 					 */
-					if (!isCaseStudyPage || sectionEntryWasExplicit) {
+					if (focusEntryTarget) {
+						// Entered by keyboard focus: show the focused element
+						// instead of resetting the section to its top.
+						revealFocusedElement(focusEntryTarget);
+						focusEntryTarget = null;
+					} else if (!isCaseStudyPage || sectionEntryWasExplicit) {
 						resetSectionOverflow(activeSection);
 
 						window.setTimeout(function () {
@@ -1009,6 +1124,108 @@ $(document).on('ready', function () {
 					}
 				}
 			});
+
+			// Follow keyboard focus between fullPage sections (see
+			// revealFocusedElement above). Only sections are watched, so the
+			// menu, the lightbox and its focus return are left alone. In
+			// responsive mode the page scrolls normally and needs no help.
+			function followFocus(target) {
+				if (
+					!document.documentElement.classList.contains('fp-enabled') ||
+					document.body.classList.contains('fp-responsive') ||
+					!target ||
+					typeof target.closest !== 'function'
+				) {
+					return;
+				}
+
+				var section = target.closest('#mainpage > .section');
+
+				if (!section) {
+					return;
+				}
+
+				if (!section.classList.contains('active')) {
+					clearNativeFocusScroll(target);
+					focusEntryTarget = target;
+					// silentMoveTo runs afterLoad synchronously, which then
+					// reveals the target.
+					$.fn.fullpage.silentMoveTo(
+						$(section).index('#mainpage > .section') + 1
+					);
+					focusEntryTarget = null;
+				} else {
+					revealFocusedElement(target);
+				}
+
+				// Some browsers scroll the focused element into view after
+				// focusin has fired, so check again on the next frame.
+				window.requestAnimationFrame(function () {
+					if (document.activeElement === target) {
+						revealFocusedElement(target);
+					}
+				});
+			}
+
+			document.addEventListener('focusin', function (event) {
+				followFocus(event.target);
+			});
+
+			// Tabbing into a cross-origin iframe (the Cal.com embed) fires
+			// no focusin in this document, only a window blur, after which
+			// the iframe is the active element.
+			window.addEventListener('blur', function () {
+				window.setTimeout(function () {
+					var active = document.activeElement;
+
+					if (active && active.tagName === 'IFRAME') {
+						followFocus(active);
+					}
+				}, 0);
+			});
+
+			// Focus moving inside the Cal.com iframe (Home contact section)
+			// can still scroll that section's overflow wrapper natively.
+			// Hand any such offset to iScroll so both agree on the position.
+			// Registered only where the embed exists, and acts only while
+			// the embed's iframe has focus inside the scrolled wrapper.
+			var calFocusEmbed = document.getElementById('my-cal-inline-25m');
+
+			function handOffCalFocusScroll(event) {
+				var node = event.target;
+				var active = document.activeElement;
+
+				if (
+					!node ||
+					node.nodeType !== 1 ||
+					!node.classList.contains('fp-scrollable') ||
+					!node.scrollTop ||
+					!active ||
+					active.tagName !== 'IFRAME' ||
+					!calFocusEmbed.contains(active) ||
+					!node.contains(active) ||
+					document.body.classList.contains('fp-responsive')
+				) {
+					return;
+				}
+
+				var offset = node.scrollTop;
+				var scroller = $(node).data('iscrollInstance');
+
+				node.scrollTop = 0;
+
+				if (scroller && typeof scroller.scrollTo === 'function') {
+					scroller.scrollTo(
+						0,
+						Math.max(scroller.maxScrollY, Math.min(0, scroller.y - offset)),
+						0
+					);
+				}
+			}
+
+			if (calFocusEmbed) {
+				document.addEventListener('scroll', handOffCalFocusScroll, true);
+			}
 
 			// Cal.com's inline embed (index.php contact section) can finish
 			// resizing after fullPage has already measured this section's

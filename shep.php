@@ -210,7 +210,7 @@
           </div>
         </div>
         <!-- Arrows scroll down/up -->
-        <footer class="section-footer scrolldown"> <a class="down"> <span class="icon down"></span> </a>
+        <footer class="section-footer scrolldown"> <a class="down" href="#problem" aria-label="Continue to problem"> <span class="icon down" aria-hidden="true"></span> </a>
           <!--<span class="separator"></span>--> <!--<a class="up"> <span class="icon up"></span> </a>-->
         </footer>
       </div> <!-- End of section

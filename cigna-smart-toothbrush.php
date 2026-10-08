@@ -163,7 +163,7 @@
             </div>
           </div>
         </div>
-        <footer class="section-footer scrolldown"><a class="down"><span class="icon down"></span></a></footer>
+        <footer class="section-footer scrolldown"><a class="down" href="#problem" aria-label="Continue to insight and hypothesis"><span class="icon down" aria-hidden="true"></span></a></footer>
       </div>
     </div>
 
@@ -280,7 +280,7 @@
           <div class="row gx-0">
             <div class="col-auto col-lg-8 bg-part"></div>
             <div
-              class="col-12 col-lg-4 bg-part bg-img"
+              class="col-12 col-lg-4 bg-part bg-img cigna-impact-graphic"
               data-image-src="/img/items/cigna-side.png"
               role="img"
               aria-label="Cigna smart toothbrush coaching and activity screens"

@@ -199,7 +199,7 @@
               </div>
             </div>
           </div>
-          <footer class="section-footer scrolldown"><a class="down"><span class="icon down"></span></a></footer>
+          <footer class="section-footer scrolldown"><a class="down" href="#storytelling" aria-label="Continue to four monitors"><span class="icon down" aria-hidden="true"></span></a></footer>
         </div>
       </div>
 
