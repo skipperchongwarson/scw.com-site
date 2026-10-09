@@ -1870,11 +1870,12 @@ textarea {
       box-shadow:
         0 1px 2px rgba(0, 0, 0, 0.9),
         0 2px 5px rgba(0, 0, 0, 0.6); }
-  .media-project:hover .media-img:before {
-    top: 0;
-    left: 0;
-    right: 32px;
-    bottom: 32px; }
+  @media (hover: hover) and (pointer: fine) {
+    .media-project:hover .media-img:before {
+      top: 0;
+      left: 0;
+      right: 32px;
+      bottom: 32px; } }
 
 .media-product {
   position: relative;
@@ -6013,15 +6014,19 @@ body.fp-responsive .responsive-dot-rail.menu-visible,
 
 @media (min-width: 577px) and (max-width: 991px) and (orientation: portrait)
 {
+	/* 44px touch targets on the same 46.4px pitch and dot position
+	   as the former 32px targets with a 0.9rem gap. The extra width
+	   goes toward the screen edge, so the rail reaches no further
+	   into the content than before. */
 	body.fp-responsive .responsive-dot-rail
 	{
 		position: fixed;
 		top: 50%;
-		right: 1.5rem;
+		right: calc(1.5rem - 12px);
 		z-index: 1000;
 		display: flex;
 		flex-direction: column;
-		gap: 0.9rem;
+		gap: calc(0.9rem - 12px);
 		transform: translateY(-50%);
 	}
 	
@@ -6035,9 +6040,9 @@ body.fp-responsive .responsive-dot-rail.menu-visible,
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		width: 32px;
-		height: 32px;
-		padding: 0;
+		width: 44px;
+		height: 44px;
+		padding: 0 12px 0 0;
 		text-decoration: none;
 	}
 
@@ -6207,27 +6212,39 @@ body.fp-responsive .responsive-dot-rail.menu-visible,
 		display: none !important;
 	}
 
+	/* The rail is one compact group: 36px targets with no gap, each
+	   dot centred in its target, 40px in from the right edge as before.
+	   The group is centred in the space between the menu button's
+	   bottom edge and the bottom safe edge; spare height goes above
+	   and below the group, never between targets. The button is 46px
+	   tall at top: 11px below 768px wide and at top: 32px from 768px.
+	   Only the links take taps. */
 	body.fp-responsive .responsive-dot-rail
 	{
 		position: fixed;
-		top: 50%;
-		right: 1.5rem;
+		top: 57px;
+		bottom: env(safe-area-inset-bottom, 0px);
+		right: 22px;
 		z-index: 1000;
 		display: flex;
 		flex-direction: column;
-		gap: 0.9rem;
-		transform: translateY(-50%);
+		justify-content: center;
+		justify-content: safe center;
+		gap: 0;
+		pointer-events: none;
 	}
 
 	body.fp-responsive .responsive-dot-rail a
 	{
 		display: flex;
+		flex-shrink: 0;
 		align-items: center;
 		justify-content: center;
-		width: 32px;
-		height: 32px;
+		width: 36px;
+		height: 36px;
 		padding: 0;
 		text-decoration: none;
+		pointer-events: auto;
 	}
 
 	body.fp-responsive .responsive-dot-rail a::before
@@ -6255,7 +6272,25 @@ body.fp-responsive .responsive-dot-rail.menu-visible,
 		height: 28px;
 		background: #f2f2f2;
 	}
+
+	/* Reserve the rail's column, as iPad portrait does, so copy and
+	   footer controls stay clear of the rail's targets. */
+	body.fp-responsive .section .section-wrapper.with-margin
+	{
+		padding-right: 5rem;
+	}
 	
+}
+
+@media
+	(min-width: 768px) and
+	(max-height: 500px) and
+	(orientation: landscape)
+{
+	body.fp-responsive .responsive-dot-rail
+	{
+		top: 78px;
+	}
 }
 
 /* ---------------------------------
@@ -6275,12 +6310,29 @@ body.fp-responsive .responsive-dot-rail.menu-visible,
 		margin-left: 0;
 	}
 
+	/* The section adds 32px, matching the logo's 32px top, so the
+	   wrapper adds the logo height plus the 1.75rem logo-to-copy gap
+	   used by the inline Home and Speaker logo. The logo is 40px tall
+	   below 768px wide and 48px from 768px. */
 	.case-study-page
 		.section.section-home
 		.section-wrapper.fullwidth.with-margin
 	{
-		padding-top: 8rem;
+		padding-top: calc(40px + 1.75rem);
 		padding-bottom: 3rem;
+	}
+}
+
+@media
+	(min-width: 768px) and
+	(max-height: 500px) and
+	(orientation: landscape)
+{
+	.case-study-page
+		.section.section-home
+		.section-wrapper.fullwidth.with-margin
+	{
+		padding-top: calc(48px + 1.75rem);
 	}
 }
 
@@ -6775,6 +6827,22 @@ html.no-js .case-study-page .page-fullpage
 	margin: 0 0 2rem;
 }
 
+/* Touch: the gallery and related-project bars stay 4px tall; their
+   existing hit extension grows to 44px tall and fills the 4px gap. */
+@media (pointer: coarse)
+{
+	.case-study-page
+		.carousel-swiper-beta
+		.items-pagination.bar
+		.swiper-pagination-bullet:after
+	{
+		top: -20px;
+		bottom: -20px;
+		left: -2px;
+		width: calc(100% + 4px);
+	}
+}
+
 /* Case-study publication metadata */
 
 .case-study-page .case-meta
@@ -7070,6 +7138,18 @@ html.no-js .case-study-page .page-fullpage
 		padding-top: 144px;
 		padding-bottom: 96px;
 	}
+
+	/* The section is a one-viewport flex column, so a wrapper whose
+	   content nearly fills it shrinks to 100vh and its content runs into
+	   the 96px bottom padding. FullPage then sees no overflow and the
+	   colophon lands at the screen edge. Keep the final wrapper at its
+	   full height so FullPage adds its scroller there instead. */
+	.case-study-page:not(.fp-responsive)
+		#mainpage > .section-contact
+		> .section-wrapper.with-margin
+	{
+		flex-shrink: 0;
+	}
 }
 
 /* ---------------------------------
@@ -7271,6 +7351,24 @@ html.no-js .case-study-page .page-fullpage
 .site-footer-social .fa-instagram::before {
   display: block;
   transform: translateY(-7px);
+}
+
+/* Touch: extend each icon's tap area to 44px tall without moving the
+   icons. The links already abut, so the width stays as laid out. */
+@media (pointer: coarse) {
+  .site-footer-social .icon-btn {
+    position: relative;
+  }
+
+  .site-footer-social .icon-btn::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 44px;
+    transform: translateY(-50%);
+  }
 }
 
 /* Colophon */
@@ -8094,10 +8192,8 @@ body.case-study-lightbox-open {
 }
 
 /* Brighten all project text as one coordinated card-level state. */
-.media-project:hover .media-body h3,
-.media-project:focus-within .media-body h3,
-.media-project:hover .media-footer .text,
-.media-project:focus-within .media-footer .text {
+.media-project:has(.media-project-link:focus-visible) .media-body h3,
+.media-project:has(.media-project-link:focus-visible) .media-footer .text {
   color: #fff;
   opacity: 1;
   text-shadow:
@@ -8105,15 +8201,12 @@ body.case-study-lightbox-open {
     0 4px 10px rgba(0, 0, 0, 0.9);
 }
 
-.projects-grid > *:hover .media-meta,
-.projects-grid > *:focus-within .media-meta {
+.projects-grid > *:has(.media-project-link:focus-visible) .media-meta {
   color: #f2f2f2;
 }
 
-.media-project:hover .media-footer .btn-underline::before,
-.media-project:hover .media-footer .btn-underline::after,
-.media-project:focus-within .media-footer .btn-underline::before,
-.media-project:focus-within .media-footer .btn-underline::after {
+.media-project:has(.media-project-link:focus-visible) .media-footer .btn-underline::before,
+.media-project:has(.media-project-link:focus-visible) .media-footer .btn-underline::after {
   background-color: #fff;
   box-shadow:
     0 2px 3px rgba(0, 0, 0, 1),
@@ -8127,12 +8220,43 @@ body.case-study-lightbox-open {
 }
 
 /* Move the frame into alignment on mouse or keyboard interaction. */
-.media-project:hover .media-img::before,
-.media-project:focus-within .media-img::before {
+.media-project:has(.media-project-link:focus-visible) .media-img::before {
   top: var(--project-frame-offset);
   left: 0;
   right: var(--project-frame-offset);
   bottom: 0;
+}
+
+/* Touch browsers keep :hover after a tap, and a tap also focuses the
+   link, so the card state follows mouse hover and keyboard focus only. */
+@media (hover: hover) and (pointer: fine) {
+  .media-project:hover .media-body h3,
+  .media-project:hover .media-footer .text {
+    color: #fff;
+    opacity: 1;
+    text-shadow:
+      0 2px 3px rgba(0, 0, 0, 1),
+      0 4px 10px rgba(0, 0, 0, 0.9);
+  }
+
+  .projects-grid > *:hover .media-meta {
+    color: #f2f2f2;
+  }
+
+  .media-project:hover .media-footer .btn-underline::before,
+  .media-project:hover .media-footer .btn-underline::after {
+    background-color: #fff;
+    box-shadow:
+      0 2px 3px rgba(0, 0, 0, 1),
+      0 4px 8px rgba(0, 0, 0, 0.85);
+  }
+
+  .media-project:hover .media-img::before {
+    top: var(--project-frame-offset);
+    left: 0;
+    right: var(--project-frame-offset);
+    bottom: 0;
+  }
 }
 
 .media-project-link:focus-visible {
@@ -8314,6 +8438,19 @@ body.speaker-bio-page
   margin-bottom: 2.5rem;
 }
 
+/* Touch: the stacked menu links are only one 1.3 line apart. Open the
+   lines up and let each link fill its line box, at least 44px wide. */
+@media (pointer: coarse) {
+  .site-colophon p.site-colophon__menu {
+    line-height: 2.2;
+  }
+
+  .site-colophon__menu a {
+    display: inline-block;
+    min-width: 44px;
+  }
+}
+
 /* =================================================
    FINAL RESPONSIVE CLEANUP: iPad portrait / phone landscape
    ================================================= */
@@ -8493,6 +8630,24 @@ body.speaker-bio-page
 [data-section="select-projects"] .project-lens:focus-visible {
   outline: 2px solid rgba(242, 242, 242, 0.9);
   outline-offset: 2px;
+}
+
+/* Touch: extend each 36px chip to a 44px tap area. The extra 4px above
+   and below meets, but does not cross, the 0.5rem row gap. */
+@media (pointer: coarse) {
+  [data-section="select-projects"] .project-lens {
+    position: relative;
+  }
+
+  [data-section="select-projects"] .project-lens::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 44px;
+    transform: translateY(-50%);
+  }
 }
 
 [data-section="select-projects"] .projects-grid > .col.project-filtered-out {
