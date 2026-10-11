@@ -64,7 +64,7 @@
 	          <li class="nav-item" data-menuanchor="home"> <a href="#home" title="Home"> <i class="icon ion-home"></i> <span class="txt">About</span> </a> </li>
 			  <li class="nav-item" data-menuanchor="select-projects"> <a href="#select-projects" title="Selected work"> <i class="icon ion-android-image"></i> <span class="txt">Selected work</span> </a></li>
 	          <li class="nav-item" data-menuanchor="about"> <a href="#about" title="When I'm most useful"> <i class="icon ion-android-compass"></i> <span class="txt">When I'm most useful</span> </a></li>
-	          <li class="nav-item" data-menuanchor=" "> <a href="#contac e="Book a time"> <i class="icon ion-android-call"></i> <span class="txt">Book a time</span> </a> </li>
+	          <li class="nav-item" data-menuanchor="connect"> <a href="#connect" title="Connect"> <i class="icon ion-android-call"></i> <span class="txt">Connect</span> </a> </li>
 	        </ul>
 	      </nav>
 	      <!-- End of sidebar nav menu -->
@@ -84,7 +84,7 @@
   	<a href="#home" aria-label="Home"></a>
   	<a href="#select-projects" aria-label="Selected work"></a>
   	<a href="#about" aria-label="When I'm most useful"></a>
-  	<a href="#connect" aria-label="Book a time"></a>
+  	<a href="#connect" aria-label="Connect"></a>
   </nav>
   <main class="page-main page-fullpage main-anim" id="mainpage">
     <!-- Begin of home section -->
@@ -105,7 +105,7 @@
                 <p class="anim-2 home-desc">Today, through <a href="https://howthisworks.co" title="How This Works co — customer evidence for consequential product and go-to-market decisions">How This Works co</a>, I bring the team making the decision closer to the evidence so they can hear the same customers, compare interpretations, and make the next call together.</p>
                 <!-- Action button -->
                 <div class="btns-action anim-3">
-                  <a class="btn btn-underline btn-primary" href="#contact" title="Bring a product decision your team is wrestling with"><span class="text">Book a time to talk</span></a>
+                  <a class="btn btn-underline btn-primary" href="#connect" title="Bring a product decision your team is wrestling with"><span class="text">Book a time to talk</span></a>
                 </div>
 				
 				<script type="application/ld+json">
@@ -606,7 +606,7 @@
 
         <!-- Arrows scroll down/up -->
         <footer class="section-footer scrolldown">
-          <a class="down" href="#contact" aria-label="Scroll to Connect">
+          <a class="down" href="#connect" aria-label="Scroll to Connect">
             <span class="icon down"></span>
           </a>
           <span class="separator"></span>
@@ -618,8 +618,8 @@
       <!-- End of section wrapper -->
     </div>
     <!-- End of description section -->
-    <!-- Begin of contact section -->
-    <div class="section section-contact fp-auto-height-responsive no-slide-arrows" data-section="contact">
+    <!-- Begin of connect section -->
+    <div class="section section-contact fp-auto-height-responsive no-slide-arrows" data-section="connect">
       <div class="section-cover-full fit bg-color" ></div>
       <div class="slide" data-anchor="information">
 		<div class="section-wrapper fullwidth with-margin margin-topbottom mobile-section-spacing">
@@ -729,7 +729,7 @@
         </div>
         <!-- END slide -->
       </div>
-      <!-- End of contact section -->
+      <!-- End of connect section -->
   </main>
   <!-- END OF page main content -->
 
@@ -751,7 +751,7 @@
 <script>
 (function () {
 	const sectionLinks = document.querySelectorAll(
-		'a[href$="#home"], a[href$="#about"], a[href$="#select-projects"], a[href$="#contact"]'
+		'a[href$="#home"], a[href$="#about"], a[href$="#select-projects"], a[href$="#connect"]'
 	);
 
 	const railLinks = document.querySelectorAll(
@@ -890,7 +890,7 @@
 			document.documentElement.scrollHeight - 24;
 
 		if (nearBottom) {
-			activateDot('contact');
+			activateDot('connect');
 		}
 	}, { passive: true });
 

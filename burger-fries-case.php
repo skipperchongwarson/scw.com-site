@@ -5,7 +5,7 @@
 <li class="nav-item active"> <a class="nav-link" href="/#home">Return home<span class="sr-only">(current)</span></a> </li>
 <li class="nav-item"> <a class="nav-link" href="/#select-projects">Select projects</a> </li>
 <li class="nav-item"> <a class="nav-link" href="/#about">The shape of the work</a> </li>
-<li class="nav-item"> <a class="nav-link" href="/#contact">Connect</a> </li>
+<li class="nav-item"> <a class="nav-link" href="/#connect">Connect</a> </li>
 <li class="nav-item"> <a class="nav-link" href="/speaks">Speaker info</a> </li>
 <li class="nav-item"> <a class="nav-link" href="/resume.pdf">PDF resume</a> </li>
 </ul>
