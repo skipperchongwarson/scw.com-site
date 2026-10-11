@@ -8,7 +8,7 @@
 	  <p class="site-colophon__menu"><a href="https://skipperchongwarson.com/">Home</a><br>
 	     <a href="https://skipperchongwarson.com/#select-projects">Select projects</a><br>
 	     <a href="https://skipperchongwarson.com/#about">About</a><br>
-	     <a href="https://skipperchongwarson.com/#contact">Contact</a></p>
+	     <a href="https://skipperchongwarson.com/#connect">Connect</a></p>
 
       <p>Designed, written, and built by Skipper Chong Warson using
 <a href="https://getbootstrap.com/">Bootstrap</a> and
