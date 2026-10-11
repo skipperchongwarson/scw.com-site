@@ -952,7 +952,7 @@ $(document).on('ready', function () {
 				afterRender: function () {
 
 					// Honor a section hash when the page is loaded directly,
-					// e.g. /#select-projects, /#about, /#contact
+					// e.g. /#select-projects, /#about, /#connect
 					var initialAnchor = window.location.hash.replace('#', '');
 
 					if (
@@ -1187,7 +1187,7 @@ $(document).on('ready', function () {
 				}, 0);
 			});
 
-			// Focus moving inside the Cal.com iframe (Home contact section)
+			// Focus moving inside the Cal.com iframe (Home Connect section)
 			// can still scroll that section's overflow wrapper natively.
 			// Hand any such offset to iScroll so both agree on the position.
 			// Registered only where the embed exists, and acts only while
@@ -1230,7 +1230,7 @@ $(document).on('ready', function () {
 				document.addEventListener('scroll', handOffCalFocusScroll, true);
 			}
 
-			// Cal.com's inline embed (index.php contact section) can finish
+			// Cal.com's inline embed (index.php Connect section) can finish
 			// resizing after fullPage has already measured this section's
 			// scrollOverflow height, leaving the internal scrollbar too
 			// short to reach the colophon. Watch the embed's own container
