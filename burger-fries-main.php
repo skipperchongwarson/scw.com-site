@@ -9,7 +9,7 @@
 <li class="nav-item">
 <a class="nav-link" href="#about">The shape of the work</a>
 </li>
-<li class="nav-item"> <a class="nav-link" href="/#contact">Contact</a> </li>
+<li class="nav-item"> <a class="nav-link" href="/#connect">Connect</a> </li>
 <li class="nav-item"> <a class="nav-link" href="/speaks">Speaker info</a> </li>
 <li class="nav-item"> <a class="nav-link" href="/resume.pdf">PDF resume</a> </li>
 </ul>
