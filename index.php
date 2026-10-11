@@ -64,7 +64,7 @@
 	          <li class="nav-item" data-menuanchor="home"> <a href="#home" title="Home"> <i class="icon ion-home"></i> <span class="txt">About</span> </a> </li>
 			  <li class="nav-item" data-menuanchor="select-projects"> <a href="#select-projects" title="Selected work"> <i class="icon ion-android-image"></i> <span class="txt">Selected work</span> </a></li>
 	          <li class="nav-item" data-menuanchor="about"> <a href="#about" title="When I'm most useful"> <i class="icon ion-android-compass"></i> <span class="txt">When I'm most useful</span> </a></li>
-	          <li class="nav-item" data-menuanchor="contact"> <a href="#contact" title="Book a time"> <i class="icon ion-android-call"></i> <span class="txt">Book a time</span> </a> </li>
+	          <li class="nav-item" data-menuanchor=" "> <a href="#contac e="Book a time"> <i class="icon ion-android-call"></i> <span class="txt">Book a time</span> </a> </li>
 	        </ul>
 	      </nav>
 	      <!-- End of sidebar nav menu -->
@@ -84,7 +84,7 @@
   	<a href="#home" aria-label="Home"></a>
   	<a href="#select-projects" aria-label="Selected work"></a>
   	<a href="#about" aria-label="When I'm most useful"></a>
-  	<a href="#contact" aria-label="Book a time"></a>
+  	<a href="#connect" aria-label="Book a time"></a>
   </nav>
   <main class="page-main page-fullpage main-anim" id="mainpage">
     <!-- Begin of home section -->
@@ -606,7 +606,7 @@
 
         <!-- Arrows scroll down/up -->
         <footer class="section-footer scrolldown">
-          <a class="down" href="#contact" aria-label="Scroll to Book a time">
+          <a class="down" href="#contact" aria-label="Scroll to Connect">
             <span class="icon down"></span>
           </a>
           <span class="separator"></span>
@@ -739,7 +739,7 @@
   <script>
     $(document).ready(function() {
       setTimeout(function() {
-        var dotNames = ["Home", "Selected work", "When I'm most useful", "Book a time"];
+        var dotNames = ["Home", "Selected work", "When I'm most useful", "Connect"];
         $('#fp-nav ul li a').each(function(index) {
           if (dotNames[index]) {
             $(this).attr('title', dotNames[index]);
