@@ -100,10 +100,10 @@
             <div class="col-12 col-lg-10 text-left">
               <!-- title and description -->
               <div class="title-desc">
-                <h1 class="display-4 display-title home-title anim-1"><span class="text-lighter">When customer signal is messy, I help turn it into a product decision that</span> moves you forward</h1>
+                <h1 class="display-4 display-title home-title anim-1"><span class="text-lighter">When customer signal is messy, I help turn it into a product decision that</span> moves your team forward</h1>
 				<p class="anim-2 home-desc">I've spent 15+ years building products, designing services, and leading teams across startups and larger organizations. In that time, I've learned that having customer evidence and knowing what to do with it are two very different things.</p>
-				<p class="anim-2 home-desc">I leverage product strategy, service design, and customer evidence to help teams make clearer decisions about what to build, who it's for, and how it should work. My work spans research, facilitation, experience strategy, and implementation, hands-on where it helps.</p>
-                <p class="anim-2 home-desc">Today, through <a href="https://howthisworks.co" title="How This Works co — customer evidence for consequential product and go-to-market decisions">How This Works co</a>, I'm focusing on early-stage teams approaching consequential product or go-to-market decisions. I bring the people making the call into the same customer conversations so they can work through what they've heard and decide what to do next together.</p>
+				<p class="anim-2 home-desc">I use product strategy, service design, and customer evidence to help teams make clearer decisions about what to build, who it's for, and how it should work. My work spans research, facilitation, experience strategy, and implementation, hands-on where it helps.</p>
+                <p class="anim-2 home-desc">Today, through <a href="https://howthisworks.co" title="How This Works co — customer evidence for consequential product and go-to-market decisions">How This Works co</a>, I'm working mainly with early-stage teams on consequential product or go-to-market decisions. I bring the people making the call into the same customer conversations live so they can suss out what they've heard and decide what to do next together.</p>
                 <!-- Action button -->
                 <div class="btns-action anim-3">
                   <a class="btn btn-underline btn-primary" href="#connect" title="Bring a product decision your team is wrestling with"><span class="text">Book a time to talk</span></a>
