@@ -291,8 +291,7 @@
 			                   </a>
 
 			                   <p class="media-meta">
-			                     Fractional product leadership & design strategy · Wellness · Jun 2025–present
-			                   </p>
+			                     Fractional product leadership & design strategy · Wellness · Jun 2025–Oct 2026</p>
 
 			                 </div>
 			               </div>
