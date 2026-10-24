@@ -2724,7 +2724,10 @@ textarea {
 	
 	.navbar-top-alpha .navbar-mainmenu .nav-item
 	{
-		transition: 0.3s;
+		/* Only the staggered fade/slide. With `all`, the stagger delays
+		   below also held each link at visibility:hidden, unfocusable,
+		   for up to 0.8s after the menu opened. */
+		transition: opacity 0.3s, transform 0.3s;
 		font-size: 2rem;
 		line-height: 1;
 		font-weight: bold;
@@ -2857,6 +2860,16 @@ textarea {
         -webkit-transform: none;
                 transform: none;
         opacity: 1; } }
+  /* The overlay and its links use `transition: 0.3s` for every property,
+     so on the frame the menu opens they are still visibility:hidden and
+     main.js cannot move focus into the menu. Show them at once on open;
+     opacity and transform still animate, and closing keeps the 0.3s
+     visibility fade-out. */
+  .navbar-top-alpha .all-menu-wrapper.menu-visible,
+  .navbar-top-alpha .all-menu-wrapper.menu-visible .navbar-mainmenu,
+  .navbar-top-alpha .all-menu-wrapper.menu-visible .navbar-mainmenu a {
+    transition-property: all, visibility;
+    transition-duration: 0.3s, 0s; }
   .navbar-top-alpha .navbar-menu-social {
     margin-top: 2rem; }
     .navbar-top-alpha .navbar-menu-social .social-text {

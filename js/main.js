@@ -75,34 +75,163 @@ $(document).on('ready', function () {
 	var menuBlock = $('.all-menu-wrapper');
 	var reactToMenu = $ ('.page-main, .navbar-sidebar, .page-cover, .responsive-dot-rail')
 	var menuLinks = $(".navbar-mainmenu a, .navbar-sidebar a");
-	// Menu icon clicked
-	menuToggler.on('click', function () {
-		var isOpen = menuToggler.toggleClass('menu-visible').hasClass('menu-visible');
+	var menuPanel = $('.navbar-mainmenu');
+	// Page content made inert while the menu is open, restored on close.
+	var menuInertElements = [];
 
-		menuBlock.toggleClass('menu-visible');
-		menuItems.toggleClass('menu-visible');
-		reactToMenu.toggleClass('menu-visible');
+	function menuIsOpen() {
+		return menuToggler.hasClass('menu-visible');
+	}
+
+	// The toggle (close control) plus whichever menu links are rendered
+	// at the current breakpoint, in tab order.
+	function menuFocusables() {
+		return menuToggler.add(menuPanel.find('a[href], button:not([disabled])'))
+			.filter(function () {
+				return this.getClientRects().length > 0 &&
+					window.getComputedStyle(this).visibility !== 'hidden';
+			});
+	}
+
+	// Make every branch of the page that holds none of `kept` inert: out
+	// of the tab order, unreachable by focus() and clicks, and hidden from
+	// assistive tech. Returns the elements it changed so the caller can
+	// release exactly those; branches already inert are left to their
+	// owner. #fp-nav is created by fullPage after load, so the tree is
+	// walked each time an overlay opens.
+	function inertOutside(kept) {
+		var changed = [];
+
+		kept.forEach(function (element) {
+			for (var node = element; node !== document.body; node = node.parentNode) {
+				$(node).siblings().each(function () {
+					var sibling = this;
+					var holdsKept = kept.some(function (keep) {
+						return sibling.contains(keep);
+					});
+
+					if (holdsKept || sibling.inert || sibling.tagName === 'SCRIPT') {
+						return;
+					}
+
+					sibling.inert = true;
+					changed.push(sibling);
+				});
+			}
+		});
+
+		return changed;
+	}
+
+	function releaseInert(elements) {
+		elements.forEach(function (element) {
+			element.inert = false;
+		});
+	}
+
+	// While open, everything but the toggle and the menu panel is inert.
+	function setPageInert(inert) {
+		if (!inert) {
+			releaseInert(menuInertElements);
+			menuInertElements = [];
+			return;
+		}
+
+		menuInertElements = inertOutside(menuToggler.add(menuPanel).get());
+	}
+
+	// fullPage keyboard scrolling is on only while no overlay needs it
+	// off. Arrow, space and page keys must not move the sections behind
+	// the menu or the case-study lightbox, so the state is derived from
+	// both each time either one opens or closes; closing one overlay can
+	// never re-enable it while the other is still open.
+	function syncFullPageKeyboard() {
+		if (!$.fn.fullpage || typeof $.fn.fullpage.setKeyboardScrolling !== 'function') {
+			return;
+		}
+
+		var overlayOpen = menuIsOpen() ||
+			$('body').hasClass('case-study-lightbox-open');
+
+		$.fn.fullpage.setKeyboardScrolling(!overlayOpen);
+	}
+
+	function setMenuOpen(isOpen, restoreFocus) {
+		menuToggler.toggleClass('menu-visible', isOpen);
+		menuBlock.toggleClass('menu-visible', isOpen);
+		menuItems.toggleClass('menu-visible', isOpen);
+		reactToMenu.toggleClass('menu-visible', isOpen);
 		// fullPage creates #fp-nav after this runs, so look it up here.
 		$('#fp-nav').toggleClass('menu-visible', isOpen);
 
 		menuToggler.attr('aria-expanded', isOpen ? 'true' : 'false');
 		menuToggler.attr('aria-label', isOpen ? 'Close menu' : 'Open menu');
 
+		setPageInert(isOpen);
+		syncFullPageKeyboard();
+
+		if (isOpen) {
+			var firstLink = menuFocusables().not(menuToggler)[0];
+
+			if (firstLink) {
+				firstLink.focus({ preventScroll: true });
+			}
+		} else if (restoreFocus) {
+			menuToggler[0].focus({ preventScroll: true });
+		}
+	}
+
+	// Menu icon clicked
+	menuToggler.on('click', function () {
+		setMenuOpen(!menuIsOpen(), true);
+
 		return false;
 	});
 
 	// Hide menu after a menu item clicked
 	menuLinks.on('click', function () {
-		menuToggler.removeClass('menu-visible');
-		menuBlock.removeClass('menu-visible');
-		menuItems.removeClass('menu-visible');
-		reactToMenu.removeClass('menu-visible');
-		$('#fp-nav').removeClass('menu-visible');
-
-		menuToggler.attr('aria-expanded', 'false');
-		menuToggler.attr('aria-label', 'Open menu');
+		if (menuIsOpen()) {
+			setMenuOpen(false, true);
+		}
 
 		return true;
+	});
+
+	// While the menu is open, Escape closes it and Tab wraps between the
+	// first and last menu controls instead of leaving the page.
+	document.addEventListener('keydown', function (event) {
+		if (!menuIsOpen()) {
+			return;
+		}
+
+		if (event.key === 'Escape') {
+			event.preventDefault();
+			setMenuOpen(false, true);
+			return;
+		}
+
+		if (event.key !== 'Tab') {
+			return;
+		}
+
+		var focusable = menuFocusables();
+
+		if (!focusable.length) {
+			return;
+		}
+
+		var first = focusable[0];
+		var last = focusable[focusable.length - 1];
+		var active = document.activeElement;
+		var focusInMenu = focusable.index(active) !== -1;
+
+		if (event.shiftKey && (active === first || !focusInMenu)) {
+			event.preventDefault();
+			last.focus();
+		} else if (!event.shiftKey && (active === last || !focusInMenu)) {
+			event.preventDefault();
+			first.focus();
+		}
 	});
 
 	// 4 Carousel Slider
@@ -236,6 +365,8 @@ $(document).on('ready', function () {
 		var body = document.body;
 		var lightboxSwiper = null;
 		var lastTrigger = null;
+		// Page content made inert while the dialog is open.
+		var lightboxInertElements = [];
 		var phonePortraitQuery = window.matchMedia(
 			'(max-width: 576px) and (orientation: portrait)'
 		);
@@ -257,6 +388,10 @@ $(document).on('ready', function () {
 		lightbox.setAttribute('aria-modal', 'true');
 		lightbox.setAttribute('aria-label', 'Full-screen case-study image');
 		lightbox.setAttribute('aria-hidden', 'true');
+		// Focusable by script, so focus that falls out of the dialog can
+		// be returned to it (see focusout below); a click on a
+		// non-focusable part outside the slides also lands here.
+		lightbox.setAttribute('tabindex', '-1');
 		lightbox.innerHTML =
 			'<button type="button" class="case-study-lightbox__close" aria-label="Close full-screen image">' +
 				'<span aria-hidden="true">&times;</span>' +
@@ -439,9 +574,9 @@ $(document).on('ready', function () {
 				$.fn.fullpage.setAllowScrolling(enabled);
 			}
 
-			if (typeof $.fn.fullpage.setKeyboardScrolling === 'function') {
-				$.fn.fullpage.setKeyboardScrolling(enabled);
-			}
+			// Keyboard state is shared with the menu; body's
+			// case-study-lightbox-open class is already set or cleared.
+			syncFullPageKeyboard();
 		}
 
 		function destroyLightboxSwiper() {
@@ -484,6 +619,9 @@ $(document).on('ready', function () {
 			lightbox.classList.add('is-open');
 			lightbox.setAttribute('aria-hidden', 'false');
 			body.classList.add('case-study-lightbox-open');
+			// The page behind, menu toggle included, can't take focus,
+			// clicks or keys while the dialog is open.
+			lightboxInertElements = inertOutside([lightbox]);
 			setFullPageInput(false);
 
 			lightboxSwiper = new Swiper(
@@ -520,6 +658,9 @@ $(document).on('ready', function () {
 			lightbox.classList.remove('is-open');
 			lightbox.setAttribute('aria-hidden', 'true');
 			body.classList.remove('case-study-lightbox-open');
+			// Released before focus returns to the (now reachable) trigger.
+			releaseInert(lightboxInertElements);
+			lightboxInertElements = [];
 			setFullPageInput(true);
 			destroyLightboxSwiper();
 
@@ -689,6 +830,24 @@ $(document).on('ready', function () {
 			closeLightbox();
 		});
 
+		// Swiper blurs a focused button when a drag or click starts on the
+		// slides (and cancels the mousedown), and script can blur() too;
+		// either drops focus to <body>. Take it back to the dialog so Tab
+		// and Shift+Tab stay inside. The rest of the page is inert, so
+		// <body> is the only place focus can fall to.
+		lightbox.addEventListener('focusout', function () {
+			window.setTimeout(function () {
+				var active = document.activeElement;
+
+				if (
+					lightbox.classList.contains('is-open') &&
+					(!active || !lightbox.contains(active))
+				) {
+					lightbox.focus({ preventScroll: true });
+				}
+			}, 0);
+		});
+
 		document.addEventListener('keydown', function (event) {
 			if (!lightbox.classList.contains('is-open')) {
 				return;
@@ -724,11 +883,15 @@ $(document).on('ready', function () {
 
 				var first = focusable[0];
 				var last = focusable[focusable.length - 1];
+				var active = document.activeElement;
+				// Focus on <body> or the dialog itself re-enters at an end.
+				var focusInList =
+					Array.prototype.indexOf.call(focusable, active) !== -1;
 
-				if (event.shiftKey && document.activeElement === first) {
+				if (event.shiftKey && (active === first || !focusInList)) {
 					event.preventDefault();
 					last.focus();
-				} else if (!event.shiftKey && document.activeElement === last) {
+				} else if (!event.shiftKey && (active === last || !focusInList)) {
 					event.preventDefault();
 					first.focus();
 				}
@@ -1244,6 +1407,16 @@ $(document).on('ready', function () {
 				var calResizeObserver = new ResizeObserver(function () {
 					clearTimeout(calResizeTimer);
 					calResizeTimer = setTimeout(function () {
+						// Before window load, scrolloverflow has not built its
+						// scrollers yet; its own load pass measures the embed.
+						// Rebuilding now wraps the Connect slide, moving the
+						// embed's iframe, and that move can fire window load
+						// mid-wrap, re-entering scrolloverflow's setup on a
+						// half-built section ("reading 'destroy'" error).
+						if (document.readyState !== 'complete') {
+							return;
+						}
+
 						if ($.fn.fullpage && typeof $.fn.fullpage.reBuild === 'function') {
 							$.fn.fullpage.reBuild();
 						}
