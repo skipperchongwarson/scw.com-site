@@ -75,34 +75,139 @@ $(document).on('ready', function () {
 	var menuBlock = $('.all-menu-wrapper');
 	var reactToMenu = $ ('.page-main, .navbar-sidebar, .page-cover, .responsive-dot-rail')
 	var menuLinks = $(".navbar-mainmenu a, .navbar-sidebar a");
-	// Menu icon clicked
-	menuToggler.on('click', function () {
-		var isOpen = menuToggler.toggleClass('menu-visible').hasClass('menu-visible');
+	var menuPanel = $('.navbar-mainmenu');
+	// Page content made inert while the menu is open, restored on close.
+	var menuInertElements = [];
 
-		menuBlock.toggleClass('menu-visible');
-		menuItems.toggleClass('menu-visible');
-		reactToMenu.toggleClass('menu-visible');
+	function menuIsOpen() {
+		return menuToggler.hasClass('menu-visible');
+	}
+
+	// The toggle (close control) plus whichever menu links are rendered
+	// at the current breakpoint, in tab order.
+	function menuFocusables() {
+		return menuToggler.add(menuPanel.find('a[href], button:not([disabled])'))
+			.filter(function () {
+				return this.getClientRects().length > 0 &&
+					window.getComputedStyle(this).visibility !== 'hidden';
+			});
+	}
+
+	// While open, everything but the toggle and the menu panel is inert:
+	// out of the tab order, unreachable by focus() and hidden from
+	// assistive tech. #fp-nav is created by fullPage after load, so the
+	// tree is walked each time the menu opens.
+	function setPageInert(inert) {
+		if (!inert) {
+			menuInertElements.forEach(function (element) {
+				element.inert = false;
+			});
+			menuInertElements = [];
+			return;
+		}
+
+		var kept = menuToggler.add(menuPanel).get();
+
+		kept.forEach(function (element) {
+			for (var node = element; node !== document.body; node = node.parentNode) {
+				$(node).siblings().each(function () {
+					var sibling = this;
+					var holdsKept = kept.some(function (keep) {
+						return sibling.contains(keep);
+					});
+
+					if (holdsKept || sibling.inert || sibling.tagName === 'SCRIPT') {
+						return;
+					}
+
+					sibling.inert = true;
+					menuInertElements.push(sibling);
+				});
+			}
+		});
+	}
+
+	function setMenuOpen(isOpen, restoreFocus) {
+		menuToggler.toggleClass('menu-visible', isOpen);
+		menuBlock.toggleClass('menu-visible', isOpen);
+		menuItems.toggleClass('menu-visible', isOpen);
+		reactToMenu.toggleClass('menu-visible', isOpen);
 		// fullPage creates #fp-nav after this runs, so look it up here.
 		$('#fp-nav').toggleClass('menu-visible', isOpen);
 
 		menuToggler.attr('aria-expanded', isOpen ? 'true' : 'false');
 		menuToggler.attr('aria-label', isOpen ? 'Close menu' : 'Open menu');
 
+		setPageInert(isOpen);
+
+		// Arrow, space and page keys on a menu link must not move the
+		// sections behind the menu (same switch the lightbox uses).
+		if ($.fn.fullpage && typeof $.fn.fullpage.setKeyboardScrolling === 'function') {
+			$.fn.fullpage.setKeyboardScrolling(!isOpen);
+		}
+
+		if (isOpen) {
+			var firstLink = menuFocusables().not(menuToggler)[0];
+
+			if (firstLink) {
+				firstLink.focus({ preventScroll: true });
+			}
+		} else if (restoreFocus) {
+			menuToggler[0].focus({ preventScroll: true });
+		}
+	}
+
+	// Menu icon clicked
+	menuToggler.on('click', function () {
+		setMenuOpen(!menuIsOpen(), true);
+
 		return false;
 	});
 
 	// Hide menu after a menu item clicked
 	menuLinks.on('click', function () {
-		menuToggler.removeClass('menu-visible');
-		menuBlock.removeClass('menu-visible');
-		menuItems.removeClass('menu-visible');
-		reactToMenu.removeClass('menu-visible');
-		$('#fp-nav').removeClass('menu-visible');
-
-		menuToggler.attr('aria-expanded', 'false');
-		menuToggler.attr('aria-label', 'Open menu');
+		if (menuIsOpen()) {
+			setMenuOpen(false, true);
+		}
 
 		return true;
+	});
+
+	// While the menu is open, Escape closes it and Tab wraps between the
+	// first and last menu controls instead of leaving the page.
+	document.addEventListener('keydown', function (event) {
+		if (!menuIsOpen()) {
+			return;
+		}
+
+		if (event.key === 'Escape') {
+			event.preventDefault();
+			setMenuOpen(false, true);
+			return;
+		}
+
+		if (event.key !== 'Tab') {
+			return;
+		}
+
+		var focusable = menuFocusables();
+
+		if (!focusable.length) {
+			return;
+		}
+
+		var first = focusable[0];
+		var last = focusable[focusable.length - 1];
+		var active = document.activeElement;
+		var focusInMenu = focusable.index(active) !== -1;
+
+		if (event.shiftKey && (active === first || !focusInMenu)) {
+			event.preventDefault();
+			last.focus();
+		} else if (!event.shiftKey && (active === last || !focusInMenu)) {
+			event.preventDefault();
+			first.focus();
+		}
 	});
 
 	// 4 Carousel Slider
