@@ -220,7 +220,7 @@
               <!-- title and description -->
               <div class="title-desc">
                 <h2 class="display-4 display-title mb-4 anim-1">Selected work</h2>
-                <p class="anim-2">A selection of work across startups and larger organizations, spanning customer discovery, product strategy, product design, service design, and team leadership. Some stories are about decisions that changed direction. Others are about what it took to make that direction real.</p>
+                <p class="anim-2">This is work across startups and larger organizations, spanning customer discovery, product strategy, product design, service design, and team leadership. Some stories are about decisions that changed direction. Others are about what it took to make that direction real.</p>
               </div>
               <div class="project-lenses anim-3" aria-label="Browse selected work by focus">
                 <button class="project-lens is-active" type="button" aria-pressed="true" data-filter="all">All work</button>
@@ -576,13 +576,13 @@
 				  <h2 class="display-4 display-title mb-4 anim-1">When I'm most useful</h2>
 				  <p class="anim-2">I'm drawn to work where understanding customers, making product decisions, and figuring out how to deliver them are closely connected.</p>
 
-				  <p class="anim-2">Sometimes that's an early-stage idea still taking shape. Other times it's an existing product that needs to evolve, a complicated service involving several teams or systems, or an organization trying to make sense of conflicting customer information.</p>
+				  <p class="anim-2">Sometimes that's a rough idea taking shape. Other times it's an existing product that needs to evolve, a complicated service involving several teams or systems, or an organization trying to make sense of conflicting customer information and business constraints.</p>
 
-				  <p class="anim-2">My work spans product strategy, service design, and product design, from customer discovery and framing through prototyping, testing, and implementation. I work closely with the people making decisions and doing the work, connecting customer evidence to product and service design, testing, and implementation.</p>
+				  <p class="anim-2">My venn diagram overlaps product strategy, service design, and product design, from customer discovery and framing through prototyping, testing, and implementation. I work closely with the people making decisions and doing the work, connecting customer evidence to product and service design, testing, and implementation.</p>
 
 				  <p class="anim-2">I came into this through UX and service design, and that 100% shapes how I operate. I lean into the messy, complicated bits where several actors, channels, or teams are involved and the right response isn't obvious.</p>
 
-				  <p class="anim-2">Artificial intelligence (AI) is part of how I work, too. I use it to examine research, explore ideas, prototype, and write basic code. It helps me move faster, but customer behavior and human judgment still guide the decisions.</p>
+				  <p class="anim-2">Artificial intelligence (AI) is part of how I work, too. I use it to scrutinize research, explore ideas, prototype, and construct basic code. It helps me move faster, but customer behavior and human judgment still guide the decisions.</p>
                 </div>
 
               </div>
