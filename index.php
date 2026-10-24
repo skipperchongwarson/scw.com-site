@@ -100,13 +100,13 @@
             <div class="col-12 col-lg-10 text-left">
               <!-- title and description -->
               <div class="title-desc">
-                <h1 class="display-4 display-title home-title anim-1"><span class="text-lighter">I help teams figure out what customers want, what to build next,</span> and how to make it work</h1>
-				<p class="anim-2 home-desc">I've spent 15+ years building products, designing services, and leading teams across startups and larger organizations. In that time, I've learned that having customer evidence and knowing what to do with it are two very different things.</p>
+                <h1 class="display-4 display-title home-title anim-1"><span class="text-lighter">I help teams figure out what customers want, what to build next, and</span> how to make it work</h1>
+				<p class="anim-2 home-desc">I've spent 15+ years building products, designing services, and leading teams in startups and in larger organizations. In that time, I've learned that having customer evidence and knowing what to do with it are two very different things.</p>
 				<p class="anim-2 home-desc">I use product strategy, customer discovery, and hands-on design to help teams turn what they're learning about customers into better products and services. Sometimes that means research and facilitation. Other times I'm designing, prototyping, testing, or working alongside the people implementing changes.</p>
                 <p class="anim-2 home-desc">Today, through <a href="https://howthisworks.co" title="How This Works co — product strategy, customer discovery, and hands-on design">How This Works co</a>, I work mainly alongside early-stage teams, from focused customer discovery sprints to retainer-style engagements. I bring the people making product decisions into customer conversations so we can work from what customers have done or are doing rather than what we assume they want.</p>
                 <!-- Action button -->
                 <div class="btns-action anim-3">
-                  <a class="btn btn-underline btn-primary" href="#connect" title="Bring a product decision your team is wrestling with"><span class="text">Book a time to talk</span></a>
+                  <a class="btn btn-underline btn-primary" href="#connect" title="Talk about customer questions, product strategy, or design work"><span class="text">Book a time to talk</span></a>
                 </div>
 				
 				<script type="application/ld+json">
@@ -282,7 +282,7 @@
 
 			                       <div class="media-footer">
 			                         <span class="btn btn-underline btn-primary">
-			                           <span class="text">Coming soon</span>
+			                           <span class="text">Visit website</span>
 			                         </span>
 			                       </div>
 
@@ -494,7 +494,7 @@
 			                   <a
 			                     class="media-project-link"
 			                     href="/bank-of-america-bankers/"
-			                     aria-label="Read the Bank of America commercial CRM"
+			                     aria-label="Read the Bank of America commercial banking case study"
 			                   >
 			                     <div class="media-img">
 
@@ -526,7 +526,7 @@
 			                   <a
 			                     class="media-project-link"
 			                     href="/bank-of-america-investors/"
-			                     aria-label="Read the Bank of America investor research"
+			                     aria-label="Read the Bank of America investor research case study"
 			                   >
 			                     <div class="media-img">
 
@@ -578,11 +578,11 @@
 
 				  <p class="anim-2">Sometimes that's a rough idea taking shape. Other times it's an existing product that needs to evolve, a complicated service involving several teams or systems, or an organization trying to make sense of conflicting customer information and business constraints.</p>
 
-				  <p class="anim-2">My venn diagram overlaps product strategy, service design, and product design, from customer discovery and framing through prototyping, testing, and implementation. I work closely with the people making decisions and doing the work, connecting customer evidence to product and service design, testing, and implementation.</p>
+				  <p class="anim-2">My venn diagram overlaps product strategy, service design, and product design, from customer discovery and framing through prototyping, testing, and implementation. I work closely with the people making decisions and doing the work, so what we learn from customers can inform what happens next.</p>
 
 				  <p class="anim-2">I came into this through UX and service design, and that 100% shapes how I operate. I lean into the messy, complicated bits where several actors, channels, or teams are involved and the right response isn't obvious.</p>
 
-				  <p class="anim-2">Artificial intelligence (AI) is part of how I work, too. I use it to scrutinize research, explore ideas, prototype, and construct basic code. It helps me move faster, but customer behavior and human judgment still guide the decisions.</p>
+				  <p class="anim-2">Artificial intelligence (AI) is part of how I work, too. I use it to examine research, explore ideas, prototype, and write basic code. It helps me move faster, but customer behavior and human judgment still guide the decisions.</p>
                 </div>
 
               </div>
