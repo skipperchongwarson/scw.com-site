@@ -125,7 +125,7 @@
 		        <h1 class="anim-1">Speaker bio</h1>
 		        <p class="anim-2 home-desc">I work with teams when customer and stakeholder evidence is messy, incomplete, or pulling people toward different conclusions. I help turn it into a clearer product, service, or strategic decision, and I get into the details when that is where the outcome can change.</p>
 		        <p class="anim-2 home-desc">Today, through <a href="https://howthisworks.co/">How This Works co</a>, I focus more narrowly on founding teams approaching consequential product or go-to-market decisions. I bring the people making the decision closer to direct customer evidence so they can hear the same customers, compare interpretations, and make the next call together.</p>
-		        <p class="anim-2 home-desc">Below are bios written in the third person for ease of copying and pasting by publications, conferences, and other media. My <a href="/resume.pdf">formal CV is here</a>.</p>
+		        <p class="anim-2 home-desc">Below are bios written in the third person for ease of copying and pasting by publications, conferences, and other media. My <a href="/resume.pdf">resume is here</a>.</p>
 		      </div>
 		    </div>
 		  </div>

@@ -77,7 +77,7 @@
               <div class="title-desc">
                 <h6 class="display-4 display-title home-title anim-1">Design leadership & practice building · Enterprise consulting · 2021–2024</h6>
                 <h1>SoftServe</h1>
-                <p class="anim-2 home-desc">SoftServe was founded in Lviv, Ukraine in 1993 by two postgraduate Polytechnic students. And by the time I joined in 2021, most of its clients were in the U.S. and Canada, but almost all of its designers were based in Europe.</p>
+                <p class="anim-2 home-desc">SoftServe was founded in Lviv, Ukraine in 1993 by two postgraduate Polytechnic students. And by the time I joined in 2021, most of its clients were in the U.S. and Canada, but almost all of its designers were based in Europe and specifically Eastern Europe.</p>
                 <p class="anim-2 home-desc">I joined the global design group as a design director and was promoted first to U.S. lead, then Americas lead as we expanded. I eventually owned hiring, staffing, utilization, management, and career development for a 12-person regional team located up and down the Americas.</p>
                 <p class="case-meta anim-2 home-desc">By <a href="/#home">Skipper Chong Warson</a> · Published 1 Sep 2025 · Updated 7 Sep 2026</p>
               </div>
