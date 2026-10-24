@@ -18,7 +18,7 @@
       <p>
         The work here spans full-time roles, client engagements
         through <a href="https://howthisworks.co/">How This Works co</a> 
-		and independent projects, including strategic consulting plus hands-on work. He runs <a href="https://www.howthisworks.show/">the How This Works show</a>; he's also available for talks and other <a href="https://skipperchongwarson.com/speaks/">speaking</a> engagements.
+		and independent projects, including strategic consulting and hands-on work. He runs <a href="https://www.howthisworks.show/">the How This Works show</a> and is also available for talks and other <a href="https://skipperchongwarson.com/speaks/">speaking</a> engagements.
       </p>
 
       <p>

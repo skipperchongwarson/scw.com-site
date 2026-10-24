@@ -102,7 +102,7 @@
               <div class="title-desc">
                 <h1 class="display-4 display-title home-title anim-1"><span class="text-lighter">I help teams figure out what customers want, what to build next, and</span> how to make it work</h1>
 				<p class="anim-2 home-desc">I've spent 15+ years building products, designing services, and leading teams in startups and in larger organizations. In that time, I've learned that having customer evidence and knowing what to do with it are two very different things.</p>
-				<p class="anim-2 home-desc">I use product strategy, customer discovery, and hands-on design to help teams turn what they're learning about customers into better products and services. Sometimes that means research and facilitation. Other times I'm designing, prototyping, testing, or working alongside the people implementing changes.</p>
+				<p class="anim-2 home-desc">I use product strategy, customer discovery, and hands-on design to help teams turn what they're learning about customers into better products and services. Sometimes that means research and facilitation. Other times I'm designing, prototyping, testing, or working with the people implementing changes.</p>
                 <p class="anim-2 home-desc">Today, through <a href="https://howthisworks.co" title="How This Works co — product strategy, customer discovery, and hands-on design">How This Works co</a>, I work mainly alongside early-stage teams, from focused customer discovery sprints to retainer-style engagements. I bring the people making product decisions into customer conversations so we can work from what customers have done or are doing rather than what we assume they want.</p>
                 <!-- Action button -->
                 <div class="btns-action anim-3">
@@ -220,7 +220,7 @@
               <!-- title and description -->
               <div class="title-desc">
                 <h2 class="display-4 display-title mb-4 anim-1">Selected work</h2>
-                <p class="anim-2">This is work across startups and larger organizations, spanning customer discovery, product strategy, product design, service design, and team leadership. Some stories are about decisions that changed direction. Others are about what it took to make that direction real.</p>
+                <p class="anim-2">This work spans startups and larger organizations, spanning customer discovery, product strategy, product design, service design, and team leadership. Some stories are about decisions that changed direction. Others are about what it took to make that direction real.</p>
               </div>
               <div class="project-lenses anim-3" aria-label="Browse selected work by focus">
                 <button class="project-lens is-active" type="button" aria-pressed="true" data-filter="all">All work</button>
@@ -241,7 +241,7 @@
 				  <a class="media-project-link" href="/replay/" aria-label="Read the Replay case study" >
 				    <div class="media-img">
 
-				      <img src="img/items/replay-thumb.jpg" alt="Replay customer hypotheses narrowed across five cycles" loading="lazy" width="1117" height="1080">
+				      <img src="img/items/replay-thumb.jpg" alt="Replay customer hypotheses narrowed over five cycles" loading="lazy" width="1117" height="1080">
 
 				      <div class="media-body">
 				        <h3>Replay</h3>
