@@ -102,7 +102,7 @@
               <div class="title-desc">
                 <h1 class="display-4 display-title home-title anim-1"><span class="text-lighter">I help teams figure out what customers want, what to build next, and how to make it work</h1>
 				<p class="anim-2 home-desc">I've spent 15+ years building products, designing services, and leading teams across startups and larger organizations. In that time, I've learned that having customer evidence and knowing what to do with it are two very different things.</p>
-				<p class="anim-2 home-desc">I use product strategy, service design, and customer evidence to help teams make clearer decisions about what to build, who it's for, and how it should work. My work spans research, facilitation, experience strategy, and implementation, hands-on where it helps.</p>
+				<p class="anim-2 home-desc">I use product strategy, customer discovery, and hands-on design to help teams understand what matters to customers, figure out what to build next, and make improvements to products and services. Sometimes that means research,  facilitation, or designing, prototyping, testing, or working with the people implementing the changes.</p>
                 <p class="anim-2 home-desc">Today, through <a href="https://howthisworks.co" title="How This Works co — customer evidence for consequential product and go-to-market decisions">How This Works co</a>, I'm working mainly with early-stage teams on consequential product or go-to-market decisions. I bring the people making the call into the same customer conversations live so they can suss out what they've heard and decide what to do next together.</p>
                 <!-- Action button -->
                 <div class="btns-action anim-3">
