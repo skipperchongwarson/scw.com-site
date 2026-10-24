@@ -576,15 +576,15 @@
                 <!-- title and description -->
                 <div class="title-desc">
 				  <h2 class="display-4 display-title mb-4 anim-1">When I'm most useful</h2>
-				  <p class="anim-2">I’m most useful when a team has plenty of customer information but no clean way to decide what it means for the next product, positioning, or service decision.</p>
+				  <p class="anim-2">I'm drawn to work where it's not entirely clear who a product or service is for, what matters most to the people using it, or what should happen next.</p>
 
-				  <p class="anim-2">That might mean working through several plausible versions of the customer, conflicting interpretations of the same evidence, or a product team moving quickly without knowing whether the customer hypothesis still holds.</p>
+				  <p class="anim-2">Sometimes that's an early-stage idea still taking shape. Other times it's an existing product that needs to evolve, a complicated service involving several teams or systems, or an organization trying to make sense of conflicting customer information.</p>
 
-				  <p class="anim-2">The work can take the shape of a <a href="https://howthisworks.co/work/listening-cycle" title="Listening Cycle — ongoing customer interviews to keep product decisions grounded">Listening Cycle</a>, a fuller featured <a href="https://howthisworks.co/work/bullseye-customer-sprint" title="Bullseye Customer Sprint — five live customer interviews to clarify product direction">Bullseye Customer Sprint</a>, or a fractional engagement. The format and mode change but the job is the same: get closer to the evidence, make sense of it together, and turn it into a decision the team can act on.</p>
+				  <p class="anim-2">My work spans product strategy, service design, and product design, from customer discovery and framing through prototyping, testing, and implementation. I work closely with the people making decisions and doing the work, bringing customer evidence into the process rather than treating research as a separate activity.</p>
 
-				  <p class="anim-2">I came into this through UX and service design, and that 100% shapes how I operate. I lean into the messy, complicated bits where several actors, channels, or teams are involved and the right response isn’t obvious. That can mean research and framing, journeys or service models, facilitated decisions, concepts and prototypes, and enough implementation thinking that the work doesn’t stop at the feel good vibes of a workshop.</p>
+				  <p class="anim-2">I came into this through UX and service design, and that 100% shapes how I operate. I lean into the messy, complicated bits where several actors, channels, or teams are involved and the right response isn't obvious.</p>
 
-				  <p class="anim-2">AI helps me work across larger evidence sets and move faster through synthesis, but direct customer evidence and human judgment stay at the center.</p>
+				  <p class="anim-2">Artificial intelligence (AI) is part of how I work, too. I use it to examine research, explore ideas, prototype, and write basic code. It helps me move faster, but customer behavior and human judgment still guide the decisions.</p>
                 </div>
 
               </div>
