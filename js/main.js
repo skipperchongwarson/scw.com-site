@@ -127,6 +127,22 @@ $(document).on('ready', function () {
 		});
 	}
 
+	// fullPage keyboard scrolling is on only while no overlay needs it
+	// off. Arrow, space and page keys must not move the sections behind
+	// the menu or the case-study lightbox, so the state is derived from
+	// both each time either one opens or closes; closing one overlay can
+	// never re-enable it while the other is still open.
+	function syncFullPageKeyboard() {
+		if (!$.fn.fullpage || typeof $.fn.fullpage.setKeyboardScrolling !== 'function') {
+			return;
+		}
+
+		var overlayOpen = menuIsOpen() ||
+			$('body').hasClass('case-study-lightbox-open');
+
+		$.fn.fullpage.setKeyboardScrolling(!overlayOpen);
+	}
+
 	function setMenuOpen(isOpen, restoreFocus) {
 		menuToggler.toggleClass('menu-visible', isOpen);
 		menuBlock.toggleClass('menu-visible', isOpen);
@@ -139,12 +155,7 @@ $(document).on('ready', function () {
 		menuToggler.attr('aria-label', isOpen ? 'Close menu' : 'Open menu');
 
 		setPageInert(isOpen);
-
-		// Arrow, space and page keys on a menu link must not move the
-		// sections behind the menu (same switch the lightbox uses).
-		if ($.fn.fullpage && typeof $.fn.fullpage.setKeyboardScrolling === 'function') {
-			$.fn.fullpage.setKeyboardScrolling(!isOpen);
-		}
+		syncFullPageKeyboard();
 
 		if (isOpen) {
 			var firstLink = menuFocusables().not(menuToggler)[0];
@@ -544,9 +555,9 @@ $(document).on('ready', function () {
 				$.fn.fullpage.setAllowScrolling(enabled);
 			}
 
-			if (typeof $.fn.fullpage.setKeyboardScrolling === 'function') {
-				$.fn.fullpage.setKeyboardScrolling(enabled);
-			}
+			// Keyboard state is shared with the menu; body's
+			// case-study-lightbox-open class is already set or cleared.
+			syncFullPageKeyboard();
 		}
 
 		function destroyLightboxSwiper() {
@@ -1349,6 +1360,16 @@ $(document).on('ready', function () {
 				var calResizeObserver = new ResizeObserver(function () {
 					clearTimeout(calResizeTimer);
 					calResizeTimer = setTimeout(function () {
+						// Before window load, scrolloverflow has not built its
+						// scrollers yet; its own load pass measures the embed.
+						// Rebuilding now wraps the Connect slide, moving the
+						// embed's iframe, and that move can fire window load
+						// mid-wrap, re-entering scrolloverflow's setup on a
+						// half-built section ("reading 'destroy'" error).
+						if (document.readyState !== 'complete') {
+							return;
+						}
+
 						if ($.fn.fullpage && typeof $.fn.fullpage.reBuild === 'function') {
 							$.fn.fullpage.reBuild();
 						}
