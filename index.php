@@ -220,7 +220,7 @@
               <!-- title and description -->
               <div class="title-desc">
                 <h2 class="display-4 display-title mb-4 anim-1">Selected work</h2>
-                <p class="anim-2">A selection of work across startups and larger organizations, from figuring out who a product is for and what customers need to designing products and services and leading the teams doing the work. Some stories are about decisions that changed direction. Others are about what it took to turn those decisions into something real.</p>
+                <p class="anim-2">A selection of work across startups and larger organizations, from figuring out who a product is for and what customers need to product design, service design, and leading the teams doing the work. Some stories are about decisions that changed direction. Others are about what it took to make that direction real.</p>
               </div>
               <div class="project-lenses anim-3" aria-label="Browse selected work by focus">
                 <button class="project-lens is-active" type="button" aria-pressed="true" data-filter="all">All work</button>
