@@ -93,20 +93,14 @@ $(document).on('ready', function () {
 			});
 	}
 
-	// While open, everything but the toggle and the menu panel is inert:
-	// out of the tab order, unreachable by focus() and hidden from
-	// assistive tech. #fp-nav is created by fullPage after load, so the
-	// tree is walked each time the menu opens.
-	function setPageInert(inert) {
-		if (!inert) {
-			menuInertElements.forEach(function (element) {
-				element.inert = false;
-			});
-			menuInertElements = [];
-			return;
-		}
-
-		var kept = menuToggler.add(menuPanel).get();
+	// Make every branch of the page that holds none of `kept` inert: out
+	// of the tab order, unreachable by focus() and clicks, and hidden from
+	// assistive tech. Returns the elements it changed so the caller can
+	// release exactly those; branches already inert are left to their
+	// owner. #fp-nav is created by fullPage after load, so the tree is
+	// walked each time an overlay opens.
+	function inertOutside(kept) {
+		var changed = [];
 
 		kept.forEach(function (element) {
 			for (var node = element; node !== document.body; node = node.parentNode) {
@@ -121,10 +115,29 @@ $(document).on('ready', function () {
 					}
 
 					sibling.inert = true;
-					menuInertElements.push(sibling);
+					changed.push(sibling);
 				});
 			}
 		});
+
+		return changed;
+	}
+
+	function releaseInert(elements) {
+		elements.forEach(function (element) {
+			element.inert = false;
+		});
+	}
+
+	// While open, everything but the toggle and the menu panel is inert.
+	function setPageInert(inert) {
+		if (!inert) {
+			releaseInert(menuInertElements);
+			menuInertElements = [];
+			return;
+		}
+
+		menuInertElements = inertOutside(menuToggler.add(menuPanel).get());
 	}
 
 	// fullPage keyboard scrolling is on only while no overlay needs it
@@ -352,6 +365,8 @@ $(document).on('ready', function () {
 		var body = document.body;
 		var lightboxSwiper = null;
 		var lastTrigger = null;
+		// Page content made inert while the dialog is open.
+		var lightboxInertElements = [];
 		var phonePortraitQuery = window.matchMedia(
 			'(max-width: 576px) and (orientation: portrait)'
 		);
@@ -373,6 +388,10 @@ $(document).on('ready', function () {
 		lightbox.setAttribute('aria-modal', 'true');
 		lightbox.setAttribute('aria-label', 'Full-screen case-study image');
 		lightbox.setAttribute('aria-hidden', 'true');
+		// Focusable by script, so focus that falls out of the dialog can
+		// be returned to it (see focusout below); a click on a
+		// non-focusable part outside the slides also lands here.
+		lightbox.setAttribute('tabindex', '-1');
 		lightbox.innerHTML =
 			'<button type="button" class="case-study-lightbox__close" aria-label="Close full-screen image">' +
 				'<span aria-hidden="true">&times;</span>' +
@@ -600,6 +619,9 @@ $(document).on('ready', function () {
 			lightbox.classList.add('is-open');
 			lightbox.setAttribute('aria-hidden', 'false');
 			body.classList.add('case-study-lightbox-open');
+			// The page behind, menu toggle included, can't take focus,
+			// clicks or keys while the dialog is open.
+			lightboxInertElements = inertOutside([lightbox]);
 			setFullPageInput(false);
 
 			lightboxSwiper = new Swiper(
@@ -636,6 +658,9 @@ $(document).on('ready', function () {
 			lightbox.classList.remove('is-open');
 			lightbox.setAttribute('aria-hidden', 'true');
 			body.classList.remove('case-study-lightbox-open');
+			// Released before focus returns to the (now reachable) trigger.
+			releaseInert(lightboxInertElements);
+			lightboxInertElements = [];
 			setFullPageInput(true);
 			destroyLightboxSwiper();
 
@@ -805,6 +830,24 @@ $(document).on('ready', function () {
 			closeLightbox();
 		});
 
+		// Swiper blurs a focused button when a drag or click starts on the
+		// slides (and cancels the mousedown), and script can blur() too;
+		// either drops focus to <body>. Take it back to the dialog so Tab
+		// and Shift+Tab stay inside. The rest of the page is inert, so
+		// <body> is the only place focus can fall to.
+		lightbox.addEventListener('focusout', function () {
+			window.setTimeout(function () {
+				var active = document.activeElement;
+
+				if (
+					lightbox.classList.contains('is-open') &&
+					(!active || !lightbox.contains(active))
+				) {
+					lightbox.focus({ preventScroll: true });
+				}
+			}, 0);
+		});
+
 		document.addEventListener('keydown', function (event) {
 			if (!lightbox.classList.contains('is-open')) {
 				return;
@@ -840,11 +883,15 @@ $(document).on('ready', function () {
 
 				var first = focusable[0];
 				var last = focusable[focusable.length - 1];
+				var active = document.activeElement;
+				// Focus on <body> or the dialog itself re-enters at an end.
+				var focusInList =
+					Array.prototype.indexOf.call(focusable, active) !== -1;
 
-				if (event.shiftKey && document.activeElement === first) {
+				if (event.shiftKey && (active === first || !focusInList)) {
 					event.preventDefault();
 					last.focus();
-				} else if (!event.shiftKey && document.activeElement === last) {
+				} else if (!event.shiftKey && (active === last || !focusInList)) {
 					event.preventDefault();
 					first.focus();
 				}
