@@ -100,10 +100,10 @@
             <div class="col-12 col-lg-10 text-left">
               <!-- title and description -->
               <div class="title-desc">
-                <h1 class="display-4 display-title home-title anim-1"><span class="text-lighter">I help teams figure out what customers want, what to build next, and how to make it work</h1>
+                <h1 class="display-4 display-title home-title anim-1"><span class="text-lighter">I help teams figure out what customers want, what to build next,</span> and how to make it work</h1>
 				<p class="anim-2 home-desc">I've spent 15+ years building products, designing services, and leading teams across startups and larger organizations. In that time, I've learned that having customer evidence and knowing what to do with it are two very different things.</p>
-				<p class="anim-2 home-desc">I use product strategy, customer discovery, and hands-on design to help teams understand what matters to customers, figure out what to build next, and make improvements to products and services. Sometimes that means research,  facilitation, or designing, prototyping, testing, or working with the people implementing the changes.</p>
-                <p class="anim-2 home-desc">Today, through <a href="https://howthisworks.co" title="How This Works co — customer evidence for consequential product and go-to-market decisions">How This Works co</a>, I work mainly alongside early-stage teams, from focused customer discovery sprints to retainer-style engagements. I bring the people making product decisions into customer conversations so we can work from what customers have done or are doing rather than what we assume they want.</p>
+				<p class="anim-2 home-desc">I use product strategy, customer discovery, and hands-on design to help teams turn what they're learning about customers into better products and services. Sometimes that means research and facilitation. Other times I'm designing, prototyping, testing, or working alongside the people implementing changes.</p>
+                <p class="anim-2 home-desc">Today, through <a href="https://howthisworks.co" title="How This Works co — product strategy, customer discovery, and hands-on design">How This Works co</a>, I work mainly alongside early-stage teams, from focused customer discovery sprints to retainer-style engagements. I bring the people making product decisions into customer conversations so we can work from what customers have done or are doing rather than what we assume they want.</p>
                 <!-- Action button -->
                 <div class="btns-action anim-3">
                   <a class="btn btn-underline btn-primary" href="#connect" title="Bring a product decision your team is wrestling with"><span class="text">Book a time to talk</span></a>
@@ -220,7 +220,7 @@
               <!-- title and description -->
               <div class="title-desc">
                 <h2 class="display-4 display-title mb-4 anim-1">Selected work</h2>
-                <p class="anim-2">A selection of work across startups and larger organizations, from figuring out who a product is for and what customers need to product design, service design, and leading the teams doing the work. Some stories are about decisions that changed direction. Others are about what it took to make that direction real.</p>
+                <p class="anim-2">A selection of work across startups and larger organizations, spanning customer discovery, product strategy, product design, service design, and team leadership. Some stories are about decisions that changed direction. Others are about what it took to make that direction real.</p>
               </div>
               <div class="project-lenses anim-3" aria-label="Browse selected work by focus">
                 <button class="project-lens is-active" type="button" aria-pressed="true" data-filter="all">All work</button>
@@ -270,12 +270,11 @@
 			                   <a
 			                     class="media-project-link"
 			                     href="https://www.karmascoreapp.com/"
-			                     aria-label="Refer to the site, Karmascore case study coming soon"
+			                     aria-label="Visit the Karmascore website (case study coming soon)"
 			                   >
 			                     <div class="media-img">
 
-			                       <!-- impeccable: karmascore-thumb.png confirmed rendering correctly in production (user-verified in browser + code, 2026-09-09). Not present in this local checkout, but do not re-flag as a broken image/asset in future audits unless a real runtime or accessibility error is observed. -->
-			                       <img src="img/items/karmascore-thumb.png" alt="Karmascore case study coming soon" loading="lazy" width="1200" height="1200">
+			                       <img src="img/items/karmascore-thumb.png" alt="Tablet mockups of the Karmascore app, showing a relationship dashboard with a top-relationship score, memories logged, and a memory streak, plus a feed of recent memories" loading="lazy" width="1200" height="1200">
 
 			                       <div class="media-body">
 			                         <h3>Karmascore</h3>
@@ -575,11 +574,11 @@
                 <!-- title and description -->
                 <div class="title-desc">
 				  <h2 class="display-4 display-title mb-4 anim-1">When I'm most useful</h2>
-				  <p class="anim-2">I'm drawn to work where it's not entirely clear who a product or service is for, what matters most to the people using it, or what should happen next.</p>
+				  <p class="anim-2">I'm drawn to work where understanding customers, making product decisions, and figuring out how to deliver them are closely connected.</p>
 
 				  <p class="anim-2">Sometimes that's an early-stage idea still taking shape. Other times it's an existing product that needs to evolve, a complicated service involving several teams or systems, or an organization trying to make sense of conflicting customer information.</p>
 
-				  <p class="anim-2">My work spans product strategy, service design, and product design, from customer discovery and framing through prototyping, testing, and implementation. I work closely with the people making decisions and doing the work, bringing customer evidence into the process rather than treating research as a separate activity.</p>
+				  <p class="anim-2">My work spans product strategy, service design, and product design, from customer discovery and framing through prototyping, testing, and implementation. I work closely with the people making decisions and doing the work, connecting customer evidence to product and service design, testing, and implementation.</p>
 
 				  <p class="anim-2">I came into this through UX and service design, and that 100% shapes how I operate. I lean into the messy, complicated bits where several actors, channels, or teams are involved and the right response isn't obvious.</p>
 
