@@ -630,8 +630,8 @@
                 <div class="title-desc">
                   <div class="anim-2">
 					<h2 class="display-4 display-title">Book a time</h2>
-					<p class="anim-2">Bring the customer, product, positioning, or service decision that’s getting harder to answer from inside the team.</p>
-					<p class="anim-2">We’ll look at what you know, what you’re assuming, and what might help make the next call.</p>
+					<p class="anim-2">Working through a customer question, figuring out what to build next, or looking for experienced help with product and design work?</p>
+					<p class="anim-2">Let's talk about what you're working on, what you've learned so far, and where I might be useful.</p>
 					<p class="anim-2">25 minutes, no scoping pitch.</p>
                     <!-- Cal inline embed code begins -->
                     <div id="my-cal-inline-25m"></div>
