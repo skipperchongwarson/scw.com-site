@@ -490,7 +490,7 @@
 
 			  <p class="anim-2">For example, when exploring whether the trust gap mattered more than the volume of AI-generated code, I returned to the archive and retrieved the interview with a builder who had shipped an application for their contract workers. Her experience helped make the distinction concrete: the problem wasn't generating more code, but understanding what had broken and whether she could fix it with guidance.</p>
 
-			  <p class="anim-2">The archive didn't replace the interviews or our judgment. It made the underlying evidence easier to revisit as the hypotheses and assumptions shifted, answering, What do we know?</p>
+			  <p class="anim-2">The archive didn't replace the interviews or our judgment. It made the underlying evidence easier to revisit as our hypotheses shifted, helping us answer a recurring question: What do we actually know?</p>
               
             </div>
           </div>
@@ -559,9 +559,11 @@
               <div class="title-desc">
                 <div class="anim-2">
                   <h2 class="display-4 display-title">Where it landed</h2>
-				  <p class="anim-2">More than a year of customer discovery didn't give Replay a permanent answer about its customer. It gave the team a progressively sharper hypothesis, recruiting criteria grounded in observed customer behavior, and a shared body of evidence to build on.</p>
-				  <p class="anim-2">The important change was how those decisions were made. Rather than debating who might need the product based on internal assumptions, the team could return to conversations they'd heard firsthand, identify what was holding up, and decide what to test next.</p>
-				  <p class="anim-2">Replay continued to own its product roadmap and kept shipping throughout our engagement. We've worked together across multiple research cycles since 2025, with further Listening Cycles under discussion as Replay continues developing its products.</p>
+				  
+				  <p class="anim-2">Replay continued to own its product roadmap and kept shipping throughout our work together. My contribution was helping the team establish a repeatable way to learn which customers and problems deserved attention as the product evolved.</p>
+
+				  <p class="anim-2">We've worked together across multiple research cycles since 2025, with further Listening Cycles under discussion as Replay continues developing its products.</p>
+				  
 				  </div>
               </div>
             </div>
