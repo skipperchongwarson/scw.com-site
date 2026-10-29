@@ -21,14 +21,14 @@
 <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:site" content="@skippercwarson" />
   <meta name="twitter:creator" content="@skippercwarson" />
-  <meta name="twitter:title" content="Replay: five customer hypotheses over six months • Skipper Chong Warson" />
+  <meta name="twitter:title" content="Replay: five customer hypotheses over more than a year • Skipper Chong Warson" />
   <meta name="twitter:description" content="Across five customer hypotheses and nearly 50 conversations, Replay narrowed its customer definition, changed recruiting criteria, and moved its positioning toward the continuation problem." />
   <meta name="twitter:image" content="https://skipperchongwarson.com/img/items/screenshots/replay-og.jpg" />
   <meta name="twitter:image:alt" content="Replay case study introduction beside a bullseye diagram of sticky notes grouped into core identity, critical qualifiers, secondary characteristics, and exclusions">
 
   <meta property="og:url" content="https://skipperchongwarson.com/replay/" />
   <meta property="og:type" content="article" />
-  <meta property="og:title" content="Replay: five customer hypotheses over six months • Skipper Chong Warson" />
+  <meta property="og:title" content="Replay: five customer hypotheses over more than a year • Skipper Chong Warson" />
   <meta property="og:description" content="Across five customer hypotheses and nearly 50 conversations, Replay narrowed its customer definition, changed recruiting criteria, and moved its positioning toward the continuation problem." />
   <meta property="og:image" content="https://skipperchongwarson.com/img/items/screenshots/replay-og.jpg" />
   <meta property="og:image:width" content="1200" />
@@ -102,8 +102,8 @@
               <div class="title-desc">
                 <h6 class="display-4 display-title home-title anim-1">Customer discovery & product strategy · Developer tools · 2025–present</h6>
                 <h1>Replay</h1>
-                <p class="anim-2 home-desc">Replay had built a vibe coding AI tool that was working. The unresolved question was who needed it most and what need/problem to point it at.</p>
-                <p class="anim-2 home-desc">Over the first six months, I conducted 34 structured Bullseye Customer Sprint interviews while the broader team kept talking with customers too, bringing the total research effort to nearly 50 conversations. Each round narrowed the customer hypothesis while the team kept shipping.</p>
+                <p class="anim-2 home-desc">Replay had a working vibe coding AI tool but wasn't sure who needed it most. Over more than a year of working together, repeated customer interviews helped the team move through five increasingly specific customer hypotheses — from operations managers looking to automate workflows to builders responsible for keeping real applications running.</p>
+                <p class="anim-2 home-desc">Across the documented cycles, I conducted 34 structured interviews as part of a broader effort involving nearly 50 customer conversations. Each cycle tested an assumption, revealed what held up or fell apart, and changed who the team recruited next. The result wasn't a single research report. It was a recurring practice of using customer evidence to make more focused product and positioning decisions.</p>
 				<p class="case-meta anim-2 home-desc">By <a href="/#home">Skipper Chong Warson</a> · Published 20 May 2026 · Updated 7 Sep 2026</p>
               </div>
             </div>
@@ -124,7 +124,7 @@
               "@type": "WebPage",
               "@id": "https://skipperchongwarson.com/replay/"
             },
-            "headline": "Replay: five customer hypotheses over six months",
+            "headline": "Replay: five customer hypotheses over more than a year",
             "description": "Across five customer hypotheses and nearly 50 conversations, Replay narrowed its customer definition, changed recruiting criteria, and moved its positioning toward the continuation problem.",
             "image": {
               "@type": "ImageObject",
@@ -285,18 +285,133 @@
           </div>
           <!-- end of graphic -->
 
-          <div class="row mt-4">
-            <div class="col-12 col-md-9 text-left">
-              <div class="title-desc">
-				  <h2 class="display-4 display-title mt-5 mb-4 anim-1">We kept getting narrower with the customer</h2>
-                <p class="anim-2">So we ran another cycle with a different hypothesis, then another. Across more than 10 interviews, a different customer began to appear: someone building for themselves rather than for a team.</p>
-                  <p class="anim-2">Each cycle knocked out another assumption. Being an employee mattered less than we thought. Then being a professional builder mattered less. Eventually technical proficiency dropped out too.</p>
-                  <p class="anim-2">One thing kept holding: they’d already shipped something real. Their problem wasn’t getting to a first prototype anymore, it was what happened next.</p>
-                  <p class="anim-2">In one interview, one customer described an internal app she'd built for contractors to submit work and receive payment. She had written most of it with Claude's assistance after trying Lovable and Replit, and she deployed directly to production most days. When something broke, there was no engineer to escalate to. She had to figure it out on her own, she could ask friends who were developers but those favors run out fast. As she put it, “Now I broke something else, someone's got to debug it anyway.” So it might as well be her.</p>
-				  <p class="anim-2">That interview, along with others in the cycle, sharpened the distinction: the customer had already started and shipped something. The harder problem was continuing when it broke.</p>
-              </div>
-            </div>
-          </div>
+
+<div class="row mt-4">
+  <div class="col-12 col-md-9 text-left">
+    <div class="title-desc">
+
+      <h2 class="display-4 display-title mt-5 mb-4 anim-1">
+        We kept getting narrower with the customer
+      </h2>
+
+      <p class="anim-2">
+        The first five interviews gave us an answer, but not
+        the one we'd hoped for. Operations managers had real
+        problems, yet little urgency to change how they
+        worked. So we revised the hypothesis and went back out.
+      </p>
+
+      <p class="anim-2">
+		Across the five documented customer hypotheses, the
+		customer began to shift from someone automating workflows
+		for a team toward someone building an application of their
+		own. Each round challenged another assumption about who
+		needed the product most.
+      </p>
+
+      <div class="table-responsive anim-2">
+        <table class="table replay-hypothesis-table">
+          <thead>
+            <tr>
+              <th scope="col">Customer hypothesis</th>
+              <th scope="col">What we learned</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>1. Operations manager</strong></td>
+              <td>
+                The pain was real, but there wasn't enough
+                pressure to change existing workflows.
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <strong>
+                  2. Operations manager with a stronger trigger
+                </strong>
+              </td>
+              <td>
+                We tested whether a more urgent situation
+                would make the original audience a better fit.
+              </td>
+            </tr>
+            <tr>
+              <td><strong>3. App builder</strong></td>
+              <td>
+                The opportunity extended beyond operations
+                managers automating internal workflows.
+              </td>
+            </tr>
+            <tr>
+              <td><strong>4. Solo builder</strong></td>
+              <td>
+                Being employed by a company or working as a
+                professional developer mattered less than
+                we'd assumed.
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <strong>
+                  5. Creator who had already shipped
+                </strong>
+              </td>
+              <td>
+                The strongest recurring distinction was
+                having something real in use and being
+                responsible when it broke.
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p class="anim-2">
+        The progression wasn't simply toward a smaller
+        audience. We were learning which characteristics
+        actually mattered. Employment status, professional
+        credentials, and technical proficiency became less
+        important. Having shipped something real, and being
+        accountable for what happened afterward, kept
+        showing up.
+      </p>
+
+      <p class="anim-2">
+        In one interview, a customer described an internal
+        app she'd built for contractors to submit work and
+        receive payment. She'd written most of it with
+        Claude's assistance after trying Lovable and Replit,
+        and she deployed directly to production most days.
+      </p>
+
+      <p class="anim-2">
+        When something broke, there was no engineer to
+        escalate to. She could ask friends who were
+        developers, but those favors ran out quickly. As
+        she put it, &ldquo;Now I broke something else,
+        someone's got to debug it anyway.&rdquo; So it
+        might as well be her.
+      </p>
+
+      <p class="anim-2">
+        That interview, along with others in the cycle,
+        sharpened the distinction. The customer didn't
+        need more help getting to a first prototype.
+        She needed to understand what broke and keep
+        something people depended on working.
+      </p>
+
+      <p class="anim-2">
+        Each cycle gave us a clearer idea of whom to recruit
+        next, and which assumptions we could stop carrying
+        forward.
+      </p>
+
+    </div>
+  </div>
+</div>
+
         </div>
 		
         <!-- Graphic: Miro board frame showing the Bullseye Customer one-liners for Replay -->
@@ -339,19 +454,11 @@
 
 		          <p class="anim-2">Brian, the CEO, participated from the start. Filip joined the early Bullseye framing work. Tom joined the first interviews, and other team members began sitting in as the cycles continued.</p>
 
-		          <p class="anim-2">We started each with a tighter and tighter hypothesis and ended with a decision about what to keep or change. The team heard the same customers and compared notes after each interview. That direct exposure gave them enough confidence to abandon earlier suspicions when the evidence pointed somewhere else.</p>
+		          <p class="anim-2">Each Listening Cycle started with a specific customer hypothesis. I recruited against that hypothesis, designed and conducted the interviews, and brought Replay's team into those conversations. Afterward, we debriefed, compared what we'd heard, challenged our assumptions, and decided what to keep, change, or stop pursuing.</p>
+		          <p class="anim-2">Those decisions shaped the next cycle's recruiting criteria and research questions. Rather than delivering findings and walking away, we kept testing the customer definition as the product and market evolved.</p>
+		          <p class="anim-2">The team wasn't just receiving research. They were hearing the evidence firsthand and using it to decide where to focus next.</p>
 
-		          <p class="anim-2">The progression was gradual:</p>
-
-		          <ul class="content-list anim-2">
-		            <li>Operations manager</li>
-		            <li>Operations manager with a stronger trigger</li>
-		            <li>App builder</li>
-		            <li>Solo builder</li>
-		            <li>Non-technical creator who had shipped something real and could not get unstuck</li>
-		          </ul>
-
-		          		          <h2 class="display-4 display-title mt-5 mb-4 anim-1">Making the research reusable</h2>
+		          <h2 class="display-4 display-title mt-5 mb-4 anim-1">Making the research reusable</h2>
 
 		          <p class="anim-2">After the interview rounds, I created a Claude project containing the Bullseye research corpus: 34 redacted transcripts, screeners, interview guides, and a transcript reference key.</p>
 		        </div>
@@ -379,7 +486,12 @@
           <!-- end of graphic -->
           <div class="row mt-4">
             <div class="col-12 col-md-9 text-left">
-              <p class="anim-2">Instead of treating research as a static deliverable, the team could query the evidence directly and trace an answer back to the source conversation.</p>
+			  <p class="anim-2">Rather than treating research as a static deliverable, the archive let us search across 34 redacted transcripts, revisit individual customer accounts, and trace insights back to the original conversations as new questions emerged.</p>
+
+			  <p class="anim-2">For example, when exploring whether the trust gap mattered more than the volume of AI-generated code, I returned to the archive and retrieved the interview with a builder who had shipped an application for their contract workers. Her experience helped make the distinction concrete: the problem wasn't generating more code, but understanding what had broken and whether she could fix it with guidance.</p>
+
+			  <p class="anim-2">The archive didn't replace the interviews or our judgment. It made the underlying evidence easier to revisit as the hypotheses and assumptions shifted, answering, What do we know?</p>
+              
             </div>
           </div>
         </div>
@@ -447,9 +559,9 @@
               <div class="title-desc">
                 <div class="anim-2">
                   <h2 class="display-4 display-title">Where it landed</h2>
-				  <p class="anim-2">Across five customer hypotheses and nearly 50 conversations, Replay moved from a broad app-builder audience toward non-technical creators who had already shipped something real and were stuck on what came next.</p>
-				  <p class="anim-2">The team heard those customers firsthand, rewrote the recruiting criteria cycle by cycle, and kept the 34 structured interviews in a research corpus they could return to.</p>
-				  <p class="anim-2">Replay is still building — they just released on Product Hunt — so the customer definition will move again. And it should. The difference now is that the next hypothesis can be tested against customers the team has already heard for themselves.</p>
+				  <p class="anim-2">More than a year of customer discovery didn't give Replay a permanent answer about its customer. It gave the team a progressively sharper hypothesis, recruiting criteria grounded in observed customer behavior, and a shared body of evidence to build on.</p>
+				  <p class="anim-2">The important change was how those decisions were made. Rather than debating who might need the product based on internal assumptions, the team could return to conversations they'd heard firsthand, identify what was holding up, and decide what to test next.</p>
+				  <p class="anim-2">Replay continued to own its product roadmap and kept shipping throughout our engagement. We've worked together across multiple research cycles since 2025, with further Listening Cycles under discussion as Replay continues developing its products.</p>
 				  </div>
               </div>
             </div>

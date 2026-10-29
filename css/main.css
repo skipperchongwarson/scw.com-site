@@ -8666,3 +8666,51 @@ body.speaker-bio-page
 [data-section="select-projects"] .projects-grid > .col.project-filtered-out {
   display: none;
 }
+
+
+/* Replay case study: hypothesis progression */
+
+.replay-hypothesis-table {
+  width: 100%;
+  margin: 1.75rem 0 2rem;
+  border-collapse: collapse;
+  color: inherit;
+  background: transparent;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.replay-hypothesis-table th,
+.replay-hypothesis-table td {
+  padding: 1rem 1.25rem 1rem 0;
+  vertical-align: top;
+  color: inherit;
+  background: transparent;
+  border-top: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.replay-hypothesis-table thead th {
+  font-weight: 600;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.4);
+}
+
+.replay-hypothesis-table th:first-child,
+.replay-hypothesis-table td:first-child {
+  width: 38%;
+}
+
+.replay-hypothesis-table tbody tr:last-child td {
+  border-bottom: 0;
+}
+
+@media (max-width: 767px) {
+  .replay-hypothesis-table {
+    font-size: 0.875rem;
+  }
+
+  .replay-hypothesis-table th,
+  .replay-hypothesis-table td {
+    padding: 0.75rem 0.75rem 0.75rem 0;
+  }
+}
