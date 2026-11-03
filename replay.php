@@ -14,7 +14,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   
   <meta property="article:published_time" content="2026-05-20">
-  <meta property="article:modified_time" content="2026-09-07">
+  <meta property="article:modified_time" content="2026-10-17">
   <meta property="article:author" content="https://skipperchongwarson.com/">
 
     <meta property="article:section" content="Case study">
@@ -104,7 +104,7 @@
                 <h1>Replay</h1>
                 <p class="anim-2 home-desc">Replay had a working vibe coding AI tool but wasn't sure who needed it most. Over more than a year of working together, repeated customer interviews helped the team move through five increasingly specific customer hypotheses — from operations managers looking to automate workflows to builders responsible for keeping real applications running.</p>
                 <p class="anim-2 home-desc">Across the documented cycles, I conducted 34 structured interviews as part of a broader effort involving nearly 50 customer conversations. Each cycle tested an assumption, revealed what held up or fell apart, and changed who the team recruited next. The result wasn't a single research report. It was a recurring practice of using customer evidence to make more focused product and positioning decisions.</p>
-				<p class="case-meta anim-2 home-desc">By <a href="/#home">Skipper Chong Warson</a> · Published 20 May 2026 · Updated 7 Sep 2026</p>
+				<p class="case-meta anim-2 home-desc">By <a href="/#home">Skipper Chong Warson</a> · Published 20 May 2026 · Updated 17 Oct 2026</p>
               </div>
             </div>
             <div class="col-12 col-md-5"> <!-- content -->
@@ -134,7 +134,7 @@
             },
             "url": "https://skipperchongwarson.com/replay/",
             "datePublished": "2026-05-20",
-            "dateModified": "2026-09-07",
+            "dateModified": "2026-10-17",
             "inLanguage": "en-US",
             "articleSection": "Case study",
             "genre": "Case study",
@@ -261,6 +261,7 @@
                     <li>The fear of breaking something they could not repair</li>
                   </ul>
                   <p class="anim-2">But across the five interviews, there didn't seem much pressure to change. One operations manager put it plainly: “I’d rather deal with the inefficiency I know than risk configuring something wrong.”</p>
+				  <p class="anim-2">That first sprint answered the question we'd put in front of it, but it raised another: if operations managers weren't the right customers, who were? Replay wanted to keep talking to customers as the team continued building, rather than stop after one round of research. That request became the basis for Listening Cycles: recurring rounds of interviews, synthesis, and decisions, each informed by what we'd learned in the previous one.</p>
                 </div>
               </div>
             </div>
@@ -560,9 +561,11 @@
                 <div class="anim-2">
                   <h2 class="display-4 display-title">Where it landed</h2>
 				  
+				  <p class="anim-2">More than a year of collaboration and work gave Replay a sharper customer hypothesis, more specific recruiting criteria, and a shared body of customer evidence to build on. Each cycle helped the team decide which assumptions to keep testing and which to leave behind.</p>
+				  
 				  <p class="anim-2">Replay continued to own its product roadmap and kept shipping throughout our work together. My contribution was helping the team establish a repeatable way to learn which customers and problems deserved attention as the product evolved.</p>
 
-				  <p class="anim-2">We've worked together across multiple research cycles since 2025, with further Listening Cycles under discussion as Replay continues developing its products.</p>
+				  <p class="anim-2">We've worked together across multiple research cycles with further work under discussion as Replay continues developing its products.</p>
 				  
 				  </div>
               </div>
