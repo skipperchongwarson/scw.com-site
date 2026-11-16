@@ -39,7 +39,7 @@
 </head>
 
 <body id="menu" class="body-page case-study-page">
-  <header class="navbar navbar-top-alpha scrolled-white menu-right topmenu-right" role="navigation">
+  <header class="navbar navbar-top-alpha scrolled-white menu-right topmenu-right">
     <button type="button" class="navbar-toggler site-menu-icon btn btn-menu" id="navMenuIcon" aria-controls="navbarMenu" aria-expanded="false" aria-label="Open menu">
       <span class="text">menu</span>
       <span class="icon icon-menu icon-menu-a"><span class="bars align-right"><span class="bar1"></span><span class="bar2"></span><span class="bar3"></span></span></span>

@@ -64,7 +64,7 @@
   </head>
 
   <body id="menu" class="body-page case-study-page">
-    <header class="navbar navbar-top-alpha scrolled-white menu-right topmenu-right" role="navigation">
+    <header class="navbar navbar-top-alpha scrolled-white menu-right topmenu-right">
       <button type="button"
       class="navbar-toggler site-menu-icon btn btn-menu"
       id="navMenuIcon"

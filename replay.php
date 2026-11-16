@@ -46,7 +46,7 @@
 
 <body id="menu" class="body-page case-study-page">
   <!-- BEGIN OF site header Menu -->
-  <header class="navbar navbar-top-alpha scrolled-white menu-right topmenu-right " role="navigation">
+  <header class="navbar navbar-top-alpha scrolled-white menu-right topmenu-right ">
     <!-- Begin of menu icon toggler -->
 	<button type="button"
 	  class="navbar-toggler site-menu-icon btn btn-menu"

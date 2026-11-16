@@ -40,7 +40,7 @@
 
   <body class="body-page case-study-page" id="menu">
     <!-- BEGIN OF site header Menu -->
-    <header class="navbar navbar-top-alpha scrolled-white menu-right topmenu-right" role="navigation">
+    <header class="navbar navbar-top-alpha scrolled-white menu-right topmenu-right">
       <!-- Begin of menu icon toggler -->
       <button aria-controls="navbarMenu" aria-expanded="false" aria-label="Open menu" class="navbar-toggler site-menu-icon btn btn-menu" id="navMenuIcon" type="button">
         <!-- Available class : menu-icon-dot / menu-icon-thick /menu-icon-random --> <span class="text">menu</span> <span class="icon icon-menu icon-menu-a"> <span class="bars align-right"> <span class="bar1"></span> <span class="bar2"></span> <span class="bar3"></span> </span> </span>
